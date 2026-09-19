@@ -1,4 +1,5 @@
 # TODO: Load the pretrained DistilBERT tokenizer and model
+# Save the embeddings in the models folder (for original or grouped), for easy use in the inference function
 
 # TODO: Freeze DistilBERT so its weights are not changed during training
 # TODO: Put DistilBERT in evaluation mode
@@ -13,3 +14,11 @@
 
 # TODO: Save the trained classifiers and the information needed to recreate the DistilBERT representations
 # TODO: Load the saved models for later evaluation
+
+def train_frozen_embeddings_classifier(df_train, grouped=False):
+    print(df_train.describe())
+    print("TODO: implement this function")
+
+def run_inference_frozen_embeddings_model(model, utterances):
+    predictions = []
+    return predictions

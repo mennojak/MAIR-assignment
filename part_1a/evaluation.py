@@ -18,3 +18,6 @@
 # TODO: Run the selected trained model on the held-out test set
 # TODO: Calculate accuracy, balanced accuracy and other optionally usefull metrics.
 # TODO: Save the held-out results
+
+def evaluate_model_results(df_results, filename):
+    print("TODO")

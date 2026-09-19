@@ -1,4 +1,4 @@
-from part_1a import pipelines as part1a_pipelines
+from part_1a import pipelines as pipelines
 
 def main() -> None:
     """Shows the pipeline menu and runs the user-selected pipeline."""
@@ -14,15 +14,15 @@ def main() -> None:
 
     choice = input("Enter the number of the pipeline to run: ")
     if choice == "1":
-        part1a_pipelines.run_training_pipeline()
+        pipelines.run_training_pipeline()
     elif choice == "2":
-        part1a_pipelines.run_evaluation_pipeline()
+        pipelines.run_evaluation_pipeline()
     elif choice == "3":
-        part1a_pipelines.run_heldout_pipeline()
+        pipelines.run_held_out_pipeline()
     elif choice == "4":
-        part1a_pipelines.run_difficult_cases_pipeline()
+        pipelines.run_difficult_cases_pipeline()
     elif choice == "5":
-        part1a_pipelines.run_interaction_pipeline()
+        pipelines.run_interaction_pipeline()
 
 if __name__ == "__main__":
     main()

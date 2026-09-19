@@ -4,3 +4,7 @@
 
 # TODO: Make sure the rules are based on examples from the training set
 # TODO: Decide what happens when no rule matches
+
+def run_inference_baseline_model(utterances):
+    predictions = []
+    return predictions
