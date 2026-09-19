@@ -1,5 +1,5 @@
 # TODO: Load the pretrained DistilBERT tokenizer and model
-# Save the embeddings in the models folder (for original or grouped), for easy use in the inference function
+# Save the embeddings in the models folder, for easy use in the inference function
 
 # TODO: Freeze DistilBERT so its weights are not changed during training
 # TODO: Put DistilBERT in evaluation mode

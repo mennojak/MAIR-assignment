@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 
 from part_1a.data_splitting import load_data_and_create_splits
@@ -67,9 +69,12 @@ def run_held_out_pipeline() -> None:
     """
     print("\nStarting the held out testing pipeline for Part 1a...\n")
 
+    if not os.path.exists("data/dialog_acts_test.dat"):
+        print("dialog_acts_test.dat file is not found under the data folder. Add this file to be able to run this pipeline")
+
     load_data_and_create_splits(held_out = True)
 
-    df_held_out_test = pd.read_csv("data/processed/held_out_test.csv")
+    df_held_out_test = pd.read_csv("data/processed/dialog_acts_test.dat")
     utterances = df_held_out_test["utterance"].tolist()
 
     # TODO: Change model names once we know the names of them, for now placeholders
@@ -137,7 +142,8 @@ def run_interaction_pipeline() -> None:
     """
     print("\nStarting the user interaction pipeline for Part 1a...\n")
 
-    best_model_path = "models/model_frozen_embeddings_grouped_LR"  # TODO: Change this to the best model once we know which one it is.
+    # TODO: Change this to the best model once we know which one it is.
+    best_model_path = "models/model_frozen_embeddings_grouped_LR"
     print(f"Using the best model: {best_model_path}")
 
     interactive_classification_loop(best_model_path)
