@@ -3,3 +3,57 @@ BoW_LR: accuracy=0.9753, balanced_accuracy=0.7030
 BoW_SVM: accuracy=0.9892, balanced_accuracy=0.9208
 frozen_embeddings_LR: accuracy=0.9831, balanced_accuracy=0.8782
 frozen_embeddings_SVM: accuracy=0.9858, balanced_accuracy=0.9010
+
+Acts by accuracy:
+baseline: deny (0.0000), restart (0.0000), bye (0.1875), confirm (0.4348), reqalts (0.4531), null (0.4958), repeat (0.6000), ack (0.7500), negate (0.8571), inform (0.9148), request (0.9325), thankyou (0.9877), affirm (0.9882), hello (1.0000), reqmore (1.0000)
+BoW_LR: ack (0.0000), reqmore (0.0000), restart (0.0000), deny (0.5000), bye (0.6875), repeat (0.8000), confirm (0.8261), null (0.8941), hello (0.9231), reqalts (0.9633), affirm (0.9765), inform (0.9835), request (0.9904), negate (1.0000), thankyou (1.0000)
+BoW_SVM: ack (0.5000), deny (0.5000), bye (0.9375), confirm (0.9565), reqalts (0.9592), null (0.9746), inform (0.9907), thankyou (0.9959), request (0.9979), negate (1.0000), affirm (1.0000), hello (1.0000), reqmore (1.0000), repeat (1.0000), restart (1.0000)
+frozen_embeddings_LR: ack (0.5000), deny (0.5000), repeat (0.6000), bye (0.8125), confirm (0.9130), reqalts (0.9633), null (0.9661), negate (0.9683), affirm (0.9706), inform (0.9850), request (0.9946), hello (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
+frozen_embeddings_SVM: ack (0.5000), deny (0.5000), repeat (0.8000), bye (0.8750), confirm (0.9565), null (0.9619), reqalts (0.9673), affirm (0.9706), inform (0.9878), request (0.9957), negate (1.0000), hello (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
+
+Utterances misclassified by all systems (15):
+- "what about a moderately priced re
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "what about turkish
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "what about asian food
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "the expensive price range
+" (true=inform; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
+
+- "how how bout chinese food
+" (true=inform; baseline=hello, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "what about modern european food
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "what about other areas
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "thank you good bye thank you good bye
+" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+
+- "how bout any price range
+" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "anything house
+" (true=reqalts; baseline=hello, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "okay how bout thai food
+" (true=reqalts; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "how bout asian
+" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "is there a thai restaurant in the west part of town
+" (true=confirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "no not indian scandinavian food
+" (true=deny; baseline=negate, BoW_LR=negate, BoW_SVM=negate, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
+
+- "not any more
+" (true=deny; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
+

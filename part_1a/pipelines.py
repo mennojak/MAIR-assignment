@@ -72,13 +72,12 @@ def run_held_out_pipeline() -> None:
 
     load_data_and_create_splits(held_out = True)
 
-    df_held_out_test = pd.read_csv("data/processed/dialog_acts_test.dat", keep_default_na=False)
+    df_held_out_test = pd.read_csv("data/processed/held_out_test.csv", keep_default_na=False)
     utterances = df_held_out_test["utterance"].tolist()
 
-    # TODO: Change model names once we know the names of them, for now placeholders
     df_held_out_test["pred_baseline"] = run_inference_baseline_model(utterances)
-    df_held_out_test["pred_BoW_original_LR"] = run_inference_bow_model("models/model_BoW_original_original_LR", utterances)
-    df_held_out_test["pred_BoW_grouped_LR"] = run_inference_bow_model("models/model_BoW_grouped_grouped_LR", utterances)
+    df_held_out_test["pred_BoW_original_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
+    df_held_out_test["pred_BoW_grouped_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
     df_held_out_test["pred_BoW_original_SVM"] = run_inference_bow_model("models/model_BoW_original_SVM", utterances)
     df_held_out_test["pred_BoW_grouped_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     df_held_out_test["pred_frozen_embeddings_original_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)
@@ -102,7 +101,6 @@ def run_difficult_cases_pipeline() -> None:
     df_difficult_cases_1 = pd.read_csv("data/processed/difficult_cases_1.csv", keep_default_na=False)
     utterances = df_difficult_cases_1["utterance"].tolist()
 
-    # TODO: Change model names once we know the names of them, for now placeholders
     df_difficult_cases_1["pred_baseline"] = run_inference_baseline_model(utterances)
     df_difficult_cases_1["pred_BoW_original_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
     df_difficult_cases_1["pred_BoW_grouped_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
@@ -118,7 +116,6 @@ def run_difficult_cases_pipeline() -> None:
     df_difficult_cases_2 = pd.read_csv("data/processed/difficult_cases_2.csv", keep_default_na=False)
     utterances = df_difficult_cases_2["utterance"].tolist()
 
-    # TODO: Change model names once we know the names of them, for now placeholders
     df_difficult_cases_2["pred_baseline"] = run_inference_baseline_model(utterances)
     df_difficult_cases_2["pred_BoW_original_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
     df_difficult_cases_2["pred_BoW_grouped_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
@@ -141,7 +138,7 @@ def run_interaction_pipeline() -> None:
     print("\nStarting the user interaction pipeline for Part 1a...\n")
 
     # TODO: Change this to the best model once we know which one it is.
-    best_model_path = "models/model_frozen_embeddings_grouped_LR"
+    best_model_path = "part_1a/models/model_frozen_embeddings_grouped_LR"
     print(f"Using the best model: {best_model_path}")
 
     interactive_classification_loop(best_model_path)
