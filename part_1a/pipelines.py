@@ -41,8 +41,8 @@ def run_evaluation_pipeline() -> None:
     df_original_test["pred_baseline"] = run_inference_baseline_model(utterances)
     df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
     df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
-    # df_original_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
-    # df_original_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    df_original_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)
+    df_original_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_SVM", utterances)
     
     evaluate_model_results(df_original_test, "original")
 
@@ -53,8 +53,8 @@ def run_evaluation_pipeline() -> None:
     df_grouped_test["pred_baseline"] = run_inference_baseline_model(utterances)
     df_grouped_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
     df_grouped_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
-    # df_grouped_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
-    # df_grouped_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    df_grouped_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_LR", utterances)
+    df_grouped_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_SVM", utterances)
     
     evaluate_model_results(df_grouped_test, "grouped")
 
@@ -83,7 +83,7 @@ def run_held_out_pipeline() -> None:
     df_held_out_test["pred_BoW_grouped_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     df_held_out_test["pred_frozen_embeddings_original_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)
     df_held_out_test["pred_frozen_embeddings_grouped_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_LR", utterances)
-    df_held_out_test["pred_frozen_embeddings_original_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    df_held_out_test["pred_frozen_embeddings_original_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_SVM", utterances)
     df_held_out_test["pred_frozen_embeddings_grouped_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_SVM", utterances)
 
     evaluate_model_results(df_held_out_test, "held_out")
@@ -110,7 +110,7 @@ def run_difficult_cases_pipeline() -> None:
     df_difficult_cases_1["pred_BoW_grouped_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     df_difficult_cases_1["pred_frozen_embeddings_original_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)
     df_difficult_cases_1["pred_frozen_embeddings_grouped_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_LR", utterances)
-    df_difficult_cases_1["pred_frozen_embeddings_original_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    df_difficult_cases_1["pred_frozen_embeddings_original_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_SVM", utterances)
     df_difficult_cases_1["pred_frozen_embeddings_grouped_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_SVM", utterances)
 
     evaluate_model_results(df_difficult_cases_1, "difficult_cases_1")
@@ -126,7 +126,7 @@ def run_difficult_cases_pipeline() -> None:
     df_difficult_cases_2["pred_BoW_grouped_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     df_difficult_cases_2["pred_frozen_embeddings_original_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)
     df_difficult_cases_2["pred_frozen_embeddings_grouped_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_LR", utterances)
-    df_difficult_cases_2["pred_frozen_embeddings_original_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    df_difficult_cases_2["pred_frozen_embeddings_original_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_SVM", utterances)
     df_difficult_cases_2["pred_frozen_embeddings_grouped_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_grouped_SVM", utterances)
 
     evaluate_model_results(df_difficult_cases_2, "difficult_cases_2")

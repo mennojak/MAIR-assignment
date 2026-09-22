@@ -1,3 +1,5 @@
 baseline: accuracy=0.8699, balanced_accuracy=0.6545
 BoW_LR: accuracy=0.9359, balanced_accuracy=0.6793
 BoW_SVM: accuracy=0.9694, balanced_accuracy=0.7945
+frozen_embeddings_LR: accuracy=0.9429, balanced_accuracy=0.7531
+frozen_embeddings_SVM: accuracy=0.9661, balanced_accuracy=0.7639
