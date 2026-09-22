@@ -1,10 +1,36 @@
-# TODO: Create manually selected rules
-# TODO: predict a single dialog act using the rules: output is 1/15 dialog acts as a string
-# TODO: Make a function that recieves the test set, runs inference (predicts) on every utterance and returns them.
+import re
 
-# TODO: Make sure the rules are based on examples from the training set
-# TODO: Decide what happens when no rule matches
+BASELINE_RULES = [
+    ("affirm", re.compile(r"(?:yes|correct|right|yea)")),
+    ("confirm", re.compile(r"(?:is\s+it)")),
+    ("deny", re.compile(r"(?:dont\s+want)")),
+    ("hello", re.compile(r"(?:hi|hello)")),
+    ("inform", re.compile(r"(?:part|town|looking|any)")),
+    ("negate", re.compile(r"^no")),
+    ("null", re.compile(r"(?:sil|noise|unintelligible|cough|uh)")),
+    ("repeat", re.compile(r"(?:repeat|again)")),
+    ("reqalts", re.compile(r"(?:how\s+about|what\s+about|anything\s+else)")),
+    ("reqmore", re.compile(r"more")),
+    ("request", re.compile(r"(?:what|address|phone\s+number|post\s+code|price\s+range|area)")),
+    ("restart", re.compile(r"(?:start|reset)")),
+    ("thankyou", re.compile(r"thank\s*you")),
+    ("ack", re.compile(r"\b(?:okay|kay|ok)")), # Put last (instead of alpahetical) since "okay" is often what other dialog acts start with, now it doesn't interfere
+    ("bye", re.compile(r"(?:good\s*bye|goodbye)")),   # bye is often in the "thankyou" act, so the bye rule needs to be below it.
+]
 
 def run_inference_baseline_model(utterances):
     predictions = []
+
+    for utterance in utterances:
+        # If we cannot determine another act through the rules we assume the user wants to be informed, 
+        # since it's the main goal of the recommendation system and also the biggest class.
+        prediction = "inform"
+
+        for dialog_act, pattern in BASELINE_RULES:
+            if pattern.search(utterance):
+                prediction = dialog_act
+                break
+
+        predictions.append(prediction)
+
     return predictions

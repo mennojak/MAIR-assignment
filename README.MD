@@ -15,7 +15,8 @@ This repository contains Part 1a and Part 1b of the project.
 Part 1a is built first. Part 1b reuses the selected Part 1a classifier and adds dialog management, slot extraction, restaurant lookup, reasoning, configurable behavior and interaction logging.
 
 ## Installation guide
-TODO
+* Create your own python environment (e.g. venv)
+* Install the requirements `pip install requirements.txt` 
 
 ## Part 1a
 This first part of the project asked us to create/train multiple text classifiers that take a user input and predict 1 of 15 possible dialog acts. It includes a baseline model with hardcoded rules and multiple versions of a Logistical Regression model and an SVM (Support Vector Machine) model. 

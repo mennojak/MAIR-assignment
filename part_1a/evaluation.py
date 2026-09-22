@@ -1,23 +1,34 @@
-# TODO: Create a function that calculates the acccuracy, balanced accuracy and optionally other useful metrics
+from sklearn.metrics import recall_score
 
-# TODO: Make a function that receives a model and test set and runs inference
-# TODO: Return the predictions and evaluation metrics
+def evaluate_model_results(df, filename):
+    true_labels = df['dialog_act']
+    model_prediction_columns = [column for column in df.columns if column.startswith('pred_')]
 
-# TODO: Run all 5 required models on both split types
-# TODO: This should produce 10 standard experiment results
+    results = []
 
-# TODO: Store the model name, representation type, split type and all evaluation metrics
-# TODO: Save all standard results in one results file
+    for prediction_column in model_prediction_columns:
+        predictions = df[prediction_column]
 
-# TODO: Make a function that loads the saved results
+        accuracy = (true_labels == predictions).mean()
+        # The nicer balanced_accuracy_score from sklearn library gives a user warning, so used recall_score instead with macro to get the same result
+        balanced_accuracy = recall_score(
+            true_labels,
+            predictions,
+            labels=true_labels.unique(),
+            average='macro',
+        )
 
-# TODO: Compare the models using the evaluation results
+        model_name = prediction_column.replace('pred_', '')
 
-# TODO: Load dialog_acts_test.dat as a separate held-out test set
-# TODO: Do not split the held-out test set
-# TODO: Run the selected trained model on the held-out test set
-# TODO: Calculate accuracy, balanced accuracy and other optionally usefull metrics.
-# TODO: Save the held-out results
+        results.append(
+            f'{model_name}: accuracy={accuracy:.4f}, '
+            f'balanced_accuracy={balanced_accuracy:.4f}'
+        )
 
-def evaluate_model_results(df_results, filename):
-    print("TODO")
+    results_text = '\n'.join(results)
+    print(f"------------------------\nResults for {filename}:\n{results_text}")
+
+    results_path = f'part_1a/results/{filename}_evaluation.txt'
+
+    with open(results_path, 'w') as file:
+        file.write(results_text + '\n')

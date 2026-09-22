@@ -18,8 +18,8 @@ def run_training_pipeline() -> None:
 
     load_data_and_create_splits(held_out = False)
 
-    df_original_train = pd.read_csv("data/processed/train_original.csv")
-    df_grouped_train = pd.read_csv("data/processed/train_grouped.csv")
+    df_original_train = pd.read_csv("data/processed/train_original.csv", keep_default_na=False)
+    df_grouped_train = pd.read_csv("data/processed/train_grouped.csv", keep_default_na=False)
 
     train_bow_classifier(df_original_train)
     train_bow_classifier(df_grouped_train, grouped=True)
@@ -36,31 +36,31 @@ def run_evaluation_pipeline() -> None:
     """ 
     print("\nStarting the evaluation pipeline for Part 1a...\n")
 
-    df_original_test = pd.read_csv("data/processed/test_original.csv")
+    df_original_test = pd.read_csv("data/processed/test_original.csv", keep_default_na=False)
     utterances = df_original_test["utterance"].tolist()
 
     # TODO: Change model names once we know the names of them, for now placeholders
     df_original_test["pred_baseline"] = run_inference_baseline_model(utterances)
-    df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_LR", utterances)
-    df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_SVM", utterances)
-    df_original_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
-    df_original_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
-
+    # df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_LR", utterances)
+    # df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_SVM", utterances)
+    # df_original_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
+    # df_original_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    
     evaluate_model_results(df_original_test, "original")
 
-    df_grouped_test = pd.read_csv("data/processed/test_grouped.csv")
+    df_grouped_test = pd.read_csv("data/processed/test_grouped.csv", keep_default_na=False)
     utterances = df_grouped_test["utterance"].tolist()
 
     # TODO: Change model names once we know the names of them, for now placeholders
     df_grouped_test["pred_baseline"] = run_inference_baseline_model(utterances)
-    df_grouped_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_LR", utterances)
-    df_grouped_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_SVM", utterances)
-    df_grouped_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
-    df_grouped_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
-
+    # df_grouped_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_LR", utterances)
+    # df_grouped_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_SVM", utterances)
+    # df_grouped_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
+    # df_grouped_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
+    
     evaluate_model_results(df_grouped_test, "grouped")
 
-    print("Finished the evaluation pipeline for Part 1a")
+    print("\nFinished the evaluation pipeline for Part 1a")
 
 
 def run_held_out_pipeline() -> None:
@@ -74,7 +74,7 @@ def run_held_out_pipeline() -> None:
 
     load_data_and_create_splits(held_out = True)
 
-    df_held_out_test = pd.read_csv("data/processed/dialog_acts_test.dat")
+    df_held_out_test = pd.read_csv("data/processed/dialog_acts_test.dat", keep_default_na=False)
     utterances = df_held_out_test["utterance"].tolist()
 
     # TODO: Change model names once we know the names of them, for now placeholders
@@ -101,7 +101,7 @@ def run_difficult_cases_pipeline() -> None:
 
     create_difficult_cases_datasets()
 
-    df_difficult_cases_1 = pd.read_csv("data/processed/difficult_cases_1.csv")
+    df_difficult_cases_1 = pd.read_csv("data/processed/difficult_cases_1.csv", keep_default_na=False)
     utterances = df_difficult_cases_1["utterance"].tolist()
 
     # TODO: Change model names once we know the names of them, for now placeholders
@@ -117,7 +117,7 @@ def run_difficult_cases_pipeline() -> None:
 
     evaluate_model_results(df_difficult_cases_1, "difficult_cases_1")
 
-    df_difficult_cases_2 = pd.read_csv("data/processed/difficult_cases_2.csv")
+    df_difficult_cases_2 = pd.read_csv("data/processed/difficult_cases_2.csv", keep_default_na=False)
     utterances = df_difficult_cases_2["utterance"].tolist()
 
     # TODO: Change model names once we know the names of them, for now placeholders
