@@ -1,7 +1,5 @@
 import os
-
 import pandas as pd
-
 from part_1a.data_splitting import load_data_and_create_splits
 from part_1a.bow_models import train_bow_classifier, run_inference_bow_model
 from part_1a.difficult_cases import create_difficult_cases_datasets
@@ -41,8 +39,8 @@ def run_evaluation_pipeline() -> None:
 
     # TODO: Change model names once we know the names of them, for now placeholders
     df_original_test["pred_baseline"] = run_inference_baseline_model(utterances)
-    # df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_LR", utterances)
-    # df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_SVM", utterances)
+    df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
+    df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     # df_original_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
     # df_original_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
     
@@ -53,8 +51,8 @@ def run_evaluation_pipeline() -> None:
 
     # TODO: Change model names once we know the names of them, for now placeholders
     df_grouped_test["pred_baseline"] = run_inference_baseline_model(utterances)
-    # df_grouped_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_LR", utterances)
-    # df_grouped_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_SVM", utterances)
+    df_grouped_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
+    df_grouped_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     # df_grouped_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_LR", utterances)
     # df_grouped_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_SVM", utterances)
     
@@ -79,8 +77,8 @@ def run_held_out_pipeline() -> None:
 
     # TODO: Change model names once we know the names of them, for now placeholders
     df_held_out_test["pred_baseline"] = run_inference_baseline_model(utterances)
-    df_held_out_test["pred_BoW_original_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
-    df_held_out_test["pred_BoW_grouped_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
+    df_held_out_test["pred_BoW_original_LR"] = run_inference_bow_model("models/model_BoW_original_original_LR", utterances)
+    df_held_out_test["pred_BoW_grouped_LR"] = run_inference_bow_model("models/model_BoW_grouped_grouped_LR", utterances)
     df_held_out_test["pred_BoW_original_SVM"] = run_inference_bow_model("models/model_BoW_original_SVM", utterances)
     df_held_out_test["pred_BoW_grouped_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
     df_held_out_test["pred_frozen_embeddings_original_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)

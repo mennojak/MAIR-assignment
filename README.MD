@@ -23,7 +23,7 @@ This first part of the project asked us to create/train multiple text classifier
 
 The two machine learning models will be trained on both BoW (Bag of Words) and Frozen distilbert embeddings. Additionally the given dataset is also split in two different ways, once randomly (called `original`) and the other focussed on handling duplicates (called `grouped`). Which gives a total of 9 different model/data split combinations (1 of which remains the baseline model) that have been evaluated to find the best classifier. 
 
-Additionally a held out dataset for testing `dialog_acts_test.dat` is meant to be provided by the teachers for another round of evaluations. All evalutations are found under the `part_1a/results` folder and used for the report. Re-running all the different pipelines should yield the exact same results, because we made use of the seed `12` (instead of a random one).
+Additionally a held out dataset for testing `dialog_acts_test.dat` is meant to be provided by the teachers for another round of evaluations. All evalutations are found under the `part_1a/results` folder and used for the report. Re-running all the different pipelines should yield the exact same results, because we implemented a set seed `12` (instead of a random one).
 
 Running `main.py` provides the different options for pipelines (i.e. different parts/deliverables of the project) that can be run. For part 1a these include:
 1. Training pipeline
