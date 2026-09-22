@@ -1,20 +1,17 @@
-baseline: accuracy=0.8699, balanced_accuracy=0.6545
+baseline: accuracy=0.8987, balanced_accuracy=0.6672
 BoW_LR: accuracy=0.9359, balanced_accuracy=0.6793
 BoW_SVM: accuracy=0.9694, balanced_accuracy=0.7945
 frozen_embeddings_LR: accuracy=0.9429, balanced_accuracy=0.7531
 frozen_embeddings_SVM: accuracy=0.9661, balanced_accuracy=0.7639
 
 Acts by accuracy:
-baseline: deny (0.0000), null (0.0278), confirm (0.3500), bye (0.5000), thankyou (0.5312), ack (0.6667), negate (0.7083), reqalts (0.8114), request (0.8212), inform (0.8707), hello (0.8750), affirm (1.0000), repeat (1.0000), restart (1.0000)
+baseline: deny (0.0000), null (0.0278), confirm (0.3500), bye (0.5000), thankyou (0.5312), ack (0.6667), negate (0.7500), request (0.8352), hello (0.8750), reqalts (0.8800), inform (0.9253), affirm (1.0000), repeat (1.0000), restart (1.0000)
 BoW_LR: ack (0.0000), deny (0.0000), restart (0.0000), null (0.5000), hello (0.6250), bye (0.8000), confirm (0.9000), affirm (0.9104), negate (0.9167), request (0.9413), reqalts (0.9600), thankyou (0.9688), inform (0.9882), repeat (1.0000)
 BoW_SVM: ack (0.0000), deny (0.0000), null (0.7222), bye (0.8000), thankyou (0.8438), negate (0.9167), confirm (0.9500), request (0.9525), reqalts (0.9600), inform (0.9791), affirm (0.9989), hello (1.0000), repeat (1.0000), restart (1.0000)
 frozen_embeddings_LR: ack (0.0000), deny (0.0000), hello (0.6250), repeat (0.7143), null (0.7639), negate (0.8750), bye (0.9000), confirm (0.9000), affirm (0.9104), thankyou (0.9375), reqalts (0.9657), request (0.9721), inform (0.9791), restart (1.0000)
 frozen_embeddings_SVM: deny (0.0000), bye (0.2000), ack (0.3333), null (0.6250), thankyou (0.8438), hello (0.8750), negate (0.9167), reqalts (0.9600), request (0.9637), inform (0.9781), affirm (0.9989), confirm (1.0000), repeat (1.0000), restart (1.0000)
 
-Utterances misclassified by all systems (20):
-- "is there on serving chineese
-" (true=inform; baseline=hello, BoW_LR=null, BoW_SVM=null, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
-
+Utterances misclassified by all systems (17):
 - "what does rice house
 " (true=inform; baseline=request, BoW_LR=request, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
@@ -31,12 +28,6 @@ Utterances misclassified by all systems (20):
 " (true=request; baseline=inform, BoW_LR=null, BoW_SVM=null, frozen_embeddings_LR=null, frozen_embeddings_SVM=inform)
 
 - "popular dish
-" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
-
-- "what food is in the west part of town
-" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
-
-- "what food is in the west part of town
 " (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
 - "addrss
@@ -63,12 +54,12 @@ Utterances misclassified by all systems (20):
 - "can i get the next one
 " (true=reqalts; baseline=inform, BoW_LR=null, BoW_SVM=null, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "no is there anything else
-" (true=negate; baseline=hello, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "not
+" (true=negate; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
 - "no not indian scandinavian food
 " (true=deny; baseline=negate, BoW_LR=negate, BoW_SVM=negate, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
 
 - "not any more
-" (true=deny; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
+" (true=deny; baseline=reqmore, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
 

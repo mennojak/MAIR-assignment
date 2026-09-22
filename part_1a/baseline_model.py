@@ -4,9 +4,9 @@ BASELINE_RULES = [
     ("affirm", re.compile(r"(?:yes|correct|right|yea)")),
     ("confirm", re.compile(r"(?:is\s+it)")),
     ("deny", re.compile(r"(?:dont\s+want)")),
-    ("hello", re.compile(r"(?:hi|hello)")),
-    ("inform", re.compile(r"(?:part|town|looking|any)")),
-    ("negate", re.compile(r"^no")),
+    ("hello", re.compile(r"\b(?:hi|hello)")),
+    # "inform" is what we set as default, so we don't need a rule for it
+    ("negate", re.compile(r"^no\s+")),
     ("null", re.compile(r"(?:sil|noise|unintelligible|cough|uh)")),
     ("repeat", re.compile(r"(?:repeat|again)")),
     ("reqalts", re.compile(r"(?:how\s+about|what\s+about|anything\s+else)")),
@@ -15,7 +15,7 @@ BASELINE_RULES = [
     ("restart", re.compile(r"(?:start|reset)")),
     ("thankyou", re.compile(r"thank\s*you")),
     ("ack", re.compile(r"\b(?:okay|kay|ok)")), # Put last (instead of alpahetical) since "okay" is often what other dialog acts start with, now it doesn't interfere
-    ("bye", re.compile(r"(?:good\s*bye|goodbye)")),   # bye is often in the "thankyou" act, so the bye rule needs to be below it.
+    ("bye", re.compile(r"(?:good\s*bye|goodbye)")),   # bye is often in the "thankyou" act, so the bye rule needs to be below it
 ]
 
 def run_inference_baseline_model(utterances):

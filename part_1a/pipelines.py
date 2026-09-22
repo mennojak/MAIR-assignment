@@ -37,7 +37,6 @@ def run_evaluation_pipeline() -> None:
     df_original_test = pd.read_csv("data/processed/test_original.csv", keep_default_na=False)
     utterances = df_original_test["utterance"].tolist()
 
-    # TODO: Change model names once we know the names of them, for now placeholders
     df_original_test["pred_baseline"] = run_inference_baseline_model(utterances)
     df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
     df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
@@ -49,7 +48,6 @@ def run_evaluation_pipeline() -> None:
     df_grouped_test = pd.read_csv("data/processed/test_grouped.csv", keep_default_na=False)
     utterances = df_grouped_test["utterance"].tolist()
 
-    # TODO: Change model names once we know the names of them, for now placeholders
     df_grouped_test["pred_baseline"] = run_inference_baseline_model(utterances)
     df_grouped_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_grouped_LR", utterances)
     df_grouped_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
@@ -137,10 +135,42 @@ def run_interaction_pipeline() -> None:
     """
     print("\nStarting the user interaction pipeline for Part 1a...\n")
 
-    # TODO: Change this to the best model once we know which one it is.
-    best_model_path = "part_1a/models/model_frozen_embeddings_grouped_LR"
-    print(f"Using the best model: {best_model_path}")
+    print(f"Choose the model you want to use (best model = 5):")
+    print(f"1. Baseline")
+    print(f"2. BoW Logistical Regression - original split")
+    print(f"3. BoW Logistical Regression - grouped split")
+    print(f"4. BoW SVM - original split")
+    print(f"5. BoW SVM - grouped split")
+    print(f"6. Frozen embeddings Logistical Regression - original split")
+    print(f"7. Frozen embeddings Logistical Regression - grouped split")
+    print(f"8. Frozen embeddings SVM - original split")
+    print(f"9. Frozen embeddings SVM - grouped split")
 
-    interactive_classification_loop(best_model_path)
+    chosen_model = input("Choose a model (1-9): ")
+
+    match chosen_model:
+        case "1":
+            chosen_model = "baseline"
+        case "2":
+            chosen_model = "models/model_BoW_original_LR"
+        case "3":
+            chosen_model = "models/model_BoW_grouped_LR"
+        case "4":
+            chosen_model = "models/model_BoW_original_SVM"
+        case "5":
+            chosen_model = "models/model_BoW_grouped_SVM"
+        case "6":
+            chosen_model = "models/model_frozen_embeddings_original_LR"
+        case "7":
+            chosen_model = "models/model_frozen_embeddings_grouped_LR"
+        case "8":
+            chosen_model = "models/model_frozen_embeddings_original_SVM"
+        case "9":
+            chosen_model = "models/model_frozen_embeddings_grouped_SVM"
+        case _:
+            print("Invalid choice")
+            return
+
+    interactive_classification_loop(chosen_model)
 
     print("Finished the user interaction pipeline for Part 1a")

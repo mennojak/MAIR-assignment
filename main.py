@@ -13,6 +13,7 @@ def main() -> None:
     print("5. (part 1a) Interactive classification pipeline")
 
     choice = input("Enter the number of the pipeline to run: ")
+    print("-------------------------------------------------\n")
     if choice == "1":
         pipelines.run_training_pipeline()
     elif choice == "2":
