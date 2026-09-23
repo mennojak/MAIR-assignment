@@ -1,0 +1,7 @@
+dialog_act,utterance
+inform,how about some french food
+inform,how about some vietnamese food
+inform,what about turkish food
+deny,I do not want more french options
+deny,I do not want korean
+deny,I do not want scandanavian

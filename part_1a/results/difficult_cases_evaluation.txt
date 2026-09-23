@@ -1,0 +1,34 @@
+baseline: accuracy=0.0000, balanced_accuracy=0.0000
+BoW_original_LR: accuracy=0.0000, balanced_accuracy=0.0000
+BoW_grouped_LR: accuracy=0.1667, balanced_accuracy=0.1667
+BoW_original_SVM: accuracy=0.1667, balanced_accuracy=0.1667
+BoW_grouped_SVM: accuracy=0.0000, balanced_accuracy=0.0000
+frozen_embeddings_original_LR: accuracy=0.3333, balanced_accuracy=0.3333
+frozen_embeddings_grouped_LR: accuracy=0.3333, balanced_accuracy=0.3333
+frozen_embeddings_original_SVM: accuracy=0.0000, balanced_accuracy=0.0000
+frozen_embeddings_grouped_SVM: accuracy=0.1667, balanced_accuracy=0.1667
+
+Acts by accuracy:
+baseline: deny (0.0000), inform (0.0000)
+BoW_original_LR: deny (0.0000), inform (0.0000)
+BoW_grouped_LR: inform (0.0000), deny (0.3333)
+BoW_original_SVM: inform (0.0000), deny (0.3333)
+BoW_grouped_SVM: deny (0.0000), inform (0.0000)
+frozen_embeddings_original_LR: inform (0.0000), deny (0.6667)
+frozen_embeddings_grouped_LR: inform (0.0000), deny (0.6667)
+frozen_embeddings_original_SVM: deny (0.0000), inform (0.0000)
+frozen_embeddings_grouped_SVM: inform (0.0000), deny (0.3333)
+
+Difficult-case predictions (6):
+- "how about some french food" (true=inform; baseline=reqalts, BoW_original_LR=reqalts, BoW_grouped_LR=reqalts, BoW_original_SVM=reqalts, BoW_grouped_SVM=reqalts, frozen_embeddings_original_LR=reqalts, frozen_embeddings_grouped_LR=reqalts, frozen_embeddings_original_SVM=reqalts, frozen_embeddings_grouped_SVM=reqalts)
+
+- "how about some vietnamese food" (true=inform; baseline=reqalts, BoW_original_LR=reqalts, BoW_grouped_LR=reqalts, BoW_original_SVM=reqalts, BoW_grouped_SVM=reqalts, frozen_embeddings_original_LR=reqalts, frozen_embeddings_grouped_LR=reqalts, frozen_embeddings_original_SVM=reqalts, frozen_embeddings_grouped_SVM=reqalts)
+
+- "what about turkish food" (true=inform; baseline=reqalts, BoW_original_LR=reqalts, BoW_grouped_LR=reqalts, BoW_original_SVM=reqalts, BoW_grouped_SVM=reqalts, frozen_embeddings_original_LR=reqalts, frozen_embeddings_grouped_LR=reqalts, frozen_embeddings_original_SVM=reqalts, frozen_embeddings_grouped_SVM=reqalts)
+
+- "I do not want more french options" (true=deny; baseline=reqmore, BoW_original_LR=inform, BoW_grouped_LR=deny, BoW_original_SVM=reqmore, BoW_grouped_SVM=reqmore, frozen_embeddings_original_LR=deny, frozen_embeddings_grouped_LR=deny, frozen_embeddings_original_SVM=inform, frozen_embeddings_grouped_SVM=reqalts)
+
+- "I do not want korean" (true=deny; baseline=inform, BoW_original_LR=inform, BoW_grouped_LR=inform, BoW_original_SVM=inform, BoW_grouped_SVM=inform, frozen_embeddings_original_LR=deny, frozen_embeddings_grouped_LR=deny, frozen_embeddings_original_SVM=inform, frozen_embeddings_grouped_SVM=deny)
+
+- "I do not want scandanavian" (true=deny; baseline=inform, BoW_original_LR=null, BoW_grouped_LR=inform, BoW_original_SVM=deny, BoW_grouped_SVM=inform, frozen_embeddings_original_LR=inform, frozen_embeddings_grouped_LR=inform, frozen_embeddings_original_SVM=inform, frozen_embeddings_grouped_SVM=inform)
+

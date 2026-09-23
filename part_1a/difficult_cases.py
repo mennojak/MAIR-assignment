@@ -1,15 +1,34 @@
-# TODO: Create a manually designed difficult test set for non-fluent utterances
-# TODO: Give every utterance its intended dialog act
+import os
+import pandas as pd
 
-# TODO: Create a manually designed difficult test set for negation
-# TODO: Give every utterance its intended dialog act
 
-# TODO: Run the difficult cases through the classifiers
-# TODO: Store the true dialog act and predicted dialog act for every utterance
-# TODO: Store whether each prediction was correct
+DIFFICULT_CASES = [
+    # Ambiguous wording cases: 
+    # If the user meant "how about" or "what about" in terms of "tell me about" (i.e. inform)
+    # Inspiration is taken from cases like "what about turkish" as seen in part_1a/results/original_evaluation.txt
+    # The model wrongly predicts the request act in those cases.
+    ("inform", "how about some french food"),
+    ("inform", "how about some vietnamese food"),
+    ("inform", "what about turkish food"),
 
-# TODO: Calculate the performance for each difficult-case category
-# TODO: Save the detailed predictions and results
+    # Negation cases:
+    # Inspired by deny cases like "i dont want pizza" from the dataset 
+    ("deny", "I do not want more french options"),
+    ("deny", "I do not want korean"),
+    ("deny", "I do not want scandanavian"),
+]
 
 def create_difficult_cases_datasets():
-    print("TODO")
+    difficult_cases = pd.DataFrame(DIFFICULT_CASES, columns=["dialog_act", "utterance"])
+
+    print("\nDifficult cases:")
+    for i, case in difficult_cases.iterrows():
+        print(
+            f'- {"Ambiguous -" if i > 4 else "Negation -"}'
+            f'true={case["dialog_act"]}: "{case["utterance"]}"'
+        )
+    print("------------------------------\n")
+
+    output_path = "data/processed/difficult_cases.csv"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    difficult_cases.to_csv(output_path, index=False)
