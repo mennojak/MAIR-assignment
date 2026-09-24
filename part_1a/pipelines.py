@@ -39,7 +39,7 @@ def run_evaluation_pipeline() -> None:
 
     df_original_test["pred_baseline"] = run_inference_baseline_model(utterances)
     df_original_test["pred_BoW_LR"] = run_inference_bow_model("models/model_BoW_original_LR", utterances)
-    df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_grouped_SVM", utterances)
+    df_original_test["pred_BoW_SVM"] = run_inference_bow_model("models/model_BoW_original_SVM", utterances)
     df_original_test["pred_frozen_embeddings_LR"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_LR", utterances)
     df_original_test["pred_frozen_embeddings_SVM"] = run_inference_frozen_embeddings_model("models/model_frozen_embeddings_original_SVM", utterances)
     

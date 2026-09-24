@@ -1,17 +1,17 @@
 baseline: accuracy=0.9205, balanced_accuracy=0.7082
 BoW_LR: accuracy=0.9753, balanced_accuracy=0.7030
-BoW_SVM: accuracy=0.9892, balanced_accuracy=0.9208
+BoW_SVM: accuracy=0.9814, balanced_accuracy=0.8796
 frozen_embeddings_LR: accuracy=0.9831, balanced_accuracy=0.8782
 frozen_embeddings_SVM: accuracy=0.9858, balanced_accuracy=0.9010
 
 Acts by accuracy:
 baseline: deny (0.0000), restart (0.0000), bye (0.1875), confirm (0.4348), null (0.7288), ack (0.7500), repeat (0.8000), reqalts (0.8939), inform (0.9334), request (0.9347), negate (0.9841), thankyou (0.9877), affirm (0.9882), hello (1.0000), reqmore (1.0000)
 BoW_LR: ack (0.0000), reqmore (0.0000), restart (0.0000), deny (0.5000), bye (0.6875), repeat (0.8000), confirm (0.8261), null (0.8941), hello (0.9231), reqalts (0.9633), affirm (0.9765), inform (0.9835), request (0.9904), negate (1.0000), thankyou (1.0000)
-BoW_SVM: ack (0.5000), deny (0.5000), bye (0.9375), confirm (0.9565), reqalts (0.9592), null (0.9746), inform (0.9907), thankyou (0.9959), request (0.9979), negate (1.0000), affirm (1.0000), hello (1.0000), reqmore (1.0000), repeat (1.0000), restart (1.0000)
+BoW_SVM: ack (0.2500), deny (0.5000), repeat (0.8000), bye (0.8125), reqalts (0.9551), confirm (0.9565), null (0.9576), inform (0.9785), affirm (0.9882), request (0.9957), hello (1.0000), negate (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
 frozen_embeddings_LR: ack (0.5000), deny (0.5000), repeat (0.6000), bye (0.8125), confirm (0.9130), reqalts (0.9633), null (0.9661), negate (0.9683), affirm (0.9706), inform (0.9850), request (0.9946), hello (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
-frozen_embeddings_SVM: ack (0.5000), deny (0.5000), repeat (0.8000), bye (0.8750), confirm (0.9565), null (0.9619), reqalts (0.9673), affirm (0.9706), inform (0.9878), request (0.9957), negate (1.0000), hello (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
+frozen_embeddings_SVM: ack (0.5000), deny (0.5000), repeat (0.8000), bye (0.8750), confirm (0.9565), null (0.9619), reqalts (0.9673), affirm (0.9706), inform (0.9878), request (0.9957), hello (1.0000), negate (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
 
-Utterances misclassified by all systems (14):
+Utterances misclassified by all systems (21):
 - "what about a moderately priced re
 " (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
@@ -30,7 +30,25 @@ Utterances misclassified by all systems (14):
 - "what about other areas
 " (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
+- "what about mediterranean food
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "what about mediterranean food
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "what about other parts of town
+" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
+- "any price rage
+" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "how about one that serves
+" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+
 - "thank you good bye thank you good bye
+" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+
+- "thank you good bye crosstalk
 " (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
 - "how bout any price range
@@ -47,6 +65,9 @@ Utterances misclassified by all systems (14):
 
 - "is there a thai restaurant in the west part of town
 " (true=confirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+
+- "kay what is the addre
+" (true=ack; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=null, frozen_embeddings_SVM=request)
 
 - "no not indian scandinavian food
 " (true=deny; baseline=negate, BoW_LR=negate, BoW_SVM=negate, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
