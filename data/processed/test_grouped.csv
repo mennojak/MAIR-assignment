@@ -1,1153 +1,1517 @@
 dialog_act,utterance
-inform,"expensive restaurant
+inform,"any part of town
 "
-inform,"restaurant in the north part of town serv
+inform,"fusion food
 "
-inform,"scottish
+inform,"part of town that serves chinese food
 "
-inform,"scottish
+inform,"hindi food is okay
 "
-inform,"im looking for am expensive restaurant in the south part
+inform,"food
 "
-inform,"uh it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"english food center part of town
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"im looking for corsica food
+"
+inform,"gastropub food
+"
+inform,"in the south
+"
+inform,"mexican food
+"
+inform,"i want to find a restaurant in the south part of town
+"
+inform,"how about gastro pub type of food
+"
+inform,"i dont care
 "
 inform,"serve kosher food
 "
-inform,"im looking for a restaurant serving
+inform,"food
 "
-inform,"i want to find moderately priced restaurant it should be
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"can i get tuscan foo
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a restaurant
+inform,"im moderate priced restaurant in the north part of town
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i want an expensive restaurant in the east part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"and asian
+inform,"im looking for a moderately priced restaurant in the south
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"basque food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"i want a restaurant in the north part of town that serves kosher
+inform,"im looking for a restaurant that serves world food
+"
+inform,"i dont care
+"
+inform,"the south part
+"
+inform,"i dont care
+"
+inform,"any part of town
+"
+inform,"i dont care
+"
+inform,"mexican food
+"
+inform,"i dont care
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"any part of town
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"place that serves portuguese food
+"
+inform,"can i have a cheap restaurant in the south part of town
 "
 inform,"can i get a restaurant in the east part of town that serves italian food
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"uh im looking for a cheap restaurant in the south part of town
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"i want to find a moderately priced restaurant and it should serve
+inform,"i dont care
 "
-inform,"i do not care
+inform,"anywhere
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"um im trying to find a restaurant in the unintelligible of town
+"
+inform,"uh indian
 "
 inform,"im looking for a moderately priced restaurant in the
 "
-inform,"austrian
+inform,"i dont care
 "
-inform,"austrian
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"what european food
+inform,"cheap restaurant east of town
 "
-inform,"chinese food
+inform,"australian food
 "
-inform,"im looking for a restaurant in the west part of town that serves
+inform,"breath i dont care
 "
-inform,"im looking for a restaurant in the west part of town and it sh
+inform,"moderately
 "
-inform,"it doesnt matter
+inform,"west part of town
 "
-inform,"german food
+inform,"i dont care
 "
-inform,"id like a cheap restaurant that serves steakhouse
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"international
 "
-inform,"north part of town
+inform,"id like a restaurant in the south part of town that serves cuban
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"i would like to find a restaurant
+inform,"i dont care
 "
-inform,"does not matter
+inform,"i dont care
 "
-inform,"serves british food
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking for scandinavian food
+"
+inform,"any part of town
+"
+inform,"can i have the venusian food
+"
+inform,"i dont care
 "
 inform,"would like british food
 "
-inform,"im looking for a spanish restaurant
+inform,"im looking for an expensive restaurant that serves english food
 "
-inform,"german food
+inform,"i dont care
 "
-inform,"traditional food
+inform,"i dont care
 "
-inform,"breath im looking for a moderately priced restaurant in the east p
+inform,"i dont care
 "
-inform,"ah scottish food
+inform,"south part
 "
-inform,"ah centre
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"food
 "
-inform,"it doesnt matter
+inform,"im looking for world food
 "
-inform,"basque food
+inform,"okay uh how bout british food
 "
-inform,"i would like asian oriental
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"mexican food
 "
-inform,"uh it doesnt matter
+inform,"vietnamese
 "
-inform,"venetian
+inform,"chinese chinese
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"find restaurant in north part of town
+inform,"i dont care
 "
-inform,"im looking for a restaurant
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"corsica food
+inform,"i dont care
 "
-inform,"im looking for a restaurant that serves african food
+inform,"serving asian oriental
 "
-inform,"i want a cheap hungarian food restaurant
+inform,"do you have any asian oriental food
 "
-inform,"i want a modern european restaurant
+inform,"i dont care
 "
-inform,"modern european
+inform,"im looking for korean food in any price range
 "
-inform,"halo food
+inform,"i dont care
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"turkish
+inform,"vietnamese
 "
-inform,"is there on serving chineese
+inform,"west part of town
 "
-inform,"it doesnt matter
+inform,"im looking for a barbecue restaurant in the east part of town
 "
-inform,"mexican
+inform,"i dont care
 "
-inform,"ah it doesnt matter
+inform,"i need a restaurant that
 "
-inform,"im looking for a welsh restaurant in the west part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"what is there in the north
 "
-inform,"i want italian food
-"
-inform,"it doesnt matter
-"
-inform,"chinese food
-"
-inform,"turkish
-"
-inform,"expensive mexican
-"
-inform,"european now
-"
-inform,"corsica food
-"
-inform,"east part
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"what does rice house
+inform,"i dont care
 "
-inform,"okay ah how bout portuguese food
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant that serves japanese food
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"um it doesnt matter
 "
-inform,"scottish
+inform,"moderately priced restaurant that serves fusion food
 "
-inform,"chinese food
+inform,"the south part
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"modern european food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"i want to find a restaurant in any area
+inform,"romanian
 "
-inform,"im looking for european food
+inform,"moderately
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"west part of town
 "
-inform,"british food north part of town
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant that serves uh
+inform,"i dont care
 "
-inform,"german food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"mexican
+inform,"looking for a moderately priced restaurant that serves cancun
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"east part
+inform,"i dont care
 "
-inform,"i want a restaurant that serves british food in the center
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant in the west part of town
+inform,"food
 "
-inform,"corsica food
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"lebanese food
+inform,"i am looking for a moderately priced restaurant in the south
 "
-inform,"i am looking for persian food please
+inform,"restaurant the serves english food
 "
-inform,"im looking for moderate priced restaurant in the west
+inform,"im looking for a moderately priced restaurant in the west part
 "
-inform,"id like a moderately priced restaurant that serves halal food
-"
-inform,"im looking for a moderately priced restaurant in the west part of town
-"
-inform,"can i get an expensive
-"
-inform,"expensive restaurant
-"
-inform,"catalan
-"
-inform,"turkish
-"
-inform,"it doesnt matter
-"
-inform,"i need a cheap restaurant in the south part of town
-"
-inform,"it doesnt matter
-"
-inform,"expensive restaurant
+inform,"im looking for a restaurant in the west part of town that serves danish food
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"kosher food
 "
-inform,"catalan
+inform,"kosher food
 "
-inform,"north town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i want indonesian food
 "
-inform,"east part
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"im looking for something in the south part of town that serves creative
 "
-inform,"yea im looking for some spanish food
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"moderately
 "
-inform,"jamaican
+inform,"i dont care
 "
-inform,"i want a russian restaurant
+inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"breath i want to find an expensive restaurant and it sh
+inform,"i dont care
 "
-inform,"turkish
+inform,"food
 "
-inform,"find moderately priced brazilian restaurant
+inform,"i dont care
 "
-inform,"find asian oriental
+inform,"i dont care
 "
-inform,"i do not care
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"restaurant in west part of town
 "
-inform,"i do not care
+inform,"vietnamese
 "
-inform,"cuban food
+inform,"im looking for a moderately priced restaurant in the south
 "
-inform,"cuban food
+inform,"im looking for a moderately priced restaurant in the west part
 "
-inform,"cuban food
+inform,"i dont care
 "
-inform,"cuban food
+inform,"food
 "
-inform,"it doesnt matter
+inform,"food
 "
-inform,"traditional food
+inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"modern european
+inform,"south south
 "
-inform,"chinese food
+inform,"i would like an expensive restaurant in the south part of town
 "
-inform,"restaurant in the south part of town
+inform,"i dont care
 "
-inform,"expensive east part of town
+inform,"moderately priced restaurant in the west part of town
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"modern european
+inform,"gastropub food
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"for a cheap restaurant in the south part of town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the center of town that serves
+inform,"mexican food
 "
-inform,"im looking for a restaurant in the north part of town and it should serve
+inform,"looking for a restaurant in the center part of town
 "
-inform,"expensive restaurant
+inform,"mexican food
 "
-inform,"it doesnt matter
+inform,"uh i dont care
 "
-inform,"turkish
+inform,"vietnamese
 "
-inform,"and asian food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"looking for a cheap restaurant in the north part of town
+inform,"chinese in the south part of town
 "
-inform,"it doesnt matter
+inform,"i want to find an expensive restaurant on the east part of town
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north of
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant that serves international
+inform,"modern european food
 "
-inform,"im looking for a restaurant in any area
+inform,"modern european foo
 "
-inform,"jamaican
+inform,"i dont care
 "
-inform,"is there an asian oriental restaurant in the north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant that serves swedish food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"west part of town
 "
-inform,"im looking for a moderate priced restaurant in the north part of town
+inform,"i dont care
 "
-inform,"i am looking for an expensive restaurant in the east
+inform,"canope food
 "
-inform,"noise taquita restaurant
+inform,"fusion food
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"vietnamese
 "
-inform,"looking for a cheap restaurant
+inform,"im looking for an expensive restaurant that serves
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"east part of town serving swedish food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"west part of town
 "
-inform,"im looking for a restaurant
+inform,"hungarian food
 "
-inform,"corsica food
+inform,"international
 "
-inform,"mexican
+inform,"international
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"modern european food
 "
-inform,"a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant that serves chinese food
+inform,"i dont care
 "
-inform,"i do not care
+inform,"okay im looking for moderate price range
 "
-inform,"catalen food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"mexican
+inform,"i would like a cheap restaurant in the north part of town
 "
-inform,"im looking for an expensive restaurant serving english food
+inform,"i dont care
 "
-inform,"cheap restaurant on the east part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"north part of town
+inform,"vietnamese
 "
-inform,"i do not care
+inform,"jamaican food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking a cheap restaurant
+"
+inform,"west part of town
+"
+inform,"west part of town
+"
+inform,"a restaurant
+"
+inform,"mexican food
+"
+inform,"im looking for a cheap restaurant that serves christmas food
+"
+inform,"i dont care
+"
+inform,"do you have an expensive restaurant
+"
+inform,"can i get a cheap restaurant in the south part of town
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"south bart
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i am looking for a moderately priced restaurant in the north
+"
+inform,"i dont care
+"
+inform,"basque food in the east part of town
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"it does not matter
+"
+inform,"it does not matter
+"
+inform,"i want a restaurant in the center of town
+"
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the
 "
-inform,"austrian
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"expensive restaurant in the east part of town
+inform,"gastropub type foo
 "
-inform,"looking for a cheap restaurant
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"i do not care
+inform,"moderately priced spanish restaurant
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"food
 "
-inform,"expensive restaurant
+inform,"it does not matter
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the west part of town that serves
+inform,"i dont care
 "
-inform,"north part of town
+inform,"can i have a moderately priced restaurant in the west part of town
 "
-inform,"the east part of town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"uh id like a moderately priced restaurant in the north part
 "
-inform,"mexican
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"food
 "
-inform,"expensive restaurant
+inform,"international
 "
-inform,"i do not care
+inform,"i dont care
 "
-inform,"yea im looking for an expensive
+inform,"food
 "
-inform,"corsica food
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant that serves polish food
+inform,"restaurant serving spanish food
 "
-inform,"im looking for a moderately priced
+inform,"im looking for an expensive restaurant in the south
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"a restaurant
 "
-inform,"african
+inform,"i dont care
 "
-inform,"modern european
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"anywhere
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"im looking for a restaurant
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i want a cheap restaurant that serves italian food
+"
+inform,"vietnamese
+"
+inform,"moderately
+"
+inform,"moderately
+"
+inform,"the south part
+"
+inform,"i dont care
 "
 inform,"looking for a restaurant
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the east part of town that serves international
+inform,"international
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"im looking for fusion food
+inform,"i dont care
 "
-inform,"im looking for a moderately priced
+inform,"i dont care
 "
-inform,"for a cheap restaurant in the east part of town
+inform,"im looking for a restaurant in the north part of town thats
 "
-inform,"unusual food
+inform,"any part of town
 "
-inform,"it doesnt matter
+inform,"moderately priced restaurant in the west part of town
 "
-inform,"uh cheap restaurant malaysian food
+inform,"moderately
 "
-inform,"chinese food
+inform,"moderately priced restaurant in the west part of town
 "
-inform,"chinese food
+inform,"cheap restaurant uh italian food
 "
-inform,"chinese food
+inform,"i dont care
+"
+inform,"vietnamese
+"
+inform,"im looking for an expensive restaurant that serves swiss food
+"
+inform,"im looking for a moderately priced restaurant that serves christmas food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
 "
 inform,"unintelligible east
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"serving mediterranean food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"uh it doesnt matter
+inform,"vietnamese
 "
-inform,"it doesnt matter
+inform,"vietnamese
 "
-inform,"i want gastropub food
+inform,"i dont care
 "
-inform,"i want a restaurant in the east part of town
+inform,"i dont care
 "
-inform,"i need an expensive restaurant
+inform,"food
 "
-inform,"im looking for a restaurant in the south part of town with creative food
+inform,"food
 "
-inform,"chinese food
+inform,"food
 "
-inform,"chinese food
+inform,"gastropub food
 "
-inform,"noise i am looking for a moderately priced restaurant unintelligible
+inform,"i dont care
 "
-inform,"what about a moderately priced re
+inform,"gastropub food
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"gastropub food
 "
-inform,"im looking for one east part of town
+inform,"i dont care
 "
-inform,"restaurant in the south part of town
+inform,"gastropub food
 "
-inform,"im looking for a restaurant in the west part of town that serves
+inform,"gastropub food
 "
-inform,"with scottish
+inform,"i dont care
 "
-inform,"does not matter
+inform,"i dont care
 "
-inform,"id like to find a restaurant that serves portuguese food
+inform,"international
 "
-inform,"yes i dont care about the price range
+inform,"jamaican food
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"cuban food
+inform,"international
 "
-inform,"expensive restaurant
+inform,"moderately
 "
-inform,"find me a restaurant in the north part of town
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"scottish
+inform,"im looking for a restaurant in the west part of town with
 "
-inform,"scottish
+inform,"food
 "
-inform,"alright gastropub food
+inform,"is there a restaurant serving indian type of food
 "
-inform,"it doesnt matter
+inform,"im looking for an expensive restaurant in the south
 "
-inform,"i do not care
+inform,"food
 "
-inform,"it doesnt matter
+inform,"food
 "
-inform,"uh expensive european food
+inform,"food
 "
-inform,"noise i am looking for a restaurant
+inform,"food
 "
-inform,"expensive restaurant
+inform,"food
 "
-inform,"east part
+inform,"food
 "
-inform,"chinese food
+inform,"food
 "
-inform,"chinese food
+inform,"food
 "
-inform,"chinese food
+inform,"food
 "
-inform,"it doesnt matter
+inform,"im looking for a restaurant serving thai type of food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"west part of town
 "
-inform,"im looking for a cheap restaurant that serves chinese food
+inform,"gastropub food
 "
-inform,"im looking for a expensive restaurant serving irish food
+inform,"i dont care
 "
-inform,"pub or british type of food
+inform,"i dont care
 "
-inform,"cross over
+inform,"i dont care
 "
-inform,"cross over
+inform,"international
 "
-inform,"welsh
+inform,"anywhere
+"
+inform,"what asian oriental food
+"
+inform,"pan asian food
+"
+inform,"pan asian food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"um anything else please
+"
+inform,"kosher food
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"im looking for a moderately priced restaurant in the south
+"
+inform,"i dont care
+"
+inform,"id like an expensive italian restaurant
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"gastropub food
+"
+inform,"im looking for a restaurant in the south part of town that serves jamaican food
+"
+inform,"uh west
+"
+inform,"uh west
+"
+inform,"uh center
+"
+inform,"i dont care
+"
+inform,"im looking for a restaurant in the north part town and it should serve australian food
+"
+inform,"i dont care
+"
+inform,"moderately priced any foo
+"
+inform,"food
+"
+inform,"in the south
+"
+inform,"south part
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"modern european food
+"
+inform,"i dont care
+"
+inform,"vietnamese
+"
+inform,"vietnamese
+"
+inform,"im looking for a cheap restaurant that serves irish food
 "
 inform,"cheap australian
 "
-inform,"im looking for a moderately priced restaurant in the east part of
+inform,"i dont care
 "
-inform,"traditional food
+inform,"i want a restaurant in the center of town that serves vinesha
 "
-inform,"i do not care
+inform,"i dont care
 "
-inform,"iam looking for a restaurant that serves bistro food
+inform,"mexican food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"modern european
+inform,"i dont care
 "
-inform,"im looking for a restaurant in any area
+inform,"i dont care
 "
-inform,"the type of food is lebanese
+inform,"i dont care
 "
-inform,"i need a cheap restaurant in the south part of town
+inform,"i dont care
 "
-inform,"uh restaurant in the west part of town with scottish food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"unintelligible i dont care
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"okay im looking for an expensive restaurant
+inform,"food
 "
-inform,"uh it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i want a moderately priced restaurant
+"
+inform,"it should serve caribbean food
+"
+inform,"of this restaurant
+"
+inform,"hungarian food
+"
+inform,"hungarian food
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"doesnt matter but it should be moderately priced
+"
+inform,"im looking for a restaurant in the north part of town that serves christmas food
 "
 inform,"restaurant south part of town christmas food
 "
-inform,"i want to find a restaurant that serves vietnamese
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"australian food
 "
-inform,"im looking for a restaurant in the center of town that serves
+inform,"it does not matter
 "
-inform,"north part of town
-"
-inform,"yea im looking for a moderately priced restaurant
-"
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"australian food
 "
 inform,"italian food please
 "
 inform,"im looking for a restaurant in the east part of town that serves hungarian food
 "
-inform,"traditional food
+inform,"im looking for an expensive restaurant that serves korean
+"
+inform,"i dont care
 "
 inform,"unusal
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"vietnamese
 "
-inform,"it doesnt matter
+inform,"hungarian food
 "
-inform,"north part of town
+inform,"i dont care
+"
+inform,"cheap portuguese food
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"moderate restaurant
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"id like to find a cheap restaurant serving mexican
+inform,"moderately priced restaurant in the west part of town
 "
-inform,"find me a restaurant serving italian food
+inform,"mexican food
 "
-inform,"any of those things
+inform,"i dont care
 "
-inform,"im looking for italian food though
+inform,"international
 "
-inform,"id like a cheap restaurant in the west part of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"basque food
+inform,"i dont care
 "
-inform,"basque food
+inform,"vietnamese
 "
-inform,"basque food
+inform,"i dont care
 "
-inform,"im looking for indian
+inform,"i dont care
 "
-inform,"steak house food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i need a cheap restaurant that serves christmas food
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"and okay and vietnamese food thank you
+"
+inform,"i dont care
+"
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the
 "
-inform,"im looking for a restaurant in the north part of town and it should serve indo
+inform,"i dont care
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"im looking for an expensive restaurant that serves
 "
-inform,"expensive restaurant
+inform,"food
 "
-inform,"looking for a restaurant in any area
+inform,"south part
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
+"
+inform,"romanian
+"
+inform,"food
+"
+inform,"expensive romanian
+"
+inform,"food
+"
+inform,"i dont care
 "
 inform,"restaurant south part of town christmas food
 "
-inform,"chinese food
+inform,"food
 "
-inform,"chinese food
+inform,"cheap restaurant spani
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"african
+inform,"i dont care
 "
-inform,"african
+inform,"vietnamese
 "
-inform,"welsh
+inform,"uh i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"i am looking for a moderately priced restaurant in the west part o
+inform,"uh center
 "
-inform,"im looking for a restaurant
+inform,"vietnamese
 "
-inform,"its in the south
+inform,"i dont care
 "
-inform,"can i have a different restaurant that serves portuguese food
+inform,"in the south
+"
+inform,"south part
+"
+inform,"in the south
+"
+inform,"south part
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i want a restaurant in the west part of town that serves venetian food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"are they the east side of town
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"food
+"
+inform,"gastropub food
+"
+inform,"any part of town
+"
+inform,"im looking for a moderately priced restaurant in the south
+"
+inform,"yea id like a cheap restaurant in the north part of town
+"
+inform,"uh i dont care
+"
+inform,"okay im looking for a restaurant serving fre
+"
+inform,"i dont care
+"
+inform,"pan asian food
+"
+inform,"i dont care
+"
+inform,"any part of town
+"
+inform,"i dont care
+"
+inform,"i dont care
 "
 inform,"im looking for a restaurant in the east part of town that serves chinese
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
+"
+inform,"i dont care
 "
 inform,"moderately priced restaurant in east part
 "
-inform,"it doesnt matter
+inform,"a moderately priced fusion food
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"moderately priced in east part of town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"a chinese restaurant that serves moderately priced food
 "
-inform,"uh italian
+inform,"i dont care
 "
-inform,"i want to find a restaurant in any area
+inform,"i dont care
 "
-inform,"i would like portuguese food
+inform,"i dont care
 "
-inform,"a cheap restaurant that serves basque food
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"moderately
 "
-inform,"it doesnt matter
+inform,"moderately
 "
-inform,"can i have a restaurant in the north
+inform,"moderately
 "
-inform,"any price range noise
+inform,"mexican food
 "
-inform,"im looking for a restaurant in the center of town that serves
+inform,"i want a restaurant that serves portuguese food
 "
-inform,"i want to find a restaurant in the north part of town and it should serve
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"i am looking for a moderately priced restaurant in the
+inform,"i dont care
 "
-inform,"i am looking for a moderately priced restaurant in the
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"i need a moderately priced restaurant in the south
+inform,"west part of town
 "
-inform,"expensive restaurant
+inform,"next restaurant
 "
-inform,"im looking for a cheap restaurant that serves tuscan food
+inform,"i dont care
 "
-inform,"turkish
+inform,"moderately priced catalan food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i need a restaurant
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking for an expensive restaurant serving vegetarian food
+"
+inform,"is there is no such venue that have asian oriental type of food
+"
+inform,"gastropub food
+"
+inform,"i want a gastropub restaurant
+"
+inform,"i dont care
+"
+inform,"food
+"
+inform,"is there an indian restaurant the east of town
+"
+inform,"australian food
+"
+inform,"i dont care
+"
+inform,"i want a malaysian restaurant
+"
+inform,"looking for a moderately priced restaurant in the west part of town
+"
+inform,"any part of town
+"
+inform,"i dont care
+"
+inform,"fusion food
+"
+inform,"fusion food
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"id like a restaurant in the east part of town
+"
+inform,"i dont care
 "
 inform,"i want a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"uh can i find a restaurant with asian oriental food
+inform,"spensive
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"restaurant in the south part of town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"cheap food in the east part of town
 "
 inform,"cheap gastropub
 "
-inform,"any part of town please
+inform,"gastropub food
 "
-inform,"german food
+inform,"gastropub food
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"gastropub food
 "
-inform,"modern european
+inform,"west part of town
 "
-inform,"moderate west
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the west part of town that serves
+inform,"international
 "
-inform,"north part of town
+inform,"looking for a moderately priced restaurant in the west part of town
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"i want to find an expensive restaurant that serves vegetarian food
+inform,"noise any price range
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"a moderately priced restaurant
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"portugeuse
-"
-inform,"german food
-"
-inform,"mexican
-"
-inform,"uh moroccan food
-"
-inform,"i need a cheap restaurant in the south part of town
-"
-inform,"polynesian
+inform,"im looking for something cheap
 "
 inform,"the west side
 "
-inform,"im looking for swedish food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"any part of town
 "
-inform,"chinese food
+inform,"uh i dont care
 "
-inform,"i want to find a restaurant in the center that serves irish
+inform,"looking for a restaurant in the south part of town serving
 "
 inform,"i would like australian asian food
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"im looking for a restaurant that serves english food
 "
-inform,"lebanese food
-"
-inform,"it should be in the north part of town
-"
-inform,"it should be in the north part of town
-"
-inform,"west part of town basque food
-"
-inform,"im looking for a chinese restaurant
-"
-inform,"that serves in the moderate food price
-"
-inform,"that serves korean food
-"
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"european food any price
 "
 inform,"okay can i have european food
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"i need a cheap restaurant in the south part of town
+inform,"im looking for moderately priced in the north part of town
 "
-inform,"cheap restaurant serving indian food
+inform,"i need a restaurant
 "
-inform,"looking for a cheap restaurant in the south part of town
+inform,"i dont care
 "
-inform,"restaurant in the east part of town
+inform,"moderately priced restaurant in the west part of town
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"find gastropub restaurant
 "
-inform,"german food
+inform,"pan asian food
 "
-inform,"german food
+inform,"i dont care
 "
-inform,"modern european
+inform,"pan asian food
 "
-inform,"african
+inform,"romanian food in the center
 "
-inform,"looking for a restaurant in the center of town that sells french
+inform,"romanian
 "
-inform,"derately priced
+inform,"that serves swiss food
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"a moderately priced restaurant
 "
-inform,"and its in the west part of town
+inform,"hungarian food
 "
-inform,"cuban food
+inform,"mexican food
 "
-inform,"it doesnt matter
+inform,"im looking for a moderate priced restaurant in the south part of
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"australasian
+inform,"international
+"
+inform,"i want to find a moderate priced restaurant that serves
+"
+inform,"any part of town
+"
+inform,"id like a restaurant in any area that serves japanese food
+"
+inform,"australian food
+"
+inform,"australian food
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"uh spanish food
-"
-inform,"expensive restaurant
+inform,"west part of town
 "
 inform,"im looking for cross over food
 "
-inform,"it doesnt matter
+inform,"modern european food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"hungarian food
+"
+inform,"i dont care
+"
+inform,"i want a european restaurant in the center part of town
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"im looking for a restaurant in the west
+inform,"moderately
+"
+inform,"i dont care
 "
 inform,"looking for vietnamese food
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"vietnamese
 "
-inform,"expensive restaurant
+inform,"vietnamese
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant that serves mediteranian
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"id like to find a moderately priced restaurant in the west part of town
+inform,"gastropub food
 "
-inform,"im looking for a restaurant in the north part of town and it should african food
+inform,"gastropub food
 "
-inform,"modern european
+inform,"gastropub food
 "
-inform,"a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"cheap restaurant in the north of town
+inform,"a restaurant
 "
-inform,"i do not care
+inform,"im looking for moderately priced restaurant that serves world food
 "
-inform,"north part of town
+inform,"is there a venue in the west part of town
 "
-inform,"im looking for a moderately priced restaurant and it should be in the east part of town
+inform,"food
 "
-inform,"can i get a steak house restaurant in any area
+inform,"food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"find me a restaurant in the center of town
+inform,"kosher food
 "
-inform,"im looking for vietnamese food
+inform,"any part of town
 "
-inform,"im looking for a restaurant that serves mexican food
+inform,"i dont care
 "
-inform,"mexican
+inform,"food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"i want a restaurant in the we
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"anywhere
 "
-inform,"the east part of town
+inform,"thare are different expensive restaurants in the east part of town
 "
-inform,"uh id like a cheap restaurant in the
+inform,"food
 "
-inform,"an expensive restaurant with seafood
+inform,"i dont care
 "
-inform,"uh that doesnt matter
+inform,"international
+"
+inform,"i dont care
+"
+inform,"moderately
+"
+inform,"can i have a restaurant in the south part of town
+"
+inform,"im looking for a restaurant that serves bistro food in the center of
+"
+inform,"food
+"
+inform,"im looking for an expensive restaurant that serves
+"
+inform,"i want sea food
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"venue
-"
-inform,"venue
-"
 inform,"polynesian food in the south part of town
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"kosher food
 "
-inform,"i want to find a restaurant in any area
+inform,"i dont care
 "
-inform,"traditional food
+inform,"i dont care
 "
-inform,"german food
+inform,"hungarian food
 "
-inform,"lebanese food
+inform,"i dont care
 "
-inform,"catalan
+inform,"um gastropub food
 "
-inform,"catalan
+inform,"im looking for a modertley priced restaurant in the south
 "
-inform,"serves cheap
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant in the east part of
+inform,"hungarian food
 "
-inform,"traditional food
+inform,"serving international food
 "
-inform,"im looking for a moderately priced restaurant with catalan food
+inform,"im looking for russian food in the center of town
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"jamaican
+inform,"i would like a cheap restaurant in the north part of town
 "
-inform,"jamaican
+inform,"i dont care
 "
-inform,"i need asian how bout asian food
+inform,"west part of town
+"
+inform,"let me get some world food and i dont care about the price range
+"
+inform,"breath im looking for a cheap restaurant serving catalan food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking for an expensive restaurant and it should
+"
+inform,"i dont care
+"
+inform,"moderately
+"
+inform,"arotrian
+"
+inform,"west part of town
+"
+inform,"i dont care
+"
+inform,"kosher food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
 "
 inform,"i need asian food
 "
-inform,"id like to find a restaurant
+inform,"noise im looking for a moderately priced restaurant
 "
-inform,"serving barbecue food
-"
-inform,"german food
-"
-inform,"chinese food
-"
-inform,"im looking for a cheap restaurant and it should be in north part of town
-"
-inform,"chinese food
-"
-inform,"it doesnt matter dear
+inform,"i dont care
 "
 inform,"african food please
 "
-inform,"chinese food
+inform,"id like a international restaurant in the north part of town
 "
-inform,"im looking for an expensive restaurant in the south part of town
-"
-inform,"does not matter
+inform,"cheap restaurant serving chinese food
 "
 inform,"i want a moderately priced restaurant in the west part of town
 "
 inform,"restaurant in the south
 "
-inform,"expensive restaurant
+inform,"a moderately priced restaurant
 "
-inform,"im looking for an expensive restaurant in the
+inform,"any part of town
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"i want to find a moderately priced restaurant on the east p
+inform,"breath id like a cheap restaurant in the south part of town
 "
-inform,"moderate restaurant
+inform,"im looking for world food
 "
-inform,"austrian
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for expensive restaurants in the east part of town
+inform,"im looking for a restaurant in the north part of town serving
 "
-inform,"it doesnt matter
+inform,"kosher for in the central
 "
-inform,"im looking for a restaurant that serves mexican food
+inform,"i dont care
 "
-inform,"unusual food
+inform,"im looking for barbecue food
 "
-inform,"moderately priced west of town
+inform,"im looking for a restaurant serving venetian food
 "
-inform,"moderately priced restaurant in north part of town
+inform,"breath unusual food
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"food
 "
-inform,"corsica food
+inform,"ringing i need a moderately priced restaurant
 "
-inform,"im looking for a restaurant in the south part of town that serves christmas food
+inform,"is there one serving european type food
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"turkish
+inform,"gastropub food
 "
-inform,"the east part of town
+inform,"west part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"looking for a restaurant in the south part of town with german food
+inform,"i dont care
 "
-inform,"it serves turkish food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"cuban food
+inform,"food
 "
-inform,"i do not care
+inform,"again i do not care
 "
-inform,"i do not care
+inform,"are there mediterranean restaurants in the center of town
 "
-inform,"cuban food
+inform,"are there mediterranean restaurants in the center of town
 "
-inform,"looking for mediterranean food uh west side of town
+inform,"i dont care
 "
-inform,"basque food
-"
-inform,"portuguese type of food
-"
-inform,"im looking for a restaurant in the east part of town that serves british food
+inform,"west part of town
 "
 inform,"expensive restaurant european food
 "
@@ -1155,3075 +1519,2199 @@ inform,"british food in the west part of town
 "
 inform,"british food in the west part of town
 "
-inform,"i am looking for a restaurant in the east part of town
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the north part of town serving international food
+inform,"i dont care
 "
-inform,"im searching for a chinese restaurant
+inform,"i dont care
 "
-inform,"dont care whats the phone number
+inform,"any part of town
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"find me italian food
 "
-inform,"um asian oriental restaurant
+inform,"um it doesnt matter
 "
-inform,"uh italian
+inform,"i dont care
 "
-inform,"uh italian
+inform,"i dont care
 "
-inform,"cheap restaurant in th east part of town
+inform,"i dont care
 "
-inform,"cheap restaurant in th east part of town
+inform,"food
 "
-inform,"unusual food
+inform,"i want to find a restaurant moderately priced in the south part of town
 "
-inform,"unusual food
+inform,"im looking for belgian food in the south part of town
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant serving creative food
+inform,"i dont care
 "
-inform,"anything is fine
+inform,"vietnamese
 "
-inform,"restaurant in the south part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for european food
+inform,"a moderately priced restaurant
 "
-inform,"im looking for an african restaurant
+inform,"gastropub food
 "
-inform,"looking for romanian food in the east part of town
+inform,"food
 "
-inform,"chinese food
+inform,"west part of town
 "
-inform,"in the west
+inform,"west part of town
 "
-inform,"halo food
+inform,"west part of town
 "
-inform,"chinese food
+inform,"restaurant in the west part of town
 "
-inform,"i need to find a restaurant in the west part of town that serves chinese food
+inform,"west part of town
 "
-inform,"a restaurant in the south part of town hungarian food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"moderately
 "
-inform,"chinese food
+inform,"moderately
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"modern european food
 "
-inform,"modern european
+inform,"irish food in the south part of town
 "
-inform,"lebanse
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i need lebanese food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"uh low price range
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"the north part
 "
-inform,"im looking for a restaurant in any area that serves persian food
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"restaurant in west part of town
 "
-inform,"looking for a cheap restaurant
+inform,"restaurant in west part of town
 "
-inform,"can i have a moderately priced restaurant in the south part of town
+inform,"i dont care
 "
-inform,"i want to find a restaurant in the center and it should serve vietnamese food
+inform,"i dont care
 "
-inform,"does not matter
+inform,"i am looking for an expensive restaurant in the south part of town
 "
-inform,"i am looking for a restaurant in the center
+inform,"i dont care
+"
+inform,"modern european food
+"
+inform,"modern european food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking for a cheap restaurant serving mediterranean food
+"
+inform,"i want to find a restaurant in the west part of town
+"
+inform,"im looking for a moderately priced restaurant that serves labenese food
+"
+inform,"im looking for a restaurant in the center and it should serve swedish food
+"
+inform,"i dont care
+"
+inform,"modern european food
 "
 inform,"uh that serves catalan food
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"want a caribbean restaurant thats moderately priced
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"and the north
+inform,"australian food
 "
-inform,"expensive restaurant
+inform,"im looking for cheap polynesian food
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"looking for a restaurant in the north side of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"unusual food
+inform,"any part of town
 "
-inform,"north part of town
+inform,"can i find something in the south side
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"im looking for a moderately priced resturant in the east part of town
+inform,"moderately
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for cheap restaurants in the north part of town
+inform,"vietnamese
 "
-inform,"i would like to find a restaurant in any area serving international food
+inform,"i dont care
 "
-inform,"restaurant in the east part of town
+inform,"im looking for a turkish food restaurant
 "
-inform,"the east part of town
+inform,"i dont care
 "
-inform,"turkish
+inform,"hungarian food
 "
-inform,"i cant answer in spanish
+inform,"hungarian food
 "
-inform,"chinese food
+inform,"hungarian food
 "
-inform,"i do not care
+inform,"food
 "
-inform,"the east part of town
+inform,"hungarian food
 "
-inform,"it doesnt matter
+inform,"hungarian food
 "
-inform,"looking in the west of town moderately priced
+inform,"i dont care
 "
-inform,"the east part of town
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i need a restaurant in any area with swedish food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"can you find me a place that has thai food
+inform,"i dont care
+"
+inform,"uh center
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"italian food west part of town
+"
+inform,"breath do you have danish restaurants
 "
 inform,"that serves indian food
 "
-inform,"looking for a restaurant in any area
+inform,"food
 "
-inform,"restaurant in the south part of town
+inform,"is there one that serves asian oriental food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"any restaurant that serves moroccan food
 "
-inform,"jamcian food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"im looking for a expensive restaurant that serves vegetarian food
 "
-inform,"i need an expensive restaurant
+inform,"west part of town
 "
-inform,"a spanish restaurant in the center
+inform,"mexican food
 "
-inform,"can i have a restaurant in the center
+inform,"sells english food
 "
-inform,"can i have a restaurant in the center
+inform,"i need to know if there are any restaurants serving turkish food
 "
-inform,"can i have a restaurant in the center
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"north part of town
+inform,"what about irish food
 "
-inform,"turkish food any area
+inform,"it does not matter
 "
-inform,"looking for a cheap restaurant in the north part of town
+inform,"it does not matter
 "
-inform,"im looking for a cheap restaurant that serves welsh food
+inform,"it does not matter
 "
-inform,"noise hungarian
+inform,"i dont care
 "
-inform,"turkish food any price range
+inform,"i dont care
 "
-inform,"i want i want indian food
+inform,"i dont care
 "
-inform,"west side
+inform,"a restaurant
 "
-inform,"it doesnt matter
+inform,"restaurant serving spanish food
 "
-inform,"north part of town
+inform,"hungarian food
 "
-inform,"looking for something cheap on the east part of town
+inform,"i dont care
 "
-inform,"moderately priced south of town
+inform,"vietnamese
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"may i have an expensive restaurant
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"vietnamese
 "
-inform,"african
+inform,"vietnamese
 "
-inform,"african
+inform,"west part of town
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"vietnamese
 "
-inform,"in the west
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"catalonia in the east part of town
+"
+inform,"i dont care
+"
+inform,"id like a moderately priced restaurant in the west part of town
+"
+inform,"i dont care
+"
+inform,"im looking for a restaurant in the south part of town that serves creative food
+"
+inform,"i dont care
+"
+inform,"i would like an expensive restaurant in the south part of town
+"
+inform,"italian food west part of town
+"
+inform,"i dont care
 "
 inform,"cheap food
 "
 inform,"cheap food
 "
-inform,"north part of town
+inform,"food
 "
-inform,"north part of town
+inform,"i want a moderately priced restaurant
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"in the moderately price range
+inform,"greek restauran
 "
-inform,"is there greek greek food in the moderately price range
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i would like irish food in the north part of town
 "
-inform,"crossover food
+inform,"i dont care
 "
-inform,"i do not care
+inform,"i dont care
 "
-inform,"i want italian food
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"modern european food
 "
-inform,"uh cheap moderate
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"i want some british food
+inform,"i want an expensive restaurant in the east part of town
 "
-inform,"i need a restaurant in the west part of town that serves crossover food
+inform,"modern european food
 "
-inform,"scottish
+inform,"persian restaurant in the north part of town
 "
-inform,"i do not care
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i would like a restaurant in the south part of town
 "
-inform,"it doesnt matter
-"
-inform,"the centre
-"
-inform,"north part of town
-"
-inform,"traditional food
-"
-inform,"i do not care
-"
-inform,"it doesnt matter
-"
-inform,"chinese food
-"
-inform,"chinese food
-"
-inform,"expensive restaurant
-"
-inform,"cuban food
+inform,"moderately
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"food
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"spanish restaurant in the south part of town
+inform,"i dont care
 "
-inform,"any spanish
+inform,"kosher food
 "
-inform,"yea im looking for a restaurant in the moderate price range serving vietnamese food
+inform,"i dont care
 "
-inform,"a cheap restaurant and it should be in the west part of town
+inform,"food type
 "
-inform,"um any time of european type food
+inform,"serve persian food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"the east part of town
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i am looking for a british restaurant
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"english
+inform,"west part of town
 "
-inform,"im looking for a restaurant that serves african food
+inform,"how bout european
 "
-inform,"chinese food
+inform,"uh i dont care
 "
-inform,"african
+inform,"i dont care
 "
-inform,"african
+inform,"i dont care
 "
-inform,"im looking for european food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"german food
+inform,"id like thai food please
 "
-inform,"chinese food
+inform,"breath i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"uh i dont care
 "
-inform,"i need a vietnamese restaurant
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"id like a moderately priced restaurant that serves thai food
 "
-inform,"looking for a cheap restaurant in the north part of town
+inform,"vietnamese
 "
-inform,"south part of town persian food
+inform,"im looking for a restaurant in the south part of town and it should serve chinese food
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"i dont care
 "
-inform,"um im looking for an expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"south part
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"any part of town
 "
-inform,"oriental food
+inform,"im looking for a restaurant in the north part of town that serves traditional food
+"
+inform,"any part of town
+"
+inform,"i dont care
+"
+inform,"need a cheap restaurant
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"food
+"
+inform,"food
+"
+inform,"expensive indonesian
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"food
 "
 inform,"i need asian food
 "
-inform,"looking for a restaurant in the north part of the town that serves british food
+inform,"food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"can i get a restaurant in the center
 "
-inform,"chinese food
+inform,"restaurant in the south part of town serving turkish food
 "
-inform,"chinese food
+inform,"food
 "
-inform,"chinese food
+inform,"any part of town
 "
-inform,"chinese foo
+inform,"food
 "
-inform,"chinese foo
+inform,"food
 "
 inform,"is there an expensive restaurant that serves korean food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"im looking for a moderately priced restaurant in the west part of town
+inform,"vietnamese
 "
-inform,"im looking for a restaurant in any area that serves cantonese food
+inform,"vietnamese
 "
-inform,"breath i am looking for a restaurant in any area that serves gastropub type of food
+inform,"vietnamese
 "
-inform,"it doesnt matter
+inform,"vietnamese
 "
-inform,"id like a cantonese resturant in the south part of town
+inform,"vietnamese
 "
-inform,"chinese food
+inform,"world
 "
-inform,"i need a cheap restaurant that serves romanian food
+inform,"vietnamese
 "
-inform,"chinese food
+inform,"food
 "
-inform,"chinese food
+inform,"vietnamese
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"vietnamese
 "
-inform,"it doesnt matter
+inform,"vietnamese
 "
-inform,"i want a jamaican food restaurant in the center part of town
+inform,"vietnamese
 "
-inform,"polynesian
+inform,"vietnamese
 "
-inform,"polynesian
+inform,"vietnamese
 "
-inform,"uh italian
+inform,"indian indian food in the east part of town
 "
-inform,"north part of town
+inform,"indian indian food in the east part of town
 "
-inform,"im looking for a restaurant in any area
-"
-inform,"im looking for restaurant that serves chinese food
-"
-inform,"it doesnt matter
-"
-inform,"im looking for a restaurant in the north part of town serving kosher food
-"
-inform,"yea im looking for an expensive restaurant in the south part of town
-"
-inform,"im looking for an expensive restaurant in the south part of town
-"
-inform,"moderately priced moderately priced
-"
-inform,"id like a greek restaurant in the east part of town
-"
-inform,"turkish
-"
-inform,"i do not care
-"
-inform,"ok i want vietnamese
-"
-inform,"uh it doesnt matter
-"
-inform,"i want a restaurant that serves french food
-"
-inform,"breath i want to find a restaurant in the north part of town
-"
-inform,"fine i want restaurant in the north part of town
-"
-inform,"it doesnt matter
-"
-inform,"im looking for a restaurant in the west part of town that serves moroccan food
-"
-inform,"is there one that serves indian food
-"
-inform,"im looking for a restaurant that serves swiss food
-"
-inform,"id like an expensive restaurant that serves mediteranean food
-"
-inform,"expensive restaurant in the east part of town
-"
-inform,"im looking for a restaurant that serves african food
-"
-inform,"ese food
-"
-inform,"lebanese food
-"
-inform,"im looking for european food
-"
-inform,"lebanese food
-"
-inform,"um in the south part of town and its cheap
-"
-inform,"modern european
-"
-inform,"looking for a cheap restaurant in the south part of town
-"
-inform,"um it doesnt matter its for a cheap restaurant
-"
-inform,"venetian
-"
-inform,"venetian
-"
-inform,"uh it doesnt matter
-"
-inform,"im looking for a cheap restaurant in the north part of town
-"
-inform,"chinese food
-"
-inform,"chinese food
-"
-inform,"it doesnt matter
-"
-inform,"im looking for swedish food
-"
-inform,"in the west
-"
-inform,"im looking for a cheap restaurant in the east part of town
-"
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i need a restaurant serving asian oriental in the north part of town
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"north part of town
+inform,"is there any serving spanish food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i am looking for a restaurant in any area and it should serve barbecue food
 "
-inform,"im looking for a restaurant in the west part of town that serves jamaican food
+inform,"gastropub type of food
 "
-inform,"mexican
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"im looking for halal food
 "
-inform,"jamaican
+inform,"i dont care
 "
-inform,"jamaican
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"im looking for a restaurant in the south part of town that serves european food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"jamaican food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"id like a cheap restaurant on the south of town
+"
+inform,"i dont care
+"
+inform,"moderately priced restaurant in the south of town
+"
+inform,"id like a moderately priced restaurant in the west part of town
+"
+inform,"i dont care
+"
+inform,"gastropub food
+"
+inform,"next restaurant
+"
+inform,"vietnamese
+"
+inform,"i dont care
+"
+inform,"modern european food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"im looking for a moderately priced restaurant that serves vietnamese food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"vietnamese
+"
+inform,"vietnamese
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"polish
+"
+inform,"the turkiesh food
+"
+inform,"i dont care
+"
+inform,"im looking for a korean restaurant in the expensive price range
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"food type
+"
+inform,"i want a restaurant in the center of town
+"
+inform,"im looking for lebanese food
+"
+inform,"i dont care
+"
+inform,"im looking for world food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking for a restaurant that
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"im looking for belgian food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"expensive restaurant serving world food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"what about a spanish restuarant
+"
+inform,"i dont care
+"
+inform,"i want malaysian food in any area
+"
+inform,"i need a moderately priced restaurant serving fusion food
+"
+inform,"anywhere
+"
+inform,"pan asian food
+"
+inform,"pan asian food
+"
+inform,"pan asian food
+"
+inform,"anywhere
+"
+inform,"international
+"
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"food
+"
+inform,"food
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"hungarian food
+"
+inform,"i dont care
+"
+inform,"im looking for a moderately priced restaurant in the west part of town
+"
+inform,"west part of town
+"
+inform,"west part of town
+"
+inform,"expensive restaurant serving portuguese food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"jamaican food
+"
+inform,"jamaican food
+"
+inform,"jamaican food
+"
+inform,"i dont care
 "
 inform,"i want a moderately priced restaurant in the west part of town
 "
+inform,"i dont care
+"
+inform,"i dont care
+"
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"jamaican
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"jamaican food
+"
+inform,"jamaican food
 "
 inform,"im looking for a restaurant in the south of town serving chinese food
 "
-inform,"cuban food
-"
-inform,"i do not care
+inform,"i dont care
 "
 inform,"i want a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"food
 "
-inform,"the east part of town
+inform,"i want to find a cheap re
 "
-inform,"i would like a cheap restaurant
-"
-inform,"im looking a restaurant in the east part of town
+inform,"i want to find a moderately priced restaurant and it should serve asian food
 "
 inform,"what about modern european type food
 "
-inform,"modern european
+inform,"i dont care
 "
-inform,"cross over
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"im looking for a expensive restaurant in the east part of town
+"
+inform,"food
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"the south part
 "
 inform,"um an expensive
 "
-inform,"what about a chinese restaurant in the north of town
+inform,"i dont care
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"im looking for a restaurant
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the north part of town serving italian type of food
+inform,"i dont care
 "
-inform,"looking for afghan good
+inform,"i dont care
 "
-inform,"un unusual food
+inform,"romanian
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"west part of town
 "
-inform,"i do not care
-"
-inform,"im looking for a cheap restaurant in the north part of town
-"
-inform,"it doesnt matter
+inform,"pan asian food
 "
 inform,"cheap restaurant that serves german food
 "
-inform,"i do not care
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"moderately
 "
-inform,"modern european
+inform,"im looking for a restaurant in the east part of the town with indian asian food
 "
-inform,"lebanese food
+inform,"i dont care
 "
-inform,"restaurant in the north part of town that serves hungarian food
+inform,"i want a moderate priced restaurant in the south of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"in the west
+inform,"west part of town
 "
-inform,"in the west
+inform,"i dont care
 "
-inform,"can i find a restaurant that serves international food
+inform,"i dont care
 "
-inform,"ah centre
+inform,"i dont care
 "
-inform,"the centre
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"west part of town
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"fusion food
 "
-inform,"i want a cheap restaurant that serves unusual food
+inform,"vietnamese
 "
-inform,"north part of town
+inform,"west part of town
 "
-inform,"pub
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"im looking for a restaurant that serves danish food
+inform,"looking for an expensive restaurant in the south part of town
 "
-inform,"im looking for a restaurant
+inform,"i dont care
 "
-inform,"i do not care
+inform,"im looking for a restaurant in the south part of town and danish food
 "
-inform,"the east part of town
+inform,"i dont care
 "
-inform,"moderately priced food
+inform,"i dont care
 "
-inform,"moderately priced food
+inform,"i dont care
 "
-inform,"the east part of town
+inform,"i dont care
 "
-inform,"noise ah gastropub food
+inform,"west part of town
+"
+inform,"i dont care
+"
+inform,"world
+"
+inform,"i dont care
+"
+inform,"um english
+"
+inform,"i dont care
+"
+inform,"any part of town
+"
+inform,"any range is fine
+"
+inform,"i dont care
+"
+inform,"european food any price
+"
+inform,"uh indian
+"
+inform,"uh indian
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"food
+"
+inform,"i would like a cheap restaurant in the north part of town
+"
+inform,"i dont care
 "
 inform,"i want a moderately priced restaurant in the west part of town
 "
-inform,"i am looking for a restaurant in the center that serves korean food
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"that serves corsica
+inform,"i dont care
 "
-inform,"id like a restaurant in the north part of town that serves cross over food
+inform,"food
 "
-inform,"i want a restaurant in the west part of town that serves australian food
+inform,"any part of town
 "
-inform,"i want italian food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"uh cheap restaurant in north part of town
+inform,"west part of town
 "
-inform,"i want a british restaurant in the east part of town
+inform,"food type
+"
+inform,"cheap resataurant serving unintelligible food
+"
+inform,"uh i want cantonese food
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"im looking for vietnamese food
+inform,"i dont care
 "
-inform,"i want a restaurant serving greek food
+inform,"i dont care
+"
+inform,"im looking for corsica food
 "
 inform,"i want a korean restaurant
 "
-inform,"yea im looking for a really cheap restaurant in the east part of town
+inform,"i dont care
 "
 inform,"im looking for a restaurant in the south part of town serving austrian food
 "
-inform,"there is no such venue harbor indian type of food
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the south part of town serving indian type of food
+inform,"i dont care
 "
-inform,"im looking for moroccan food
+inform,"i dont care
 "
-inform,"find a cheap restaurant
+inform,"i dont care
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"unusual food
+inform,"i dont care
 "
-inform,"i need a cheap restaurant in the south part of town
+inform,"i dont care
 "
-inform,"im looking for a restaurant that serves japanese food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"restaurant in the south part of town
+inform,"i dont care
 "
-inform,"west side
+inform,"i dont care
 "
-inform,"uh it doesnt matter
+inform,"i dont care
 "
-inform,"polynesian
+inform,"moderate priced restaurant in the north part of town
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"west side
+inform,"i dont care
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"cheap restaurant that serves vegetarian food
+inform,"i dont care
 "
-inform,"restaurant that serves can canapes food
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"im looking for something cheap
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"moderately
+"
+inform,"south part
 "
 inform,"i want to find a restaurant that serves world food
 "
-inform,"im looking for um
+inform,"i dont care
 "
-inform,"im looking for um
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"im looking for a restaurant in any area
+inform,"pan asian food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"modern european
+inform,"any part of town
 "
-inform,"uh italian
+inform,"i dont care
 "
-inform,"i want to find a restaurant in the north part of town
+inform,"i dont care
 "
-inform,"unusual food
+inform,"is there anything in the cheap price range
 "
-inform,"modern european
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"looking for an expensive restaurant in the south part of town
+"
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"west part of town
+"
+inform,"any part of town
 "
 inform,"im looking for a moderately priced restaurant that serves traditional food
 "
-inform,"it doesnt matter
+inform,"im looking for a moderately priced restaurant that serves spanish food
 "
-inform,"crossover food
+inform,"i dont care
 "
-inform,"modern european
+inform,"i dont care
 "
-inform,"i would like modern european food
+inform,"i dont care
 "
-inform,"i would like modern european food
+inform,"vietnamese
 "
-inform,"i would like modern european food
+inform,"i dont care
 "
-inform,"restaurant in west part of town serving corsica food
+inform,"i dont care
 "
-inform,"i need a moderate priced restaurant in the north part of town
+inform,"modern european food
 "
-inform,"im looking for a chinese restaurant
+inform,"modern european food
 "
-inform,"expensive restaurant
+inform,"im looking for an italian restaurant in the east part of town
 "
-inform,"expensive restaurant
+inform,"west part of town
 "
-inform,"east part
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"catalan
+inform,"moderately priced restaurant in the west part of town
 "
-inform,"catalan
+inform,"moderately priced restaurant in the west part of town
+"
+inform,"the north part
+"
+inform,"i dont care
+"
+inform,"i dont care
+"
+inform,"moderately priced serving gastro pub
+"
+inform,"it does not matter
+"
+inform,"food type
 "
 inform,"catalanian
 "
-inform,"moderately priced restaurant that serves creative food
+inform,"i dont care
 "
-inform,"uh it doesnt matter
+inform,"i dont care
 "
-inform,"id like to find a restaurant that serves afghan food
+inform,"gastropub food
 "
-inform,"serves british food
+inform,"food
 "
-inform,"it doesnt matter
+inform,"moderately
 "
-inform,"corsica food
+inform,"the south part
 "
-inform,"corsica food
+inform,"any part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"unusual food
+inform,"uh i dont care
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"im looking for a restaurant that serves gastropub food any price range
+inform,"moderately
 "
-inform,"east part
+inform,"i dont care
 "
-inform,"moderately priced food
+inform,"international
 "
-inform,"im looking for a unintelligible food
+inform,"food
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"scottish
+inform,"i dont care
 "
-inform,"north part of town
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the east part that serves creative food
+inform,"vietnamese
 "
-inform,"expensive restaurant
+inform,"food
 "
-inform,"venetian
+inform,"vietnamese
 "
-inform,"venetian
+inform,"vietnamese
 "
-inform,"okay then any part of town
+inform,"in cheap restaurant
 "
-inform,"restaurant any area japanese food
+inform,"id like a moderately priced restaurant in the west part of town
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"not korean unintelligible
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"south part
 "
-inform,"catalan
+inform,"west part of town
 "
-inform,"catalan
+inform,"i dont care
 "
-inform,"jamaican
+inform,"moderate price range please
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"east part
+inform,"any part of town
 "
-inform,"a chi ok lets look for chinese restaurant
+inform,"i dont care
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"jamcian food
+inform,"im looking for something in the west side
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"chinese food
+inform,"i dont care
 "
-inform,"chinese food
+inform,"south part
 "
-inform,"chinese food
+inform,"gastropub food
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"food
 "
-inform,"uh it doesnt matter
+inform,"romanian
 "
-inform,"north part of town
+inform,"jamaican food
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"food type
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
-inform,"im trying to find a cheap restaurant in the east of town
+inform,"jamaican food
 "
-inform,"traditional food
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"jamaican food
 "
-inform,"serving romania food
+inform,"jamaican food
 "
-inform,"modern european
+inform,"im looking for a restaurant in the north part of town that serves european food
 "
-inform,"in the east of town
+inform,"romanian
 "
-inform,"it doesnt matter
+inform,"moderately
 "
-inform,"id like a restaurant in the center that serves mediterranean food
+inform,"moderately
 "
-inform,"a restaurant in the center that serves mediterranean food
+inform,"moderately
 "
-inform,"traditional food
+inform,"moderately
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"expensive restaurant
+inform,"i dont care
 "
-inform,"catalan
+inform,"romanian
 "
-inform,"venetian
+inform,"food
 "
-inform,"im looking for a restaurant in the west part of town that should serve english food
-"
-inform,"english
-"
-inform,"turkish
-"
-inform,"turkish
-"
-inform,"im looking for swedish food
-"
-inform,"it doesnt matter
-"
-inform,"im looking for a restaurant that serves mexican food
+inform,"i dont care
 "
 inform,"do you have christmas food
 "
-inform,"looking for a cheap restaurant
+inform,"i dont care
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"food
 "
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"food
 "
-inform,"european type of food
+inform,"i want to find a moderately priced restaurant that serves vietnamese food
 "
-inform,"irish fdod
+inform,"i dont care
 "
-inform,"modern european
+inform,"expensive restaurant in the south
 "
 inform,"would like expensive
 "
-inform,"christmas food west of town
+inform,"i dont care
 "
-inform,"looking for a sea food restaurant
+inform,"i want an expensive restaurant in the east part of town
 "
-inform,"uh it doesnt matter
+inform,"i dont care
 "
-inform,"i dont care bye
+inform,"um do not care
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"um it doesnt matter
 "
-inform,"is there any that serve european food
+inform,"um im looking for a cheap restaurant
 "
-inform,"in the center of town
+inform,"vietnamese
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"restaurant in the west part of town
 "
-inform,"north part of town
+inform,"find restaurant in north part of town serving asian food
 "
-inform,"i want an irish restaurant thats expensive
+inform,"i dont care
 "
-inform,"serving mexican food
+inform,"do you have jamaican restaurant
 "
-inform,"venue
+inform,"restaurant in the west part of town
 "
-inform,"polynesian
+inform,"i am looking for an expensive restaurant on the east part of town
 "
-inform,"its in the south
+inform,"any food that serves any restaurant thats expensive
 "
-inform,"expensive french food
+inform,"moderately priced restaurant in the west
 "
-inform,"i want french food
+inform,"romanian
 "
-inform,"expensive restaurant
+inform,"im looking for a restaurant that serves scandinavian food
 "
-inform,"lebanese food
+inform,"restaurant in any area
 "
-inform,"turkish
+inform,"moderately
 "
-inform,"mexican
+inform,"food from thailand
 "
-inform,"do you have cuban food
+inform,"mexican food
 "
-inform,"it doesnt matter
+inform,"i dont care
 "
-inform,"indian food in the south
+inform,"im looking for a restaurant in north part of town serving austrian food
 "
-inform,"chinese food
+inform,"im looking for a restaurant in the south part of town that serves greek food
 "
-inform,"expensive french food
+inform,"i dont care
 "
-inform,"moderately priced north part of town
-"
-inform,"im looking for an expensive restaurant in the south part of town
+inform,"i dont care
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"i would like a cheap restaurant in the north part of town
 "
-inform,"modern european type food
+inform,"i want to find a restaurant that serves french food
 "
-inform,"looking for a cheap restaurant in the north part of town
+inform,"a cheap restaurant serving mexican food
 "
-inform,"im looking for a world food restaurant in the east part of town
+inform,"im looking for an expensive restaurant that serves
 "
-inform,"expensive restaurant
+inform,"moderately
 "
-inform,"is there any expensive restaurant
+inform,"mexican food
 "
-inform,"north part of town
+inform,"is there one in the west area
 "
-inform,"im looking for a cheap restaurant in the north part of town
+inform,"mexican food
 "
-inform,"im looking for a moderately priced restaurant in the west part of town
-"
-inform,"uh cheap restaurant serving scandinavian food
-"
-inform,"i need an expensive restaurant that serves french food
-"
-inform,"it doesnt matter
-"
-inform,"i need a cheap restaurant serving italian food
-"
-inform,"chinese food
-"
-inform,"im looking for a restaurant in the west part of town that serves christmas food
+inform,"mexican food
 "
 inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"im looking for a cheap vietnamese restaurant
+inform,"i want to find a moderately priced restaurant in the south part of time
 "
-inform,"im looking for a vietnamese restaurant
+inform,"im looking for a restaurant in the south part of town it should serve kosher food
 "
-inform,"chinese food
+inform,"i would like a restaurant
 "
-inform,"lebanese food
+inform,"i dont care
 "
-inform,"i would like afghan food
+inform,"eritrean food in the east part of town
 "
-inform,"im looking for a restaurant in the center and it should serve traditional food
+inform,"i dont care
 "
-inform,"traditional food
+inform,"im looking for a moderately priced restaurant in the west part of town
 "
-inform,"chinese food
+inform,"cheap restaurant portuguese
 "
-inform,"turkish
+inform,"i dont care
 "
-inform,"im looking for a restaurant in the west
+inform,"i dont care
 "
-inform,"looking for a restaurant that serves turkish food
+inform,"i dont care
 "
-inform,"im looking for a restaurant
+inform,"i dont care
 "
-inform,"im looking for a cheap restaurant in the east part of town
+inform,"food
+"
+inform,"i dont care
+"
+inform,"looking for caribbean food
 "
 inform,"im sorry im looking for a moderate priced restaurant
 "
-inform,"i want a cheap restaurant that serves cuban food
+inform,"i dont care
 "
-inform,"trying to find a cheap restaurant
+inform,"korean food price range
 "
-inform,"im looking for korean food any price range
+inform,"i dont care
 "
-inform,"traditional food
+inform,"i dont care
 "
-inform,"noise food
+inform,"food
 "
-inform,"expensive restaurant in the east part of town
+inform,"food
 "
-inform,"north part of town
+inform,"west part of town
 "
-affirm,"yes
+inform,"west part of town
 "
-affirm,"yes
+inform,"i would like an expensive asian food restaurant
 "
-affirm,"yes
+inform,"moderately
 "
-affirm,"yes
+inform,"moderately
 "
-affirm,"yes
+inform,"tailand
 "
-affirm,"yes
+affirm,"uh yes i want to find a restaurant in the north part of town that serves
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
+affirm,"yes hi im looking for a restaurant in the north
 "
 affirm,"yes in the south of town
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"perfect
 "
 affirm,"ah yes can i get a restaurant that serves french food
 "
-affirm,"yes
+affirm,"yes danish food
 "
-affirm,"yes
+affirm,"yes creative food
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yes west part of town
 "
 affirm,"ah yes im looking for persian food and i dont care about the pri
 "
-affirm,"yes
+affirm,"ah yes im looking for persian food though
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"right
+affirm,"yeah
 "
-affirm,"yes
+affirm,"right in the south part of town
 "
-affirm,"yes
+affirm,"yes in the cheap price range
 "
-affirm,"yes
+affirm,"yeah can i um
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yea
 "
 affirm,"ok yeah
 "
-affirm,"yes
+affirm,"yes can i have an expensive restaurant
 "
-affirm,"right
+affirm,"yes im looking for an expensive restaurant and it should serve
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"uh yes can i find an expensive restaurant that serves italian food
 "
-affirm,"yes
+affirm,"uh huh
 "
-affirm,"yes
+affirm,"yes im looking for english food
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yes a restaurant in the east of town unintelligible serving canap
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yes spanish food
 "
-affirm,"yes
+affirm,"yes can i have a moderate priced restaurant
 "
-affirm,"yes
+affirm,"yes im looking for a restaurant in the north part of town
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yes indian food
 "
-affirm,"right
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yes moderately priced
 "
-affirm,"yes
+affirm,"uh yes i am looking for an expensive restaurant in the south part of
 "
-affirm,"right
+affirm,"yes im looking for a
 "
-affirm,"right
+affirm,"yes indian food
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yes cheap restaurant
 "
-affirm,"yes
+affirm,"yes im looking for a restaurant in the north part of town
 "
-affirm,"yes id like to find a cheap
+affirm,"ye
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes barbecue food
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yea
 "
 affirm,"uh yes i would like a restaurant in the center and it should serve jamaica
 "
-affirm,"yes
+affirm,"yea in the east part of town
 "
-affirm,"right
+affirm,"uh yes can i get the address
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"in the center yes
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yeah im looking for a moderately priced restaurant
 "
-affirm,"yes
+affirm,"yes can i have restaurants serving
 "
-affirm,"yes
+affirm,"uh yes turkish food
 "
-affirm,"yes
+affirm,"yes a moderately priced restaurant
 "
-affirm,"yes
+affirm,"uh yes an expensive restaurant
 "
-affirm,"yes
+affirm,"yes id like hungarian food in the south part of town
 "
-affirm,"yes
+affirm,"yeah i need um um m
 "
-affirm,"yes
+affirm,"yea im wondering if theres a steak house restaurant in the north part of
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"uh yes im looking for a restaurant in the center that serves lebanese food
 "
-affirm,"yes
+affirm,"noise yes
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes italian food
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"uh yes im looking for an expensive restaurant that serves korean food
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yes iam looking for a cheap restaurant in the south part of town
 "
 affirm,"yes mexican food
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yes serving cuban food
 "
 affirm,"breath correct
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"right that serves italian food
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yes please can i have the address and the price range of the restaurant please
 "
-affirm,"right
+affirm,"yes that serves british food
 "
-affirm,"right
+affirm,"yea in the west part of town
 "
-affirm,"yes
+affirm,"yes can i get an expensive restaurant in the south part of town
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"right
+affirm,"uh yes that serves mediterranean food
 "
-affirm,"right
+affirm,"yes it should be in the east part of town
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes i am currently in the north part of town and im looking to see if theres any restaurant that serves brazilian food
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"oh god uh yes mediterranean food
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yes indian food
 "
 affirm,"yes cheap
 "
-affirm,"yes
+affirm,"yea you can give me the address
 "
-affirm,"yes
+affirm,"uh yes id like a restaurant in the west part of town and it should serve christmas food
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yes id like a restaurant in the east part of town that serves indian food
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yes yes
 "
-affirm,"yes
+affirm,"yes serving chinese food
 "
-affirm,"yes
+affirm,"right in the south side of town though
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yes cheap spanish restaurant
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"uh yes i would like a restaurant in the south
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah im looking for a restaurant in the south part of town that serves international food
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yes i would like to know the address
 "
-affirm,"yes
+affirm,"thats correct
 "
-affirm,"yes
+affirm,"yea the area
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"uh yes can i find a moderately priced restaurant and it serve it should serve brazilian food
 "
-affirm,"yes
+affirm,"yes yes
 "
-affirm,"yes
+affirm,"uh yes im looking for a cheap restaurant that serves medetanian food
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"right
+affirm,"yea
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes in the south part of town
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yes in the moderately priced
 "
 affirm,"yes south part of town
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yes right
 "
-affirm,"yes
+affirm,"yes that serves korean food
 "
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"right on good bye peace
 "
 affirm,"uh yes im looking for malaysian food
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
+affirm,"yes can i have can i get swedish food in any area
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"yea
 "
 affirm,"yes spanish restaurant
 "
-affirm,"yes
+affirm,"thats correct gastropub food
 "
-affirm,"yes
+affirm,"yes and in french please
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yeah
 "
-affirm,"yes
+affirm,"yes i am in the east part of town right now and i am looking for any place that serves indonesian food
 "
-affirm,"yes
+affirm,"uh yes can i find a restaurant in the east part of town that serves chinese
 "
-affirm,"yes italian food
+affirm,"uh huh
 "
-affirm,"yes
+affirm,"yes cheap restaurant
 "
-affirm,"yes barbecue food
+affirm,"yea whats the address
 "
-affirm,"yes
+affirm,"yes could you recommend me a place that serves british food in a moderate price range
 "
-affirm,"right
+affirm,"yes address
 "
-affirm,"yes
+affirm,"yes i would like portuguese food
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"yes the address
 "
-affirm,"yes
+affirm,"yea
 "
-affirm,"yes
+affirm,"ye
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"right
-"
-affirm,"right
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
+affirm,"uh yeah can i find a restaurant in the south part of town serving turkish food
 "
 affirm,"yes african food
 "
-affirm,"yes
-"
-affirm,"yes
+affirm,"uh yes iam looking for a british type of food restaurant
 "
 affirm,"unintelligible yeah what about thai food
 "
-affirm,"yes
+affirm,"uh yes im looking for a belgian restaurant in new york city
 "
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-affirm,"yes
-"
-request,"phone
+request,"can i get the address and phone number
 "
 request,"what is the post code
 "
 request,"what is the post code
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"can i get the address tv_noise
+"
+request,"what is the phone number
+"
+request,"and what type of whats the phone number
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"may i have a phone number and postcode
+"
+request,"may i have the postcode
+"
+request,"what is the phone number
 "
 request,"what part of town is it located
 "
-request,"may i have the address
+request,"whats its price range
 "
-request,"thank you can i have the address phone number
+request,"can i have the phone number
 "
-request,"what about the address
+request,"what is the phone number
 "
-request,"could i have the address and phone number
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"okay and whats the post code
+"
+request,"okay and uh the phone number
+"
+request,"and the post code
+"
+request,"what about the phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"could i have the phone number
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"kind i have the address
 "
 request,"uh whats the address and the phone number
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"uh can i have the address
+request,"what is the phone number
 "
-request,"and phone number
+request,"and the post code
 "
-request,"what about the address
+request,"could i have the phone number
 "
-request,"what is their address
+request,"what is the phone number
 "
-request,"whats the postcode
+request,"what is the phone number
 "
-request,"the area
+request,"what is the phone number
 "
-request,"the area
+request,"may i have the address and phone number
 "
-request,"what is the post code
+request,"and the post code
 "
-request,"what is the post code
+request,"can i have the phone number
 "
-request,"what is their address
+request,"whats the phone number and price range
 "
-request,"okay and whats the addre
+request,"what are the address
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"what is a phone number
+request,"what is the area
 "
-request,"may i have the address
+request,"how about the phone number
 "
-request,"may i have the address
-"
-request,"may i have the phone number please
-"
-request,"and phone number
-"
-request,"uh phone number
-"
-request,"where is one
+request,"what is the area
 "
 request,"what is the post code
 "
-request,"whats the phone number and post code
+request,"what area is it in
 "
-request,"and phone number
-"
-request,"and phone number
-"
-request,"great whats its address
-"
-request,"okay can i have the address and the phone number please
-"
-request,"and can i have the phone number
+request,"may i have the address and phone number
 "
 request,"what is the post code
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"may i have the address
+request,"whats their address
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"can i have the address please
+request,"and the post code
+"
+request,"expensive price restaurant
+"
+request,"can i have the address and post code
+"
+request,"okay what is their address
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"whats the address and the phone number
+"
+request,"what is the phone number
+"
+request,"may i have the address and phone number
+"
+request,"can i get the address and phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i get the address and phone number
+"
+request,"what kind of food
+"
+request,"okay good whats the address for that one
+"
+request,"telephone number
+"
+request,"can i get the address and phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the post code
+"
+request,"can i get the address and phone number
+"
+request,"what is the phone number
+"
+request,"address and
+"
+request,"what is their address and phone number
+"
+request,"how about the phone number
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"what the address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"phone number and post code
+"
+request,"what is the phone number
+"
+request,"okay and whats the post code
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"what is the post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"phone number and post code
+"
+request,"what is the type of food
+"
+request,"can i have the phone number and price range
+"
+request,"okay give me address
 "
 request,"noise may i have its address
+"
+request,"whats their address
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
 request,"address phone number area
 "
-request,"how about the post code
-"
 request,"could i have the address please
 "
-request,"what is the post code
-"
-request,"and post code
+request,"could i have the phone number
 "
 request,"what is the post code
 "
-request,"what is the telephone number
+request,"can i get the address and phone number
 "
 request,"what is the post code
 "
-request,"okay address phone number and post code please
+request,"what kind of food
 "
-request,"and phone number please
+request,"what area is it in
 "
-request,"what type of food does the venue serve
+request,"can i have the phone number
 "
-request,"okay show me the address
+request,"what is the phone number
 "
-request,"can i have the type of food
+request,"what is the post code
 "
-request,"phone
+request,"what is the phone number
 "
-request,"address and price range
+request,"what is the phone number
 "
-request,"and post code
+request,"may i have the address and phone number
 "
-request,"and the telephone
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"what is the phone number
+"
+request,"what the address
+"
+request,"and finally the post code
+"
+request,"and the post code
+"
+request,"whats its address
+"
+request,"whats its address
+"
+request,"phone number and post code
+"
+request,"and the post code
+"
+request,"whats their address
+"
+request,"telephone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"can i get a phone number
+"
+request,"what kind of food do they have
 "
 request,"what area of town is it in
 "
+request,"whats its address
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"telephone number
+"
+request,"telephone number
+"
+request,"whats the post code noise
+"
 request,"what area of town are they located
 "
+request,"may i have the address and phone number
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"what is the phone number
+"
+request,"what is the post code
+"
+request,"could i have the address
+"
+request,"what is the phone number
+"
 request,"what is the post code
 "
 request,"what is the post code
 "
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"what kind of food
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"address noise
+"
+request,"what is the phone number
+"
+request,"whats the name
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"give me address and phone number
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"okay can i have the phone number and address
+"
+request,"and the post code
+"
+request,"give me the address
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
 request,"what is the post code
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"whats the phone number and post code
+request,"can i have the phone number
 "
-request,"could i have the address and phone number
+request,"address and post code
 "
-request,"and their phone number
-"
-request,"whats the postcode
-"
-request,"the area
-"
-request,"location
-"
-request,"what is the post code
-"
-request,"uh phone number
-"
-request,"may i have the phone number please
-"
-request,"uh phone number
+request,"and type of food
 "
 request,"uh address and price range
 "
 request,"okay and can i get the address
 "
-request,"and their phone number
+request,"and can i get their address
 "
-request,"what is their address
+request,"whats their address
 "
 request,"their price range
 "
+request,"i need a phone number
+"
+request,"what area is it in
+"
+request,"what is the phone number
+"
 request,"what is the post code
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
 request,"could i have the address please
+"
+request,"can i have the phone number and price range
+"
+request,"could i have the address
 "
 request,"what is the post code
 "
 request,"what is the address and type of food
 "
+request,"what is the type of food
+"
+request,"can i have the phone number
+"
+request,"can i have the phone number
+"
+request,"and the post code
+"
+request,"could i have the address
+"
+request,"what is the phone number
+"
+request,"can i get the address and phone number
+"
 request,"okay can i get their phone number
 "
-request,"may i have the address
+request,"and the post code
 "
-request,"what is the golden woks phone number
+request,"can i get the address and phone number
 "
-request,"what area is it located
+request,"what is their address and phone number
 "
-request,"okay may i have the address
+request,"what is the phone number
 "
-request,"address and price range
+request,"what is the phone number
 "
-request,"whats the phone number and post code
+request,"what area is it in
 "
-request,"signature dish
+request,"what is the golden woks address
+"
+request,"and type of food
+"
+request,"and can you tell me the phone number
+"
+request,"okay and whats the post code
+"
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"what is the phone number
+"
+request,"what is the phone number
 "
 request,"popular dish
 "
-request,"do you have a phone number
+request,"can i get address phone number
 "
-request,"and their phone number
+request,"what area is it in
 "
-request,"area of the food of the venue
+request,"can i have the phone number
 "
-request,"tell me the phone number
+request,"whats their address
 "
-request,"and post code
+request,"and the post code
 "
-request,"and phone number
+request,"what is the phone number
+"
+request,"address and area
+"
+request,"can i have the address the phone number
+"
+request,"the price range
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"and type of food
+"
+request,"i want to know the phone number
+"
+request,"can i get the address and phone number
+"
+request,"how about the phone number
+"
+request,"may i have the address and phone number
+"
+request,"may i have the address and price range
+"
+request,"may i have the address and phone number
+"
+request,"whats their address
+"
+request,"and the post code
 "
 request,"and can you tell me the post code
 "
-request,"what area is that in
+request,"whats the address phone number and post code
+"
+request,"what is the phone number
+"
+request,"can i have the post code please
+"
+request,"what is the phone number
+"
+request,"can i get the address and phone number
+"
+request,"address please
+"
+request,"and the post code
+"
+request,"can i get the address and phone number and post code
 "
 request,"what is the post code
 "
-request,"and their phone number
+request,"can i get the address and phone number
 "
-request,"can i have the address please
+request,"and the post code
 "
-request,"whats the postcode
+request,"whats the address and post code
+"
+request,"whats their address
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"what is there address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"the price range
+"
+request,"and whats their post code
+"
+request,"and whats their price range
+"
+request,"and whats their post code
+"
+request,"could i have the address
+"
+request,"what is the phone number
+"
+request,"what is the area
 "
 request,"could i have the address please
 "
-request,"and phone number
+request,"what area is it in
 "
-request,"can i get their phone number
+request,"can i get the address and phone number
 "
-request,"and what is their post code
+request,"can i have the phone number
+"
+request,"can i have the phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"may i have the address and phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
@@ -4231,735 +3719,2777 @@ request,"okay and can i get the address
 "
 request,"okay and can i get the address
 "
-request,"oh where is it
+request,"do you have the post code
 "
-request,"and phone number
+request,"what is the phone number
 "
-request,"okay let me have that address
+request,"how about the phone number
+"
+request,"can i have the phone number
+"
+request,"can i have the phone number
+"
+request,"telephone number
+"
+request,"telephone number
+"
+request,"what is the area
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"uh can i get the address
+"
+request,"thats fine whats the address
+"
+request,"area of the venue
+"
+request,"may i have the address and phone number
+"
+request,"what is the area
+"
+request,"what area is it in
+"
+request,"what about the phone number
+"
+request,"and the post code
+"
+request,"could i get their phone number please
+"
+request,"address please
+"
+request,"what is the address of that venue
+"
+request,"could i have the phone number
+"
+request,"what area is it in
+"
+request,"okay can i have the rest of the address for da vinci
+"
+request,"what about the phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"a post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
 "
 request,"can i have their address
 "
-request,"whats the phone number and post code
+request,"and the post code
+"
+request,"okay the address
+"
+request,"and the post code
 "
 request,"let me get the address
 "
-request,"can i have the address please
+request,"what is the phone number
 "
-request,"noise can i get the address and phone number
+request,"the price range
 "
-request,"and phone number please
+request,"and the address noise
 "
-request,"can i have the address please
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what kind of food
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"whats the address and price range
+request,"what is the phone number
 "
-request,"and their phone number
+request,"what is the area
 "
-request,"and what area is it in
+request,"what is the phone number
 "
-request,"could i have the address and phone number
+request,"whats their address
 "
-request,"and can i have the address
+request,"and the post code
 "
-request,"what is their address
+request,"can i get the address and phone number
 "
-request,"how about the post code
+request,"what is the address phone number and the price range
 "
-request,"and their phone number
+request,"what is the phone number
 "
-request,"can i have the address please
+request,"ts the phone number
 "
-request,"what is their address
+request,"okay whats its address
 "
-request,"may i have the address
+request,"may i have the address and phone number please
 "
-request,"what type of food do they have
+request,"could i have the address
+"
+request,"could i have the phone number
+"
+request,"whats the address phone number and post code
+"
+request,"can i get the address and phone number
+"
+request,"may i have the address and phone number please
+"
+request,"okay and uh whats the address
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"in the area
+"
+request,"can i have the phone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"can i have the address and post code
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i get the post code please
+"
+request,"can i have their phone number
+"
+request,"whats the address and post code
+"
+request,"may i have its phone number
+"
+request,"what is the phone number
 "
 request,"okay and can i get the address
 "
-request,"what part of town are they in
+request,"address and post code
 "
-request,"how about phone number
+request,"what is the phone number
 "
-request,"phone number and type of food
+request,"what part of town is chiquito mexican restaurant in
 "
-request,"and their phone number
+request,"and the post code
 "
-request,"phone
+request,"whats their address
 "
-request,"what is the telephone number
+request,"whats their address
 "
-request,"what is their phone number and type of food
+request,"what is the phone number
 "
-request,"can i get a address
+request,"what is the phone number
 "
-request,"what is their address
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"whats the address phone number and post code
+"
+request,"whats their address
+"
+request,"could you get me the phone number
+"
+request,"what is the phone number and post code of the venue
+"
+request,"i want the address phone number and area
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what area is it in
 "
 request,"what is the post code
 "
 request,"what is the post code
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"may i have the address phone number and price range
+request,"what is there address
 "
-request,"may i have the address
+request,"may i have the address and phone number
 "
-request,"may i have the address
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"may i have the price range
+"
+request,"okay good whats the address and phone number
 "
 request,"can i have their address
 "
 request,"breath price range
 "
-request,"i want to know the address
+request,"and the post code
 "
-request,"whats the phone whats the phone number
-"
-request,"may i have the address
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"and post code
+request,"can i have the phone number
 "
-request,"what is the phone
+request,"what about the phone number
 "
-request,"the area
+request,"what is the phone number
+"
+request,"address and post code
+"
+request,"how about the phone number
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"where is the area
+"
+request,"what is the phone number
+"
+request,"whats their address
 "
 request,"okay and what kind of food do they serve
 "
-request,"what food is in the west part of town
+request,"what is the phone number
 "
 request,"what food is in the west part of town
 "
-request,"what is their address
+request,"what food is in the west part of town
 "
-request,"phone
+request,"may i have the phone number and postcode of this ven
 "
-request,"how about the post code
+request,"may i have the postcode
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"what is the post code
+request,"what is the area
 "
-request,"whats the cost
+request,"what is the phone number
 "
-request,"what is the post code
-"
-request,"in the cheap price range
-"
-request,"the area
+request,"what area is it in
 "
 request,"what is the post code
 "
-request,"thats fine can i get their phone number please
+request,"type of food does it serve
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"the price range
+"
+request,"what is the phone number
+"
+request,"can i get the address and phone number
+"
+request,"can i have the phone number
+"
+request,"could i get the phone number please
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"what is their area
+request,"what is the phone number
 "
-request,"may i have the address and phone nymber
+request,"what is the phone number
 "
-request,"can i have the address and the
+request,"what is the type of food
+"
+request,"what area is it in
+"
+request,"can i have the phone number
+"
+request,"may i get the address and restaurant and
+"
+request,"a phone number please
+"
+request,"phone number and post code
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"what is the post code
+"
+request,"the price range
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the post code
+"
+request,"okay can i have the phone number and address
+"
+request,"what area is it in
+"
+request,"could i have the address
+"
+request,"and the post code
+"
+request,"whats its address
 "
 request,"breath what is the phone number and post code
 "
 request,"okay address
 "
-request,"okay show me the address
+request,"area of the venue
 "
-request,"what is their address
+request,"could have the phone number
+"
+request,"what is the type of food
+"
+request,"what is the phone number
 "
 request,"okay and can i get the address
 "
-request,"the area
+request,"what is the phone number
+"
+request,"alright whats its phone number
+"
+request,"and the post code
+"
+request,"can i have the phone number
+"
+request,"and what about the phone number
+"
+request,"phone number and post code
+"
+request,"what is the type of food
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"and their phone number
+request,"phone number and post code
 "
-request,"phone
+request,"the price range
 "
-request,"may i have the address
+request,"can i have the phone number
 "
-request,"and phone number
+request,"whats their address
 "
-request,"and their phone number
+request,"can i have the phone number
 "
-request,"may i have the address
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"whats their address
+"
+request,"address and post code
+"
+request,"what is the phone number
+"
+request,"phone number and post code
 "
 request,"could i have the address please
 "
-request,"can i get address
+request,"okay the address
 "
-request,"and their phone number
+request,"and whats their address
 "
-request,"uh can i have the address
+request,"may i have the address and phone number please
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"may i have the address
+request,"noise address and the post code of the venue
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"whats its price range
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
 request,"i would like to know the phone number
 "
-request,"what is their address
+request,"what is the phone number
 "
-request,"could i have the address and phone number
+request,"can i have the phone number
 "
-request,"and their phone number
+request,"whats its address
+"
+request,"can i have its post code
+"
+request,"whats the address phone number and post code
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"how about the phone number
+"
+request,"i want to know the phone number
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"whats their address
 "
 request,"i need the address
 "
-request,"what is the post code
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"okay may i have the address
-"
-request,"may i have the address
-"
-request,"address phone number and postcode
-"
-request,"what area is it located
-"
-request,"may i have the address
-"
-request,"what is the telephone number
-"
-request,"give me the address and phone number
-"
-request,"thank you and whats the address
-"
-request,"what is the price
-"
-request,"signature dish
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"may i have the address
+request,"the address please
 "
-request,"can i have the address please
+request,"what is the phone number
+"
+request,"may i have the address and phone number please
+"
+request,"what the phone number
+"
+request,"what is the phone number
+"
+request,"okay um whats the price range
+"
+request,"the price range
+"
+request,"address please
+"
+request,"the price range
+"
+request,"telephone number
+"
+request,"whats its address
+"
+request,"what is the phone number
+"
+request,"the price range
+"
+request,"what is the phone number
+"
+request,"and can i have the post code please
+"
+request,"what is the area
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
 "
 request,"what is the post code
 "
+request,"phone number and post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"can i get the address and phone number
+"
+request,"and whats their price range
+"
+request,"what is the phone number
+"
 request,"what is the post code
+"
+request,"may i have the address and phone number please
+"
+request,"please let me have the address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the post code
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
 "
 request,"can i have the address of the last one
 "
-request,"may i have the address
+request,"i need a phone number
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"location
+request,"what is the phone number
 "
-request,"what is their address
+request,"what is the phone number
 "
-request,"could i have the address and phone number
+request,"what is the phone number
 "
-request,"okay show me the address
+request,"what is the phone number
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"uh phone number
+request,"what is the phone number
 "
-request,"what is their address
+request,"can i have the phone number
 "
-request,"and post code
+request,"what area is it in
 "
-request,"whats the address phone number and type of food
+request,"what kind of food
 "
-request,"and phone number
+request,"could i have the address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"okay and their address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"may i have the address and phone number
+"
+request,"can i can i have the address and price
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"telephone number
+"
+request,"telephone number
+"
+request,"address and post code
+"
+request,"their address
+"
+request,"what prices
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i get the address and phone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"what kind of food
+"
+request,"give me the address
+"
+request,"what is the phone number
+"
+request,"telephone number
+"
+request,"whats their address
+"
+request,"how about the phone number
 "
 request,"may i have their phone number please
 "
-request,"what are the price ranges
+request,"whats their address
+"
+request,"whats the address and post code
+"
+request,"and the post code
 "
 request,"what is the post code
 "
-request,"what is the post code
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone numbere
 "
 request,"what is the post code
 "
-request,"and phone number
+request,"what is the phone number
 "
-request,"good could you give me the phone number
+request,"phone number and post code
 "
 request,"what is the post code
 "
-request,"what is their address
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"may i have their address and phone number
+"
+request,"could i have the phone number and post code please
+"
+request,"what is the phone number
+"
+request,"what is the post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
 "
 request,"whats the phone number talking
 "
-request,"how much is the food
+request,"whats the phone number for hotel dubai
 "
-request,"how much does it cost
+request,"what is the phone number
 "
-request,"how much does it cost
+request,"may i have the address and price range
 "
 request,"can i have their address
 "
-request,"can i have the address please
+request,"can i have the phone number
 "
-request,"what type of food do they have
+request,"do you have the phone number
 "
-request,"okay and can i get the phone number
+request,"can i have the phone number
 "
-request,"whats the phone number and post code
+request,"can i have the phone number
 "
-request,"what is the address and area
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"telephone number
+"
+request,"where is the area
+"
+request,"may i have the address and phone number
+"
+request,"give me the address please
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"whats its address
 "
 request,"could you give me the number
 "
-request,"phone
+request,"what is the type of food
 "
-request,"whats the address and price range
+request,"can i have the phone number
+"
+request,"whats its address
+"
+request,"can i have the address and post code
 "
 request,"could i have the address and phone number plea
 "
-request,"may i have the address
+request,"may i have the address phone number and postcode
+"
+request,"what is the phone number
 "
 request,"okay what is the phone number
 "
+request,"can i have the address and post code
+"
+request,"what is the phone number
+"
 request,"what is the post code
 "
-request,"phone
+request,"what is nandos address
+"
+request,"can i get the address and phone number
+"
+request,"and whats their address
+"
+request,"could i get the address please
+"
+request,"what is the phone number
+"
+request,"uh the post code
+"
+request,"can i have the phone number
 "
 request,"what is the post code
 "
-request,"may i have the phone number please
+request,"what is the phone number
 "
-request,"may i have the address
+request,"what is the phone number
 "
-request,"do you have the address of the lucky star
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"im looking for a restaurant in the north part of town serving french type of food
+"
+request,"what is the phone number
+"
+request,"can i get the address phone number and area
+"
+request,"what is the phone number
+"
+request,"the address please
 "
 request,"could i have the address please
 "
-request,"what is their address
+request,"what is the phone number
 "
-request,"what is their address
+request,"can i have the phone number
 "
-request,"what is their address
+request,"whats its address
 "
-request,"may i have the address
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what type of food is served
+"
+request,"and the post code
+"
+request,"what is the phone number
 "
 request,"can i have the address phone number and area
 "
-request,"may i have the address
+request,"whats their address
 "
-request,"oh whats the phone number
+request,"type of food does it serve
 "
-request,"may i have the address and the type of food
+request,"what is their address phone number and post code
 "
 request,"what is the post code
 "
-request,"okay and can i get the phone number
+request,"what kind of food
 "
-request,"and post code
+request,"what kind of food
+"
+request,"the phone number please
 "
 request,"can i have the phone number and type of food that
 "
-request,"and phone number
+request,"what is the phone number
 "
-request,"addrss
+request,"and the post code
 "
-request,"what is the post code
-"
-request,"what is the post code
-"
-request,"noise address
-"
-request,"and their phone number
+request,"can i have the address and post code
 "
 request,"what is the post code
 "
-request,"and phone number
-"
-request,"may i have the phone number please
-"
-request,"may i have the address
-"
-request,"the address and post code please
-"
-request,"could i have the address please
-"
-request,"could i have the address please
-"
-request,"what is their address
-"
-request,"noise address
-"
-request,"can i have the address please
-"
-request,"may i have the phone number please
-"
-request,"may i have the phone number please
-"
-request,"could i have the address please
-"
-request,"how much
-"
-request,"may i have the address
-"
-request,"could i have the address please
-"
-request,"oh so what is the phone number
-"
-request,"can i have the address please
-"
-request,"and phone number
-"
-request,"uh phone number
-"
-request,"and their phone number
-"
-request,"may i have the address
-"
-request,"uh can i have the address
+request,"curry prince address and phone number
 "
 request,"what is the post code
 "
-request,"may i have the address phone number and price range
+request,"what is the phone number
 "
-request,"may i have the address
+request,"telephone number
 "
-request,"may i have the address
+request,"telephone number
+"
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"can i have the phone number
+"
+request,"what type of food is served
+"
+request,"what area is it in
+"
+request,"and the post code
+"
+request,"can i have the phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"what kind of food
+"
+request,"may i get the price range
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the post code
+"
+request,"and the post code
+"
+request,"and the post code
+"
+request,"see the address
+"
+request,"what is their address and phone number
+"
+request,"noise what was their address again please
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"whats the address and post code
+"
+request,"may i have the address and phone number please
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"could i have the address please
+"
+request,"and what area is it
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"may i have the address and phone number
+"
+request,"what is the phone number
+"
+request,"ah whats the address
+"
+request,"could i have the address please
+"
+request,"could i have the address
+"
+request,"and the post code
+"
+request,"can i get the address and phone number
+"
+request,"can i get the address and phone number
+"
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"can i have the phone number
+"
+request,"can i have its phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"and the post code
+"
+request,"what kind of food
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"whats their address
+"
+request,"could i have the address please
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"whats the address phone number and post code
+"
+request,"could i have the address
+"
+request,"could i have the address
+"
+request,"could i have the address please
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"okay what kind of food
+"
+request,"can i have the phone number
+"
+request,"can i have their phone number
+"
+request,"can i have their phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"whats their address
+"
+request,"what is the phone number
+"
+request,"and whats their address
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what kind of food is there
+"
+request,"what kind of food
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i get the address and phone number
+"
+request,"and what about the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the address of prezzo
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"how about the phone number
+"
+request,"can i have the address and post code
+"
+request,"can i get the address and phone number
+"
+request,"what is the post code
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"type of food does it serve
+"
+request,"type of food does it serve
+"
+request,"may i have the address and phone number
+"
+request,"can you give me its post code
+"
+request,"telephone number
+"
+request,"phone number and post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"phone number address
+"
+request,"telephone number
 "
 request,"what area is it
 "
-request,"in what part of town
+request,"how about the phone number
 "
-request,"location
+request,"what is the phone number
 "
-request,"location
+request,"can i have the phone number
+"
+request,"can i have the phone number
+"
+request,"uh can i get the address
 "
 request,"i need the address
 "
-request,"can i have the address please
+request,"what is the phone number
+"
+request,"can i have its phone number
 "
 request,"could you repeat the name
 "
-request,"what about the address
+request,"what is the phone number
 "
-request,"can i have the address please
+request,"what is the area
 "
-request,"may i have the phone number please
+request,"whats the phone number for that restaurant
 "
-request,"i need an address
+request,"may i have the address and phone number
 "
-request,"and phone number
+request,"phone number and post code
 "
-request,"noise address
+request,"address and post code
+"
+request,"could i have the address
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"restaurant two two phone number
+"
+request,"whats the address and post code
+"
+request,"telephone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"okay what about the post code
+"
+request,"can i have the address of it
+"
+request,"good whats the address
+"
+request,"great whats the address
 "
 request,"whats the type of food they serve
 "
-request,"and their phone number
+request,"what is the phone number
 "
-request,"could i have the address and phone number
+request,"what is the phone number
 "
-request,"what is the post code
+request,"can i get the address and phone number
 "
-request,"phone
+request,"alright whats their address
 "
-request,"what is the post code
+request,"their address
 "
-request,"um whats the price range
-"
-request,"um whats the price range
-"
-request,"area of venue
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"what is the post code
+request,"could i have their phone number as well
 "
-request,"where is the phone number
+request,"what is the phone number
 "
-request,"and their phone number
-"
-request,"what is the post code
-"
-request,"can i get their phone number
-"
-request,"okay and price range
+request,"what is the phone number
 "
 request,"what is the post code
 "
-request,"what is the telephone number
+request,"could i have the address
 "
-request,"could i have the address and phone number
+request,"um kay whats the post code
 "
-request,"phone
+request,"what is the phone number
 "
-request,"phone
+request,"what is the phone number
 "
-request,"location
+request,"what is the area
 "
-request,"can i have the phone number and type of food please
+request,"what is the phone number
 "
-request,"in the cheap price range
+request,"what is the phone number
 "
-request,"and their phone number
+request,"can i get the address and phone number
 "
-request,"how much
+request,"what is the phone number
 "
-request,"okay can i have the address and post code please
+request,"what is the post code
 "
-request,"can i get address
+request,"what is the post code
 "
-request,"what is their address
+request,"phone number phone number
+"
+request,"good whats the address
+"
+request,"whats the address phone number and post code
+"
+request,"what is the post code
+"
+request,"what is the area
+"
+request,"west is the address and phone number
+"
+request,"what is the phone number
+"
+request,"what is the area
+"
+request,"can i have their phone number
+"
+request,"and the post code
+"
+request,"what is the phone number
+"
+request,"and whats their address
+"
+request,"can i get the address and phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"telephone number
+"
+request,"what is the phone number
+"
+request,"can i have the address and post code
+"
+request,"can i have the phone number
+"
+request,"and can i get the address phone number and price range
+"
+request,"what is the phone number
+"
+request,"my i have the phone number
+"
+request,"what is the post code
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"how about the phone number
+"
+request,"what is the phone number
+"
+request,"how about the phone number
+"
+request,"the price range
+"
+request,"what is the phone number
+"
+request,"the price range
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"okay and can i get their phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"and the type of food they serve
+"
+request,"what is the phone number
+"
+request,"address phone number prices
+"
+request,"what about the phone number
+"
+request,"whats their address
+"
+request,"could i get the address
+"
+request,"what is the phone number
+"
+request,"and postcode
+"
+request,"what is the phone number
+"
+request,"what is the type of food
+"
+request,"what is the phone number
+"
+request,"what area is it in
+"
+request,"whats its address
+"
+request,"may i have its phone number
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+request,"telephone number
+"
+request,"can i have the phone number
+"
+request,"what is the phone number
+"
+request,"cool whats the phone number
+"
+request,"what is the phone number
+"
+request,"and the post code
+"
+request,"may i have the address and phone number
 "
 request,"where is the restaurant
 "
-request,"and their phone number
+request,"whats their address
 "
-request,"what is the address and phone number worth
+request,"may i have the address and phone number
 "
-request,"what kind of food do they serve there
+request,"what is the type of food
 "
-thankyou,"thank you thank you goodbye
+request,"type of food does it serve
+"
+request,"what is the phone number
+"
+request,"what is the phone number
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you very much good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank
+"
+thankyou,"thank
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"great thank you good bye
 "
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you and good
+"
+thankyou,"thank you goodbye
+"
 thankyou,"thank you good
 "
-thankyou,"noise thank you goodbye
+thankyou,"thank you goodbye
 "
-thankyou,"noise thank you goodbye
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodb
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you and price range
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"alright thank you very much food bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thats everything thank you
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"okay that will be all thank you and good bye
 "
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you good b
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
 thankyou,"great thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"um thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay um thatll do it thank you and goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"thank you good
 "
+thankyou,"thank you goodbye
+"
+thankyou,"could i or um thank you goodbye
+"
+thankyou,"thank you goodbye
+"
 thankyou,"okay thats all thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay and thank you and good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay um thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"great thank you good bye
 "
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
 thankyou,"okay thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you good b
 "
 thankyou,"okay thank
 "
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"alright thank you good
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"ok thanks goodbye
+"
+thankyou,"water cherries thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"goodbye thank you
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
 thankyou,"okay thank you goodbye
 "
-thankyou,"thank you goodbye noise
+thankyou,"i know thank you goodbye
+"
+thankyou,"and i think thatll do it thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"thank you goodbye noise
 "
-thankyou,"noise thank you goodbye
+thankyou,"thank you goodbye
 "
-thankyou,"noise thank you goodbye
+thankyou,"thank you goodbye noise
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"okay thank you goodbye
 "
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you is there anything else
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
 thankyou,"thank you goodbye noise
 "
-thankyou,"noise thank you goodbye
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay but im going to nandos thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"uh thank you and goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye noise thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"sorry about my mistakes thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"ah thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"thank you goodbye noise
 "
-thankyou,"thank you goodbye noise
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
 "
 thankyou,"thank you goodbye noise
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye noise
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"okay thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"okay cool uh good bye thank you
 "
-thankyou,"breath thank you very much goodbye
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"and thats all thank you and good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"okay thank you goodbye
+"
+thankyou,"alright thank you bye
 "
 thankyou,"great thank you good bye
 "
+thankyou,"thank you goodbye
+"
 thankyou,"okay thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"oh my god thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 thankyou,"thank you goodbye noise
 "
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
 thankyou,"okay thank you goodbye
 "
-thankyou,"noise thank you goodbye
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thanks us
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"um thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"awesome thank you good bye
+"
+thankyou,"okay thank you good bye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
+"
+thankyou,"thank you goodbye
 "
 null,"code
 "
-null,"looking for a place that serves whole worl
+null,"um
 "
-null,"inaudible
+null,"okay
 "
-null,"system
+null,"can i have an
+"
+null,"okay how about
+"
+null,"worthless system
+"
+null,"what is the
+"
+null,"okay
+"
+null,"okay
+"
+null,"okay
+"
+null,"and ah
+"
+null,"uh
+"
+null,"how about
+"
+null,"find
+"
+null,"i need
+"
+null,"and
+"
+null,"how about
+"
+null,"okay
+"
+null,"okay
+"
+null,"i need
+"
+null,"the
+"
+null,"how about
+"
+null,"viet
+"
+null,"im
+"
+null,"can i
 "
 null,"that serves viet
 "
-null,"system
+null,"that is all
 "
-null,"expen
+null,"i am
 "
-null,"i want to find
+null,"um
+"
+null,"okay
+"
+null,"thats fine
+"
+null,"i want to know
+"
+null,"um
+"
+null,"bad
+"
+null,"okay
+"
+null,"new
+"
+null,"incorrect
+"
+null,"how about
+"
+null,"viet
+"
+null,"serving in
+"
+null,"how about
 "
 null,"whats the unintelligible
 "
-null,"in the
+null,"uh
 "
-null,"inaudible
+null,"okay and um
+"
+null,"okay
+"
+null,"um
+"
+null,"i would like
+"
+null,"what is available in the ar
+"
+null,"suggestions
+"
+null,"can i
+"
+null,"what is one of them
+"
+null,"kish
+"
+null,"croatia
+"
+null,"town
+"
+null,"okay
+"
+null,"of the venue
+"
+null,"how about
+"
+null,"okay
+"
+null,"okay
+"
+null,"that serves
+"
+null,"what do you recommend
+"
+null,"sigh
+"
+null,"uh i want to find
+"
+null,"um
 "
 null,"nothing
 "
-null,"and the one before
+null,"okay
 "
-null,"what was
+null,"uh
+"
+null,"both
+"
+null,"both
+"
+null,"thats fine
+"
+null,"laughing
+"
+null,"okay um can i have the other
+"
+null,"okay uh what about the other
+"
+null,"okay
+"
+null,"um
+"
+null,"okay what was the first one
 "
 null,"what is
 "
+null,"what is the
+"
+null,"in the ea
+"
+null,"is there
+"
+null,"can i
+"
+null,"uh
+"
+null,"okay
+"
 null,"adress
+"
+null,"okay
+"
+null,"cannabis
+"
+null,"cannabis
+"
+null,"i would like a
+"
+null,"okay
+"
+null,"okay
+"
+null,"okay can i
+"
+null,"uh what is the
 "
 null,"wait
 "
-null,"i want to find
+null,"and whats their
 "
-null,"appleton wisconsin
+null,"that serves
 "
-null,"system
+null,"um
 "
-null,"i want to find
+null,"of the venue
 "
-null,"survey
+null,"is there
 "
-null,"laugh
+null,"okay
 "
-null,"inaudible
+null,"serving
 "
-null,"i dont
+null,"type
 "
-null,"thats all i need
+null,"uh
 "
-null,"inaudible
+null,"i need
 "
-null,"static
+null,"okay
 "
-null,"background_speech
+null,"what about us
 "
-null,"background_speech
+null,"cant
 "
-null,"prise me
+null,"okay
 "
-null,"unintelligible range
+null,"how about
 "
-null,"inaudible
+null,"okay
 "
-null,"inaudible
+null,"uh
 "
-null,"i want to find a
+null,"oh
 "
-null,"inaudible
+null,"okay
 "
-null,"inaudible
+null,"what is the
 "
-null,"inaudible
+null,"whats the code
 "
-null,"system
+null,"whats the code
 "
-null,"static
+null,"okay
 "
-null,"static
+null,"okay
 "
-null,"static
-"
-null,"bout
-"
-null,"moder
-"
-null,"inaudible
-"
-null,"i dont
+null,"uh
 "
 null,"laugh
 "
-null,"post
+null,"how about
 "
-null,"and the
+null,"left
 "
-null,"inaudible
+null,"um
+"
+null,"what is the
+"
+null,"i dont
+"
+null,"can you hear me
+"
+null,"okay
+"
+null,"what is the
+"
+null,"serving
+"
+null,"tape
+"
+null,"sigh
+"
+null,"sigh
+"
+null,"type
+"
+null,"okay
+"
+null,"okay
+"
+null,"okay and um
+"
+null,"i would like
+"
+null,"im loo
+"
+null,"looking for a
+"
+null,"uh
+"
+null,"town
+"
+null,"dress
+"
+null,"dress
+"
+null,"dress
+"
+null,"dress
+"
+null,"finished
+"
+null,"i need
+"
+null,"range please
+"
+null,"incorrect
+"
+null,"incorrect
+"
+null,"is there
+"
+null,"is there
+"
+null,"what about
+"
+null,"uh
+"
+null,"okay
+"
+null,"and
+"
+null,"i would like
+"
+null,"you tell me
+"
+null,"sea
+"
+null,"uh have
+"
+null,"uh
+"
+null,"what about
+"
+null,"uh unintelligible
+"
+null,"i
+"
+null,"okay
+"
+null,"uh
+"
+null,"um i want
+"
+null,"um
+"
+null,"pizza
+"
+null,"okay
+"
+null,"i would like
+"
+null,"okay
+"
+null,"noise okay
+"
+null,"chikkis
+"
+null,"how about the
+"
+null,"usually
+"
+null,"i changed my mind
+"
+null,"okay
+"
+null,"um
+"
+null,"type of foo
+"
+null,"blow
+"
+null,"what about
+"
+null,"ring
+"
+null,"okay
+"
+null,"pizza
+"
+null,"okay
+"
+null,"okay
+"
+null,"okay
+"
+null,"okay
+"
+null,"okay
+"
+null,"type
+"
+null,"i dont
+"
+null,"okay and um
+"
+null,"taiwanese
+"
+null,"laugh
+"
+null,"you have a shitty system
+"
+null,"sigh
+"
+null,"and
+"
+null,"did you hang up on me
+"
+null,"laughing
+"
+null,"laughing
+"
+null,"that serves
+"
+null,"i know mia
 "
 null,"adress
 "
 null,"adress
 "
-null,"whats the
+null,"um
 "
-null,"system
+null,"is there
 "
-null,"system
+null,"okay just regular ecuadorean food
 "
-null,"system
+null,"town
 "
-null,"system
+null,"viet
 "
-null,"system
+null,"uh
 "
-null,"system
+null,"dont
 "
-null,"system
+null,"range that serves cana
 "
-null,"system
-"
-null,"system
-"
-null,"system
-"
-null,"system
-"
-null,"system
-"
-null,"system
+null,"expe
 "
 null,"arts town
 "
-null,"um that serves
+null,"oh boy
 "
-null,"system
+null,"um
 "
-null,"static
+null,"what is the
 "
-null,"yea id like a
+null,"okay
 "
-null,"what is it by
+null,"i dont want pizza
 "
-bye,"k you goodbye
+null,"is there
+"
+null,"um
+"
+null,"okay
+"
+null,"that serves
+"
+null,"pizza
+"
+null,"how about
+"
+null,"okay
+"
+null,"okay
+"
+null,"um
+"
+null,"just a moment
+"
+null,"just a moment
+"
+null,"um
+"
+null,"carrier
+"
+null,"i would like
+"
+null,"type
+"
+null,"can i get the
+"
+null,"priced
+"
+bye,"great thank you goodbye
 "
 bye,"yawning thank you and good bye
 "
-bye,"k you goodbye
+bye,"uh thank you and good bye
 "
-bye,"kay thank you good bye
+bye,"uh thank you and good bye
 "
 bye,"alright so im very good thanks good bye
 "
+bye,"cut it thank you good bye
+"
+bye,"very good thank you good bye
+"
+bye,"very good thank you good bye
+"
+bye,"thanks good bye
+"
 bye,"okay forget it goodbye
 "
-bye,"k you goodbye
+bye,"awesome thanks good bye
+"
+bye,"thank you good bye thank you good bye
+"
+bye,"good thank you good bye
 "
 bye,"okay and um thank you and good bye
 "
-bye,"k you goodbye
+bye,"alright good bye thank you
 "
-bye,"k you goodbye
+bye,"thanks good bye
 "
-reqalts,"how about a cheap asian oriental restaurant
+reqalts,"how about french food
 "
-reqalts,"how about in the center
+reqalts,"how about french food
 "
-reqalts,"what about indian food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how about thai food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"is there anything serving international food
 "
-reqalts,"is there a restaurant
-"
-reqalts,"how about asian oriental food
+reqalts,"okay what about modern european food
 "
 reqalts,"how about moroccan food
 "
@@ -4967,221 +6497,281 @@ reqalts,"how about moroccan food
 "
 reqalts,"how about moroccan food
 "
-reqalts,"how about british food
+reqalts,"how about indian
 "
-reqalts,"how about indians
+reqalts,"how about vietnamese food
 "
-reqalts,"how about british food
+reqalts,"how about caribbean food
 "
-reqalts,"what about indian food
+reqalts,"how about european food
 "
-reqalts,"what about indian food
+reqalts,"how about european food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about north american food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about indian
 "
-reqalts,"uh what about chinese food
+reqalts,"how about one with thai food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about modern european food
 "
 reqalts,"how about somewhere serving modern european
 "
-reqalts,"how about mediterranean
+reqalts,"how about thai food
 "
-reqalts,"how about india
+reqalts,"how about indian
 "
-reqalts,"uh how about chinese food
+reqalts,"how about indian
 "
-reqalts,"breath noise how about french food
+reqalts,"how about italian food
 "
-reqalts,"how about spanish
+reqalts,"how about vietnamese food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about gastropub
 "
-reqalts,"uh is there a restaurant that serves international food
+reqalts,"how about modern european food
 "
-reqalts,"what about indian food
+reqalts,"how about vietnamese food
 "
-reqalts,"how about mediterranean
+reqalts,"how about european food
+"
+reqalts,"how about french food
+"
+reqalts,"how about french food
+"
+reqalts,"how about european food
+"
+reqalts,"how about north american food
+"
+reqalts,"how about spanish food
+"
+reqalts,"how about spanish food
+"
+reqalts,"how about spanish food
+"
+reqalts,"how about asian food
+"
+reqalts,"how about asian food
 "
 reqalts,"um is there anything else
 "
-reqalts,"what about indian food
+reqalts,"how about thai food
 "
-reqalts,"how about in the center
+reqalts,"how about itailian
 "
-reqalts,"how about mediterranean food
+reqalts,"how about french food
 "
-reqalts,"just give me one more
+reqalts,"how about european food
 "
-reqalts,"how about italian type of food
+reqalts,"what about british
 "
-reqalts,"how about italian type of food
+reqalts,"what about british
 "
-reqalts,"how about an expensive restaurant
+reqalts,"how about european food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about modern european food
 "
-reqalts,"how about mediterranean
+reqalts,"do you have any other restaurants
 "
-reqalts,"how about british food
+reqalts,"what about asian oriental food
 "
-reqalts,"how about british food
+reqalts,"how about indian
 "
-reqalts,"how about british food
+reqalts,"how about vietnamese food
 "
-reqalts,"how about mediterranean
+reqalts,"how about french food
 "
-reqalts,"how about singaporean food
+reqalts,"how about vietnamese food
 "
-reqalts,"what about indian food
+reqalts,"what about gastropub
 "
-reqalts,"what about indian food
+reqalts,"what about gastropub
 "
-reqalts,"how about mediterranean food
+reqalts,"how about italian food
 "
-reqalts,"how about mediterranean
+reqalts,"how about a castro pub type of food
 "
-reqalts,"how about mediterranean
+reqalts,"what about asian oriental food
 "
-reqalts,"how about mediterranean food
+reqalts,"uh anything else
 "
-reqalts,"how about mediterranean food
+reqalts,"how about italian food
 "
-reqalts,"another one
+reqalts,"how about vietnamese food
 "
-reqalts,"what about indian food
+reqalts,"how about european food
 "
-reqalts,"how about british food
+reqalts,"how about modern european food
 "
-reqalts,"what about indian food
+reqalts,"how about thai food thats expensive
 "
-reqalts,"how about british food
+reqalts,"how about spanish food
 "
-reqalts,"how about british food
+reqalts,"what about asian oriental food
 "
-reqalts,"how about british food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how about british type food
 "
-reqalts,"how about british food
+reqalts,"how about spanish food
 "
-reqalts,"okay how about modern european food
+reqalts,"how about vietnamese food
 "
-reqalts,"what about french food
+reqalts,"how about italian food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about north american food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about vietnamese food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about italian food
 "
-reqalts,"how about spanish
+reqalts,"how about italian food
 "
-reqalts,"how about british
+reqalts,"how about italian food
 "
-reqalts,"how about british food
+reqalts,"how about italian food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about italian food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about vietnamese food
 "
-reqalts,"uh what about indian food
+reqalts,"how about thai food
 "
-reqalts,"how about the south part of town
+reqalts,"how about indian
 "
-reqalts,"how about mediterranean food
+reqalts,"what about asian oriental food
 "
-reqalts,"how about british food
+reqalts,"how about italian food
 "
-reqalts,"i want something else
+reqalts,"how about european food
 "
-reqalts,"can i have something else
+reqalts,"how about vietnamese food
 "
-reqalts,"how about british food
+reqalts,"how about european food
 "
-reqalts,"how about british food
+reqalts,"how about thai food
 "
-reqalts,"what restaurants are in the west part of town
+reqalts,"okay and what about spanish
 "
-reqalts,"another please
+reqalts,"how about european food
 "
-reqalts,"um how about thai food
+reqalts,"how about european food
 "
-reqalts,"what about the west part of town
+reqalts,"how about portugeuse
 "
-reqalts,"how about british food
+reqalts,"okay how about european food
 "
-reqalts,"how about british food
+reqalts,"how about north american food
 "
-reqalts,"okay how about asian oriental
+reqalts,"how about indian
 "
-reqalts,"is that the only one with indian food
+reqalts,"how about one that serves korean food
 "
-reqalts,"what about cuban food
+reqalts,"how about italian food
 "
-reqalts,"how about british food
+reqalts,"how about italian food
 "
-reqalts,"how about spanish
+reqalts,"how about italian food
 "
-reqalts,"what about chinese type food
+reqalts,"are there any others
 "
-reqalts,"how about british food
+reqalts,"how about asian oriental type of foo
 "
-reqalts,"how about mediterranean
+reqalts,"what are my other options
 "
-reqalts,"how about mediterranean
+reqalts,"how about gastropub type of food
 "
-reqalts,"what about indian food
+reqalts,"how about indian
 "
-reqalts,"what about indian food
+reqalts,"how about a portuguese restaurant
 "
-reqalts,"how about the south part of town
+reqalts,"what about gastropub
 "
-reqalts,"how about british food
+reqalts,"how about vietnamese food
 "
-reqalts,"is there any other type of food
+reqalts,"how about vietnamese food
 "
-reqalts,"how about british
+reqalts,"how about a moderately priced restaurant that serves spani
 "
-reqalts,"how about british food
+reqalts,"is there anything that serves north american
 "
-reqalts,"how about british food
+reqalts,"how about thai food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about thai food
 "
-reqalts,"how about chinese type of food
+reqalts,"what about portugese
 "
-reqalts,"can i get the next one
+reqalts,"how about spanish food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about north american food
 "
-reqalts,"how about british food
+reqalts,"how about north american food
 "
-reqalts,"how about british food
+reqalts,"how about north american food
 "
-reqalts,"what about turkey food
+reqalts,"how about modern european food
 "
-reqalts,"how about mediterranean food
+reqalts,"okay fine what about asian food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how about italian food
 "
-reqalts,"how about asian oriental food
+reqalts,"are there any others
 "
-reqalts,"how about asian oriental food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how about italian food
 "
-reqalts,"how about mediterranean
+reqalts,"what about a moderately priced restaurant in the south part of town
 "
-reqalts,"how about an expensive restaurant
+reqalts,"how about vietnamese food
 "
-reqalts,"another one
+reqalts,"how about vietnamese food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"is there a restaurant in the west part of town that serves thai food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about spanish food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about italian food
+"
+reqalts,"kay how about indian food
+"
+reqalts,"kay how about indian food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"okay is there any others
+"
+reqalts,"how about ah one that serves asian oriental
+"
+reqalts,"how about in any price range
+"
+reqalts,"do you have a restaurant that serves korean food
+"
+reqalts,"noise is there anything else
+"
+reqalts,"what about asian oriental food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about modern european food
+"
+reqalts,"how about european food
 "
 reqalts,"how about portuguese good
 "
@@ -5189,241 +6779,419 @@ reqalts,"what about north american food
 "
 reqalts,"what about north american food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about asian food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about asian food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about oriental type of food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about european type food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about european food
 "
-reqalts,"how about spanish
+reqalts,"how about french food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"uh anything else
 "
-reqalts,"okay how about asian oriental
+reqalts,"how about asian food
 "
-reqalts,"what about spanish type of food
+reqalts,"how about european food
 "
-reqalts,"breath how about portuguese food
+reqalts,"how about gastropub type of food
 "
-reqalts,"um how about european food
+reqalts,"how about north american food
+"
+reqalts,"another restaurant
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about the west of town
+"
+reqalts,"how about modern european food
+"
+reqalts,"how about european food
+"
+reqalts,"how about european food
 "
 reqalts,"how bout asian oriental type of food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about asian food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"sure how about asian food
 "
-reqalts,"how about spanish
+reqalts,"how about asian food
 "
-reqalts,"what about the west part of town
+reqalts,"how about indian
 "
-reqalts,"uh what about portuguese food
+reqalts,"how about european food
 "
-reqalts,"how about british food
+reqalts,"how about european food
 "
-reqalts,"how about british food
+reqalts,"how about european food
 "
-reqalts,"how about italian type of food
+reqalts,"how about european food
 "
-reqalts,"what about french food
+reqalts,"how about spanish food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about european food
 "
-reqalts,"what about indian food
+reqalts,"how about european food
 "
-reqalts,"what about asian oriental foo
+reqalts,"how about french food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about persian food
 "
-reqalts,"how about asian oriental type of food
+reqalts,"how about british type food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about european food
 "
-reqalts,"how about british food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how european food
+"
+reqalts,"is there a restaurant that serves european food
 "
 reqalts,"um how about chinese food
 "
-reqalts,"how about asian oriental food
+reqalts,"how about asian food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about italian food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about vietnamese food
 "
-reqalts,"what about expensive
+reqalts,"how about vietnamese food
 "
-reqalts,"what about french food
+reqalts,"how about thai food
 "
-reqalts,"what about french food
+reqalts,"how about korean type food
 "
-reqalts,"is there a restaurant serving british food
+reqalts,"how about european food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about thai food
 "
 reqalts,"okay is there any portuguese food
 "
-reqalts,"okay how about modern european food
+reqalts,"how about thai food
 "
-reqalts,"okay how about modern european food
+reqalts,"how about spanish food
 "
-reqalts,"what about a restaurant in the east part of town that serves indian type food
+reqalts,"how about spanish food
 "
-reqalts,"how about mediterranean food
+reqalts,"how about italian food
 "
-reqalts,"what about indian food
+reqalts,"how about modern european food
 "
-reqalts,"how about the south part of town
+reqalts,"how about thai food
+"
+reqalts,"how about thai food
+"
+reqalts,"how about spanish food
+"
+reqalts,"how about gastropub type of food
+"
+reqalts,"how about thai food
+"
+reqalts,"how about european food
+"
+reqalts,"how about indian
+"
+reqalts,"how about indian
+"
+reqalts,"how about european food
+"
+reqalts,"how about french food
+"
+reqalts,"how about european food
+"
+reqalts,"how about european food
+"
+reqalts,"ok is there any restaurant that serves chinese food in the east part of town
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about vietnamese food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about french food
+"
+reqalts,"how about italian food
 "
 reqalts,"um is there anything else
 "
-reqalts,"uh is there any other
+reqalts,"is there anything else besides golden wok
 "
-reqalts,"how about asian oriental food
+reqalts,"how about north american food
 "
-reqalts,"okay how about chinese food
+reqalts,"how about european food
 "
-reqalts,"what about indian food
+reqalts,"okay what about a a modern european
 "
-reqalts,"how about asian oriental type of food
+reqalts,"is there any other restaurant
 "
-reqalts,"how about british
+reqalts,"how about european food
 "
-reqalts,"how about british food
+reqalts,"how about indian
 "
-reqalts,"what about portuguese
+reqalts,"how about italian food
 "
-reqalts,"what about portuguese
+reqalts,"anything elses
 "
-negate,"no im sorry it should be expensive
+reqalts,"what about asian oriental food
 "
-negate,"no spanish
+reqalts,"how about north american food
 "
-negate,"not
+reqalts,"how about thai food
 "
-negate,"no the north
+reqalts,"how about thai food
 "
-negate,"no spanish
+reqalts,"what about british
 "
-negate,"no south
+reqalts,"how about vietnamese food
+"
+reqalts,"how about west
+"
+reqalts,"how about italian food
+"
+reqalts,"is there anything that serves caribbean food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about italian food
+"
+reqalts,"how about french food
+"
+reqalts,"how about european food
+"
+reqalts,"how about asian food
+"
+negate,"no im looking for gastropub food
+"
+negate,"tv_noise no
+"
+negate,"no dont care
+"
+negate,"uh no im loo ah change it to british
+"
+negate,"no i want belgium food
+"
+negate,"no unintelligible
+"
+negate,"no north
+"
+negate,"uh no preference
+"
+negate,"no how about vietnamese
+"
+negate,"no im looking for turkish
+"
+negate,"no canapes
+"
+negate,"no canapes
 "
 negate,"no african
 "
-negate,"what no
+negate,"no catalan food
 "
-negate,"no cuban food cuban food
+negate,"no air tran good
 "
-negate,"no id like cheap restaurant in the west part of town
+negate,"wait no i wanted portuguese food
+"
+negate,"no steak house
+"
+negate,"uh no im looking for italian food
+"
+negate,"no noise
+"
+negate,"no im looking for austria asian food
+"
+negate,"no caribbean
+"
+negate,"no okay thats fine what about french food
+"
+negate,"noise no im looking for a french restaurant
+"
+negate,"no caribbean
+"
+negate,"no what about thai food
+"
+negate,"no thank you
+"
+negate,"no i need a restaurant in the west part of town
+"
+negate,"uh no thank you and good bye
+"
+negate,"breath no unusual food
+"
+negate,"um no
+"
+negate,"no i am looking for a vietnamese restaurant
+"
+negate,"no caribbean
+"
+negate,"no im looking for an expensive restaurant in the east part of town
+"
+negate,"no im looking for a moderately priced restaurant that serves kosher food
 "
 negate,"no italian food
 "
-negate,"no goodbye thank you
+negate,"no gastropub
 "
-negate,"no i want
+negate,"no hungarian
 "
-negate,"no spanish food
+negate,"no hungarian food
+"
+negate,"no romanian
+"
+negate,"no im looking for thai food
+"
+negate,"no im looking for thai food
+"
+negate,"no im looking for thai food
+"
+negate,"no i said irish
+"
+negate,"no austrian food
+"
+negate,"no vietnamese
 "
 negate,"uh no
 "
+negate,"no i want thai food
+"
+negate,"no north
+"
+negate,"no vietnamese food
+"
+negate,"breath no malaysian food
+"
 negate,"uh no
 "
-negate,"breath no american food
+negate,"no hungarian food
 "
-negate,"no spanish food
+negate,"no south part of town
 "
-negate,"no spanish
+negate,"no north
 "
-negate,"no spanish
+negate,"no new selection
+"
+negate,"no danish food
+"
+negate,"no center
 "
 negate,"oh no and cheap
 "
-negate,"no is there anything else
+negate,"no well how about thai
+"
+negate,"no thank you
 "
 negate,"no italian food
 "
+negate,"uh no thats it thank you and good bye
+"
 negate,"no id like
 "
-confirm,"does it serve hungarian food
+confirm,"is it in the center
 "
-confirm,"does it serve hungarian food
+confirm,"does it serve european type food
 "
-confirm,"does it serve steakhouse food
+confirm,"does it serve chinese type of food
 "
-confirm,"does it serve caribbean food
+confirm,"does it serve cuban food
 "
-confirm,"does it serve spanish food
+confirm,"is it in the center
 "
-confirm,"does it serve african food
+confirm,"is there a chinese
 "
-confirm,"is it in the west part of town
+confirm,"okay is it in the west part of town
 "
-confirm,"is it moderately
+confirm,"is it in the center
 "
-confirm,"is it in the west part of town
+confirm,"does it serve cheap turkish food
+"
+confirm,"er do they serve eritrean food
+"
+confirm,"does it serve baskey food
+"
+confirm,"is there a jamaican restaurant
+"
+confirm,"is that mexican food
 "
 confirm,"is there a chinese restaurant
 "
-confirm,"is there a thai restaurant in the west of town
+confirm,"is there a greek restaurant
 "
-confirm,"is there a thai restaurant in the west of town
+confirm,"is there a thai restaurant
 "
-confirm,"is it hungarian food
+confirm,"is there a vietnamese restaurant
 "
-confirm,"is it in the north part of tow
+confirm,"is that persian food
 "
-confirm,"is there a chinese food
+confirm,"does it serve vietnamese food
 "
-confirm,"does it serve polynesian food
+confirm,"does it serve canapes food noise
 "
-confirm,"is it in the west part of town
+confirm,"is there a cheap restaurant that serves vietnamese food
 "
-confirm,"does it serve spanish food
+confirm,"is it in the south part
 "
-confirm,"is it moderate
+confirm,"is it in the center
 "
-confirm,"does it serve mediterranean food
+hello,"hi im looking for a moderately priced restaurant
 "
-hello,"hello hello oh your on the phone yea
-"
-hello,"hello im looking for a moderately priced restaurant in thr
-"
-hello,"hi im looking for a cheap restaurant with lebanese food
+hello,"hello and welcome to the cambridge
 "
 hello,"hi im looking for a moderately priced restaurant in the south part of
 "
-hello,"noise hello
+hello,"hi im looking for a moderately priced restaurant
 "
-hello,"hi im looking for an restaurant in the center that serves korean food
+hello,"hi im looking for a rerestaurant that serves cuban food
 "
-hello,"hi i want to find a moderately priced restaurant in the north part of town
+hello,"hi im looking for a restaurant in the west part of town
 "
-hello,"serve hello food
+hello,"hi im looking for
 "
-repeat,"could you repeat that
+hello,"laughing hello
 "
-repeat,"can you repeat that
+hello,"hello and welcome to the cambridge
 "
-repeat,"can you repeat that
+hello,"hi i want to serve a cheap restaurant that serves traditional food
 "
-repeat,"can you repeat that
+hello,"hi im looking for a moderately priced restaurant
 "
-repeat,"can you repeat that
+hello,"hi im looking for a cheap restaurant in the south part of town
 "
-repeat,"could you repeat that
+hello,"hello and welcome to the cambridge
 "
-repeat,"can you repeat that
+repeat,"again
 "
-ack,"good
+repeat,"repeat that
+"
+repeat,"repeat that
+"
+repeat,"repeat that
+"
+repeat,"repeat that
+"
+ack,"have a good
 "
 ack,"okay show me the least
 "
-ack,"okay just pick one for me then
+ack,"thatll do dear whats the address of that venue
 "
-deny,"no not indian scandinavian food
+ack,"okay uh can i
 "
-deny,"not any more
+deny,"i dont want vietnamese food
 "
-restart,"okay start over
+deny,"i dont want that
+"
+deny,"can you change romanian food to something else
+"
+deny,"that information is not important
+"
+restart,"can we start over
 "

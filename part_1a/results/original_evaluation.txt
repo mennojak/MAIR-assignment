@@ -1,14 +1,14 @@
 baseline: accuracy=0.9205, balanced_accuracy=0.7082
 BoW_LR: accuracy=0.9753, balanced_accuracy=0.7030
 BoW_SVM: accuracy=0.9814, balanced_accuracy=0.8796
-frozen_embeddings_LR: accuracy=0.9831, balanced_accuracy=0.8782
+frozen_embeddings_LR: accuracy=0.9836, balanced_accuracy=0.8785
 frozen_embeddings_SVM: accuracy=0.9858, balanced_accuracy=0.9010
 
 Acts by accuracy:
 baseline: deny (0.0000), restart (0.0000), bye (0.1875), confirm (0.4348), null (0.7288), ack (0.7500), repeat (0.8000), reqalts (0.8939), inform (0.9334), request (0.9347), negate (0.9841), thankyou (0.9877), affirm (0.9882), hello (1.0000), reqmore (1.0000)
 BoW_LR: ack (0.0000), reqmore (0.0000), restart (0.0000), deny (0.5000), bye (0.6875), repeat (0.8000), confirm (0.8261), null (0.8941), hello (0.9231), reqalts (0.9633), affirm (0.9765), inform (0.9835), request (0.9904), negate (1.0000), thankyou (1.0000)
 BoW_SVM: ack (0.2500), deny (0.5000), repeat (0.8000), bye (0.8125), reqalts (0.9551), confirm (0.9565), null (0.9576), inform (0.9785), affirm (0.9882), request (0.9957), hello (1.0000), negate (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
-frozen_embeddings_LR: ack (0.5000), deny (0.5000), repeat (0.6000), bye (0.8125), confirm (0.9130), reqalts (0.9633), null (0.9661), negate (0.9683), affirm (0.9706), inform (0.9850), request (0.9946), hello (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
+frozen_embeddings_LR: ack (0.5000), deny (0.5000), repeat (0.6000), bye (0.8125), confirm (0.9130), null (0.9661), reqalts (0.9673), negate (0.9683), affirm (0.9706), inform (0.9857), request (0.9946), hello (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
 frozen_embeddings_SVM: ack (0.5000), deny (0.5000), repeat (0.8000), bye (0.8750), confirm (0.9565), null (0.9619), reqalts (0.9673), affirm (0.9706), inform (0.9878), request (0.9957), hello (1.0000), negate (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
 
 Utterances misclassified by all systems (21):

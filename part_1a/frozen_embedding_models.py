@@ -57,13 +57,16 @@ def train_frozen_embeddings_classifier(df_train, grouped=False):
 
     # the embeddings are saved because making them takes long
     embeddings_file = 'part_1a/models/embeddings_' + split + '.npy'
-    if os.path.exists(embeddings_file):
+    # the utterances are also saved so saved embeddings are only reused if they were made
+    utterances_file = 'part_1a/models/embeddings_' + split + '_utterances.joblib'
+    if os.path.exists(embeddings_file) and os.path.exists(utterances_file) and joblib.load(utterances_file) == utterances:
         X_train = np.load(embeddings_file)
         print('loaded saved embeddings for', split)
     else:
         print('making embeddings for', split, 'this can take a few minutes')
         X_train = make_embeddings(utterances)
         np.save(embeddings_file, X_train)
+        joblib.dump(utterances, utterances_file)
 
     # same two classifiers as for bow
     lr = LogisticRegression(max_iter=2000, random_state=12)

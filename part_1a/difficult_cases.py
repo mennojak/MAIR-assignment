@@ -21,10 +21,13 @@ DIFFICULT_CASES = [
 def create_difficult_cases_datasets():
     difficult_cases = pd.DataFrame(DIFFICULT_CASES, columns=["dialog_act", "utterance"])
 
+    # All input is converted to lower case
+    difficult_cases["utterance"] = difficult_cases["utterance"].str.lower()
+
     print("\nDifficult cases:")
     for i, case in difficult_cases.iterrows():
         print(
-            f'- {"Ambiguous -" if i > 4 else "Negation -"}'
+            f'- {"Ambiguous - " if i < 3 else "Negation - "}' 
             f'true={case["dialog_act"]}: "{case["utterance"]}"'
         )
     print("------------------------------\n")
