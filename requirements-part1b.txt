@@ -1,0 +1,8 @@
+# Runtime packages used to check the Part 1b modules (Python 3.11).
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.1
+torch==2.14.0
+transformers==5.17.0
+joblib==1.6.0
+python-Levenshtein==0.27.5
