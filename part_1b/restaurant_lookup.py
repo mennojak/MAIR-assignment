@@ -1,8 +1,3 @@
-# The pipeline loads restaurant_info_extended.csv and passes its DataFrame here.
-# TODO: Filter rows using the required-slot mapping and exclude already recommended names.
-# TODO: Return all remaining matches in order; the pipeline recommends the first result.
-# TODO: Return an empty list when no restaurants match.
-
 def find_restaurants(requirements, restaurant_data, recommended_restaurants):
     # Find matches, then remove the restaurants already suggested.
     matches = restaurant_data.copy()

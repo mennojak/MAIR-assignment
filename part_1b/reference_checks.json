@@ -1,910 +1,135 @@
 {
   "1": [
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "italian",
-        "area": "centre",
-        "pricerange": "cheap"
-      },
-      "allow_extra_question": true,
-      "utterance": "I want a cheap italian restaurant in the centre"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "italian",
-        "area": "centre",
-        "pricerange": "cheap"
-      },
-      "utterance": "thanks bye"
-    }
+    {"action": "7_suggest_restaurant", "slots": {"food": "italian", "area": "centre", "pricerange": "cheap"}, "allow_extra_question": true, "utterance": "I want a cheap italian restaurant in the centre"},
+    {"action": "9_goodbye", "slots": {"food": "italian", "area": "centre", "pricerange": "cheap"}, "utterance": "thanks bye"}
   ],
   "2": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "Hello"
-    },
-    {
-      "action": "3_ask_area",
-      "slots": {
-        "food": "indian",
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "indian"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "indian",
-        "area": "north",
-        "pricerange": null
-      },
-      "utterance": "north"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "indian",
-        "area": "north",
-        "pricerange": "moderate"
-      },
-      "utterance": "moderate"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "indian",
-        "area": "north",
-        "pricerange": "moderate"
-      },
-      "utterance": "no"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "indian",
-        "area": "north",
-        "pricerange": "moderate"
-      },
-      "utterance": "another one"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "indian",
-        "area": "west",
-        "pricerange": "moderate"
-      },
-      "utterance": "another one in the west"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "indian",
-        "area": "west",
-        "pricerange": "moderate"
-      },
-      "utterance": "okay, thank you bye"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": null, "pricerange": null}, "utterance": "Hello"},
+    {"action": "3_ask_area", "slots": {"food": "indian", "area": null, "pricerange": null}, "utterance": "indian"},
+    {"action": "4_ask_price", "slots": {"food": "indian", "area": "north", "pricerange": null}, "utterance": "north"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "indian", "area": "north", "pricerange": "moderate"}, "utterance": "moderate"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "indian", "area": "north", "pricerange": "moderate"}, "utterance": "no"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "indian", "area": "north", "pricerange": "moderate"}, "utterance": "another one"},
+    {"action": "5_no_match", "slots": {"food": "indian", "area": "west", "pricerange": "moderate"}, "utterance": "another one in the west"},
+    {"action": "9_goodbye", "slots": {"food": "indian", "area": "west", "pricerange": "moderate"}, "utterance": "okay, thank you bye"}
   ],
   "3": [
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "I am looking for expensive british food in the centre"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "none"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "info": "phone",
-      "utterance": "what is the phone number"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "info": "addr",
-      "utterance": "address please"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "info": "postcode",
-      "utterance": "post code"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "thank you goodbye"
-    }
+    {"action": "6_ask_additional_requirements", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "utterance": "I am looking for expensive british food in the centre"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "utterance": "none"},
+    {"action": "8_give_info", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "info": "phone", "utterance": "what is the phone number"},
+    {"action": "8_give_info", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "info": "addr", "utterance": "address please"},
+    {"action": "8_give_info", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "info": "postcode", "utterance": "post code"},
+    {"action": "9_goodbye", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "utterance": "thank you goodbye"}
   ],
   "4": [
-    {
-      "action": "3_ask_area",
-      "slots": {
-        "food": "chinese",
-        "area": null,
-        "pricerange": "cheap"
-      },
-      "utterance": "cheap chinese food"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "chinese",
-        "area": "south",
-        "pricerange": "cheap"
-      },
-      "utterance": "south"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "chinese",
-        "area": "south",
-        "pricerange": "cheap"
-      },
-      "utterance": "no"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "chinese",
-        "area": "south",
-        "pricerange": "cheap"
-      },
-      "utterance": "thank you goodbye"
-    }
+    {"action": "3_ask_area", "slots": {"food": "chinese", "area": null, "pricerange": "cheap"}, "utterance": "cheap chinese food"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "chinese", "area": "south", "pricerange": "cheap"}, "utterance": "south"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "chinese", "area": "south", "pricerange": "cheap"}, "utterance": "no"},
+    {"action": "9_goodbye", "slots": {"food": "chinese", "area": "south", "pricerange": "cheap"}, "utterance": "thank you goodbye"}
   ],
   "5": [
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "indian",
-        "area": "east",
-        "pricerange": "expensive"
-      },
-      "utterance": "I'm looking for an expensive restaurant in the east that serves indian food"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "indian",
-        "area": "east",
-        "pricerange": "expensive"
-      },
-      "utterance": "nothing else"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "indian",
-        "area": "east",
-        "pricerange": "expensive"
-      },
-      "utterance": "thank you goodbye"
-    }
+    {"action": "6_ask_additional_requirements", "slots": {"food": "indian", "area": "east", "pricerange": "expensive"}, "utterance": "I'm looking for an expensive restaurant in the east that serves indian food"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "indian", "area": "east", "pricerange": "expensive"}, "utterance": "nothing else"},
+    {"action": "9_goodbye", "slots": {"food": "indian", "area": "east", "pricerange": "expensive"}, "utterance": "thank you goodbye"}
   ],
   "6": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "response_contains": "not familiar",
-      "utterance": "I would like some Swedish food."
-    },
-    {
-      "action": "3_ask_area",
-      "slots": {
-        "food": "lebanese",
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "How about Lebanese food"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "lebanese",
-        "area": "dontcare",
-        "pricerange": null
-      },
-      "utterance": "Any part of town is fine"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "lebanese",
-        "area": "dontcare",
-        "pricerange": "moderate"
-      },
-      "allow_extra_question": true,
-      "utterance": "moderate"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "lebanese",
-        "area": "dontcare",
-        "pricerange": "moderate"
-      },
-      "utterance": "thank you goodbye"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": null, "pricerange": null}, "response_contains": "not familiar", "utterance": "I would like some Swedish food."},
+    {"action": "3_ask_area", "slots": {"food": "lebanese", "area": null, "pricerange": null}, "utterance": "How about Lebanese food"},
+    {"action": "4_ask_price", "slots": {"food": "lebanese", "area": "dontcare", "pricerange": null}, "utterance": "Any part of town is fine"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "lebanese", "area": "dontcare", "pricerange": "moderate"}, "allow_extra_question": true, "utterance": "moderate"},
+    {"action": "9_goodbye", "slots": {"food": "lebanese", "area": "dontcare", "pricerange": "moderate"}, "utterance": "thank you goodbye"}
   ],
   "7": [
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "never mind, goodbye"
-    }
+    {"action": "9_goodbye", "slots": {"food": null, "area": null, "pricerange": null}, "utterance": "never mind, goodbye"}
   ],
   "8": [
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "Find an expensive british restaurant in the centre"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "no"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "response_contains": "yes",
-      "utterance": "is it in the centre?"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "response_contains": "no",
-      "utterance": "Is it a cheap restaurant?"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "british",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "thank you goodbye"
-    }
+    {"action": "6_ask_additional_requirements", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "utterance": "Find an expensive british restaurant in the centre"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "utterance": "no"},
+    {"action": "8_give_info", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "response_contains": "yes", "utterance": "is it in the centre?"},
+    {"action": "8_give_info", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "response_contains": "no", "utterance": "Is it a cheap restaurant?"},
+    {"action": "9_goodbye", "slots": {"food": "british", "area": "centre", "pricerange": "expensive"}, "utterance": "thank you goodbye"}
   ],
   "9": [
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "italian",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "I want italian food, any area is fine, any price"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "italian",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "no"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "italian",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "info": "phone",
-      "utterance": "what is their phone number?"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "italian",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "Okay, thank you!"
-    }
+    {"action": "6_ask_additional_requirements", "slots": {"food": "italian", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "I want italian food, any area is fine, any price"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "italian", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "no"},
+    {"action": "8_give_info", "slots": {"food": "italian", "area": "dontcare", "pricerange": "dontcare"}, "info": "phone", "utterance": "what is their phone number?"},
+    {"action": "9_goodbye", "slots": {"food": "italian", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "Okay, thank you!"}
   ],
   "10": [
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "vietnamese",
-        "area": "centre",
-        "pricerange": null
-      },
-      "utterance": "I want to go to a vietnamese restaurant in the centre"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "vietnamese",
-        "area": "centre",
-        "pricerange": "dontcare"
-      },
-      "utterance": "I don't care"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "vietnamese",
-        "area": "north",
-        "pricerange": "dontcare"
-      },
-      "utterance": "what about in the north?"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "vietnamese",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "allow_extra_question": true,
-      "utterance": "Any area then."
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "vietnamese",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "more"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "chinese",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "allow_extra_question": true,
-      "utterance": "How about Chinese food?"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "chinese",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "info": "addr",
-      "utterance": "Can you give me their address"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "chinese",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "Thank you!"
-    }
+    {"action": "4_ask_price", "slots": {"food": "vietnamese", "area": "centre", "pricerange": null}, "utterance": "I want to go to a vietnamese restaurant in the centre"},
+    {"action": "5_no_match", "slots": {"food": "vietnamese", "area": "centre", "pricerange": "dontcare"}, "utterance": "I don't care"},
+    {"action": "5_no_match", "slots": {"food": "vietnamese", "area": "north", "pricerange": "dontcare"}, "utterance": "what about in the north?"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "vietnamese", "area": "dontcare", "pricerange": "dontcare"}, "allow_extra_question": true, "utterance": "Any area then."},
+    {"action": "5_no_match", "slots": {"food": "vietnamese", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "more"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "chinese", "area": "dontcare", "pricerange": "dontcare"}, "allow_extra_question": true, "utterance": "How about Chinese food?"},
+    {"action": "8_give_info", "slots": {"food": "chinese", "area": "dontcare", "pricerange": "dontcare"}, "info": "addr", "utterance": "Can you give me their address"},
+    {"action": "9_goodbye", "slots": {"food": "chinese", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "Thank you!"}
   ],
   "11": [
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": null
-      },
-      "utterance": "I'm looking for a restaurant in any area that serves tuscan food"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "allow_extra_question": true,
-      "utterance": "It doesn't matter"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "Thank you!"
-    }
+    {"action": "4_ask_price", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": null}, "utterance": "I'm looking for a restaurant in any area that serves tuscan food"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "dontcare"}, "allow_extra_question": true, "utterance": "It doesn't matter"},
+    {"action": "9_goodbye", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "Thank you!"}
   ],
   "12": [
-    {
-      "action": null,
-      "slots": {
-        "food": null,
-        "area": "centre",
-        "pricerange": null
-      },
-      "response_contains": "did you mean",
-      "pending": "spanish",
-      "utterance": "I want spenish food in the centre"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "spanish",
-        "area": "centre",
-        "pricerange": null
-      },
-      "utterance": "yes"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "spanish",
-        "area": "centre",
-        "pricerange": "expensive"
-      },
-      "utterance": "Expensive"
-    },
-    {
-      "action": "1_welcome",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "start over"
-    },
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": "centre",
-        "pricerange": null
-      },
-      "utterance": "I'm looking for a restaurant in the center"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "spanish",
-        "area": "centre",
-        "pricerange": null
-      },
-      "utterance": "Spanish food"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "spanish",
-        "area": "centre",
-        "pricerange": "dontcare"
-      },
-      "utterance": "any"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "spanish",
-        "area": "centre",
-        "pricerange": "dontcare"
-      },
-      "utterance": "No"
-    }
+    {"action": null, "slots": {"food": null, "area": "centre", "pricerange": null}, "response_contains": "did you mean", "pending": "spanish", "utterance": "I want spenish food in the centre"},
+    {"action": "4_ask_price", "slots": {"food": "spanish", "area": "centre", "pricerange": null}, "utterance": "yes"},
+    {"action": "5_no_match", "slots": {"food": "spanish", "area": "centre", "pricerange": "expensive"}, "utterance": "Expensive"},
+    {"action": "1_welcome", "slots": {"food": null, "area": null, "pricerange": null}, "utterance": "start over"},
+    {"action": "2_ask_food", "slots": {"food": null, "area": "centre", "pricerange": null}, "utterance": "I'm looking for a restaurant in the center"},
+    {"action": "4_ask_price", "slots": {"food": "spanish", "area": "centre", "pricerange": null}, "utterance": "Spanish food"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "spanish", "area": "centre", "pricerange": "dontcare"}, "utterance": "any"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "spanish", "area": "centre", "pricerange": "dontcare"}, "utterance": "No"}
   ],
   "13": [
-    {
-      "action": null,
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "response_contains": "did you mean",
-      "pending": "spanish",
-      "utterance": "I want spenish food"
-    },
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "no"
-    },
-    {
-      "action": "3_ask_area",
-      "slots": {
-        "food": "french",
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "French food"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": null
-      },
-      "utterance": "I don't care"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": "expensive"
-      },
-      "utterance": "expensive"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": "expensive",
-        "assigned_seats": true
-      },
-      "utterance": "I would like a restaurant with assigned seats."
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": "expensive",
-        "assigned_seats": true
-      },
-      "info": "addr",
-      "utterance": "What is the address?"
-    }
+    {"action": null, "slots": {"food": null, "area": null, "pricerange": null}, "response_contains": "did you mean", "pending": "spanish", "utterance": "I want spenish food"},
+    {"action": "2_ask_food", "slots": {"food": null, "area": null, "pricerange": null}, "utterance": "no"},
+    {"action": "3_ask_area", "slots": {"food": "french", "area": null, "pricerange": null}, "utterance": "French food"},
+    {"action": "4_ask_price", "slots": {"food": "french", "area": "dontcare", "pricerange": null}, "utterance": "I don't care"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "french", "area": "dontcare", "pricerange": "expensive"}, "utterance": "expensive"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "french", "area": "dontcare", "pricerange": "expensive", "assigned_seats": true}, "utterance": "I would like a restaurant with assigned seats."},
+    {"action": "8_give_info", "slots": {"food": "french", "area": "dontcare", "pricerange": "expensive", "assigned_seats": true}, "info": "addr", "utterance": "What is the address?"}
   ],
   "14": [
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "turkish",
-        "area": "dontcare",
-        "pricerange": "moderate"
-      },
-      "utterance": "'m looking for a moderately priced restaurant in any part of town and it should serve Turkish food."
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "turkish",
-        "area": "dontcare",
-        "pricerange": "moderate",
-        "romantic": true
-      },
-      "utterance": "I would like it to be romantic"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "turkish",
-        "area": "dontcare",
-        "pricerange": "moderate",
-        "romantic": true
-      },
-      "utterance": "Thank you!"
-    }
+    {"action": "6_ask_additional_requirements", "slots": {"food": "turkish", "area": "dontcare", "pricerange": "moderate"}, "utterance": "'m looking for a moderately priced restaurant in any part of town and it should serve Turkish food."},
+    {"action": "7_suggest_restaurant", "slots": {"food": "turkish", "area": "dontcare", "pricerange": "moderate", "romantic": true}, "utterance": "I would like it to be romantic"},
+    {"action": "9_goodbye", "slots": {"food": "turkish", "area": "dontcare", "pricerange": "moderate", "romantic": true}, "utterance": "Thank you!"}
   ],
   "15": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": "centre",
-        "pricerange": "cheap"
-      },
-      "utterance": "I'm looking to eat cheap in the centre"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "dontcare",
-        "area": "centre",
-        "pricerange": "cheap"
-      },
-      "utterance": "any"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "dontcare",
-        "area": "centre",
-        "pricerange": "cheap",
-        "touristic": true
-      },
-      "utterance": "something touristic"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": "centre", "pricerange": "cheap"}, "utterance": "I'm looking to eat cheap in the centre"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "dontcare", "area": "centre", "pricerange": "cheap"}, "utterance": "any"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "dontcare", "area": "centre", "pricerange": "cheap", "touristic": true}, "utterance": "something touristic"}
   ],
   "16": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": "west",
-        "pricerange": "moderate"
-      },
-      "utterance": "I want a moderately priced restaurant in the west"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "british",
-        "area": "west",
-        "pricerange": "moderate"
-      },
-      "allow_extra_question": true,
-      "utterance": "british"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "british",
-        "area": "west",
-        "pricerange": "moderate"
-      },
-      "utterance": "Okay, thanks bye"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": "west", "pricerange": "moderate"}, "utterance": "I want a moderately priced restaurant in the west"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "british", "area": "west", "pricerange": "moderate"}, "allow_extra_question": true, "utterance": "british"},
+    {"action": "9_goodbye", "slots": {"food": "british", "area": "west", "pricerange": "moderate"}, "utterance": "Okay, thanks bye"}
   ],
   "17": [
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "italian",
-        "area": "south",
-        "pricerange": "expensive"
-      },
-      "utterance": "I want to eat expensive italian food in the south"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "italian",
-        "area": "south",
-        "pricerange": "expensive",
-        "romantic": true
-      },
-      "utterance": "I want it to be romantic"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "italian",
-        "area": "south",
-        "pricerange": "expensive",
-        "romantic": true
-      },
-      "utterance": "What is the address?"
-    }
+    {"action": "6_ask_additional_requirements", "slots": {"food": "italian", "area": "south", "pricerange": "expensive"}, "utterance": "I want to eat expensive italian food in the south"},
+    {"action": "5_no_match", "slots": {"food": "italian", "area": "south", "pricerange": "expensive", "romantic": true}, "utterance": "I want it to be romantic"},
+    {"action": "5_no_match", "slots": {"food": "italian", "area": "south", "pricerange": "expensive", "romantic": true}, "utterance": "What is the address?"}
   ],
   "18": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "Hi"
-    },
-    {
-      "action": "3_ask_area",
-      "slots": {
-        "food": "seafood",
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "seafood"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "seafood",
-        "area": "dontcare",
-        "pricerange": null
-      },
-      "utterance": "any part of town"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "seafood",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "any price range is ok"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "seafood",
-        "area": "dontcare",
-        "pricerange": "dontcare",
-        "children": true
-      },
-      "utterance": "It should be suitable for children"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": null, "pricerange": null}, "utterance": "Hi"},
+    {"action": "3_ask_area", "slots": {"food": "seafood", "area": null, "pricerange": null}, "utterance": "seafood"},
+    {"action": "4_ask_price", "slots": {"food": "seafood", "area": "dontcare", "pricerange": null}, "utterance": "any part of town"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "seafood", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "any price range is ok"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "seafood", "area": "dontcare", "pricerange": "dontcare", "children": true}, "utterance": "It should be suitable for children"}
   ],
   "19": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": "expensive"
-      },
-      "utterance": "Can I have an expensive restaurant"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "expensive"
-      },
-      "allow_extra_question": true,
-      "utterance": "I'm looking for a restaurant in any area that serves Tuscan food"
-    },
-    {
-      "action": "5_no_match",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "expensive"
-      },
-      "utterance": "Another one"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "expensive"
-      },
-      "info": "postcode",
-      "utterance": "Do you have a postal code?"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "expensive"
-      },
-      "info": "addr",
-      "utterance": "Address then?"
-    },
-    {
-      "action": "9_goodbye",
-      "slots": {
-        "food": "tuscan",
-        "area": "dontcare",
-        "pricerange": "expensive"
-      },
-      "utterance": "Thanks"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": null, "pricerange": "expensive"}, "utterance": "Can I have an expensive restaurant"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "expensive"}, "allow_extra_question": true, "utterance": "I'm looking for a restaurant in any area that serves Tuscan food"},
+    {"action": "5_no_match", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "expensive"}, "utterance": "Another one"},
+    {"action": "8_give_info", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "expensive"}, "info": "postcode", "utterance": "Do you have a postal code?"},
+    {"action": "8_give_info", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "expensive"}, "info": "addr", "utterance": "Address then?"},
+    {"action": "9_goodbye", "slots": {"food": "tuscan", "area": "dontcare", "pricerange": "expensive"}, "utterance": "Thanks"}
   ],
   "20": [
-    {
-      "action": "2_ask_food",
-      "slots": {
-        "food": null,
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "sdfhsdjkhjdhsdf"
-    },
-    {
-      "action": "3_ask_area",
-      "slots": {
-        "food": "french",
-        "area": null,
-        "pricerange": null
-      },
-      "utterance": "French food"
-    },
-    {
-      "action": "4_ask_price",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": null
-      },
-      "utterance": "any location would be fine"
-    },
-    {
-      "action": "6_ask_additional_requirements",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "I don't care"
-    },
-    {
-      "action": "7_suggest_restaurant",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "utterance": "No"
-    },
-    {
-      "action": "8_give_info",
-      "slots": {
-        "food": "french",
-        "area": "dontcare",
-        "pricerange": "dontcare"
-      },
-      "info": "addr",
-      "utterance": "What is the address?"
-    }
+    {"action": "2_ask_food", "slots": {"food": null, "area": null, "pricerange": null}, "utterance": "sdfhsdjkhjdhsdf"},
+    {"action": "3_ask_area", "slots": {"food": "french", "area": null, "pricerange": null}, "utterance": "French food"},
+    {"action": "4_ask_price", "slots": {"food": "french", "area": "dontcare", "pricerange": null}, "utterance": "any location would be fine"},
+    {"action": "6_ask_additional_requirements", "slots": {"food": "french", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "I don't care"},
+    {"action": "7_suggest_restaurant", "slots": {"food": "french", "area": "dontcare", "pricerange": "dontcare"}, "utterance": "No"},
+    {"action": "8_give_info", "slots": {"food": "french", "area": "dontcare", "pricerange": "dontcare"}, "info": "addr", "utterance": "What is the address?"}
   ]
 }

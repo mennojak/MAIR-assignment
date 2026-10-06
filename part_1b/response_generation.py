@@ -1,12 +1,4 @@
-# The pipeline passes current_state as system_action and the full dialogue state here.
-# TODO: Keep response wording consistent with the numbered FSM actions below.
-# TODO: Pass runtime config into this function (or store the relevant option in state).
-# TODO: Use the selected restaurant's attributes and state["reasoning"] in the recommendation.
-# TODO: Honor reasoning_transparency: show the inference chain when enabled and omit it
-# when disabled, without changing the selected restaurant or recommendation.
-# TODO: Implement no-match and restaurant-info responses using the current requirements,
-# requested information, remaining candidates, and applicable FSM behavior.
-# TODO: Add confirmation or contradiction responses only with matching FSM handling.
+# TODO: add confirmation replies when the state machine handles them.
 
 import re
 
@@ -20,7 +12,6 @@ PROPERTY_NAMES = {
 
 
 def describe_preferences(state):
-    """Put the current preferences into a sentence."""
     parts = []
     for slot in ("food", "area", "pricerange"):
         value = state.get("requirements", {}).get(slot)
@@ -35,32 +26,35 @@ def describe_preferences(state):
 
 
 def explain_reasoning(reasoning, requirements):
-    """Explain the rules and say which conclusion wins."""
     wanted = []
     for slot, value in requirements.items():
         if isinstance(value, bool):
             wanted.append(slot)
     sentences = []
     for rule in reasoning.get("rules", []):
-        if not wanted or rule["property"] in wanted:
-            sentences.append(rule["reason"])
+        if wanted and rule["property"] not in wanted:
+            continue
+        sentences.append(rule["reason"])
     if not wanted or "children" in wanted:
         sentences.extend(reasoning.get("defaults", []))
     for conflict in reasoning.get("conflicts", []):
         slot = conflict["property"]
-        if not wanted or slot in wanted:
-            conclusion = PROPERTY_NAMES[slot][False]
-            sentences.append("These rules disagree. We give the negative conclusion priority, "
-                             "so we treat this restaurant as " + conclusion + ".")
+        if wanted and slot not in wanted:
+            continue
+        conclusion = PROPERTY_NAMES[slot][0]
+        sentences.append("These rules disagree. We give the negative conclusion priority, "
+                         "so we treat this restaurant as " + conclusion + ".")
     for slot in wanted:
-        if slot in PROPERTY_NAMES and reasoning.get("properties", {}).get(slot) is None:
+        if slot not in PROPERTY_NAMES:
+            continue
+        value = reasoning.get("properties", {}).get(slot)
+        if value is None:
             sentences.append("The available rules do not tell us whether this restaurant is "
-                             + PROPERTY_NAMES[slot][True] + ".")
+                             + PROPERTY_NAMES[slot][1] + ".")
     return " ".join(sentences)
 
 
 def generate_response(system_action, state):
-    """Write the reply for the current action."""
     restaurant = state.get("current_recommendation") or {}
     additional = state.get("additional_requirements", {})
     show_reasoning = state.get("configuration", {}).get("reasoning_transparency", True)
@@ -92,16 +86,20 @@ def generate_response(system_action, state):
         for slot, value in state.get("requirements", {}).items():
             if value not in (None, "", "dontcare") and restaurant.get(slot) != value:
                 same_preferences = False
+        properties = state.get("reasoning", {}).get("properties", {})
         for slot, value in additional.items():
-            if isinstance(value, bool) and state.get("reasoning", {}).get("properties", {}).get(slot) is not value:
+            if not isinstance(value, bool):
+                continue
+            if properties.get(slot) is not value:
                 same_preferences = False
         if same_preferences and state.get("dialog_act") in ("reqalts", "reqmore"):
             return "I'm afraid that's all the options I have. Would you like to change a preference?"
 
-        response = "Sorry, I couldn't find a remaining restaurant matching " + describe_preferences(state) + "."
+        preferences = describe_preferences(state)
+        response = "Sorry, I couldn't find a remaining restaurant matching " + preferences + "."
         rejected = state.get("rejected_candidates", [])
         if rejected:
-            response = "I couldn't find a remaining restaurant that meets " + describe_preferences(state) + "."
+            response = "I couldn't find a remaining restaurant that meets " + preferences + "."
             if show_reasoning:
                 # Showing one rejected restaurant is enough here.
                 example = rejected[0]
@@ -150,11 +148,14 @@ def generate_response(system_action, state):
             postcode = restaurant.get("postcode") or "unknown"
             replies.append("The postcode of " + name + " is " + postcode + ".")
         if re.search(r"\b(price|cost|expensive|cheap|moderate)\b", text):
-            replies.append("The price range of " + name + " is " + (restaurant.get("pricerange") or "unknown") + ".")
+            value = restaurant.get("pricerange") or "unknown"
+            replies.append("The price range of " + name + " is " + value + ".")
         if re.search(r"\b(area|part of town)\b", text):
-            replies.append("The area of " + name + " is " + (restaurant.get("area") or "unknown") + ".")
+            value = restaurant.get("area") or "unknown"
+            replies.append("The area of " + name + " is " + value + ".")
         if re.search(r"\b(food|cuisine)\b", text):
-            replies.append("The food type of " + name + " is " + (restaurant.get("food") or "unknown") + ".")
+            value = restaurant.get("food") or "unknown"
+            replies.append("The food type of " + name + " is " + value + ".")
         if replies:
             return " ".join(replies)
         return "Would you like the phone number, address or postcode of " + name + "?"

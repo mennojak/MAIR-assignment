@@ -1,18 +1,4 @@
-# TODO: Implement all six Part 1b rules against restaurant_info_extended.csv:
-# TODO: cheap AND good food -> touristic=True
-# TODO: Romanian -> touristic=False
-# TODO: busy -> assigned_seats=True
-# TODO: long stay -> children=False
-# TODO: busy -> romantic=False
-# TODO: long stay -> romantic=True
-# TODO: Return derived values, the rule IDs/natural-language explanations that fired,
-# TODO: and any conflicts. The pipeline must apply this to every lookup candidate and
-# TODO: filter candidates against requested additional_requirements before choosing one.
-# TODO: Choose and document an explicit contradiction policy; never silently discard a
-# TODO: conflicting conclusion. Response generation must honor reasoning_transparency.
-
 def apply_reasoning(restaurant, additional_requirements):
-    """Check the six rules. If they disagree, False wins."""
     properties = {"touristic": None, "assigned_seats": None,
                   "children": None, "romantic": None}
     rules = []
@@ -48,10 +34,11 @@ def apply_reasoning(restaurant, additional_requirements):
         rule_ids = []
         reasons = []
         for rule in rules:
-            if rule["property"] == name:
-                values.append(rule["value"])
-                rule_ids.append(rule["id"])
-                reasons.append(rule["reason"])
+            if rule["property"] != name:
+                continue
+            values.append(rule["value"])
+            rule_ids.append(rule["id"])
+            reasons.append(rule["reason"])
 
         if False in values:
             properties[name] = False
@@ -81,8 +68,12 @@ def apply_reasoning(restaurant, additional_requirements):
         if properties[name] is not wanted:
             unmet.append(name)
 
-    return {"properties": properties, "rules": rules, "conflicts": conflicts,
-            "explanations": explanations, "defaults": defaults,
-            "matches_requirements": not unmet, "unmet_requirements": unmet,
-            "conflict_policy": "negative_wins"}
+    result = {"properties": properties, "rules": rules}
+    result["conflicts"] = conflicts
+    result["explanations"] = explanations
+    result["defaults"] = defaults
+    result["matches_requirements"] = len(unmet) == 0
+    result["unmet_requirements"] = unmet
+    result["conflict_policy"] = "negative_wins"
+    return result
 

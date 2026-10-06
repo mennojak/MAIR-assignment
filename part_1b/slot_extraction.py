@@ -1,9 +1,4 @@
-# The pipeline passes the utterance and runtime configuration, then merges the returned
-# mapping into the fixed requirements and additional_requirements state fields.
-# TODO: Return only the supported keys: food, area, pricerange, touristic,
-# TODO: assigned_seats, children and romantic; support multiple values per utterance.
-# TODO: Handle don't-care phrasing and use the configured fallback strategy where needed.
-# TODO: Add confirmation handling only alongside an explicit confirmation state/flow.
+# TODO: connect spelling suggestions to the yes/no confirmation flow.
 
 import csv
 import re
@@ -30,8 +25,9 @@ STOP_WORDS = set("i im am a an the want would like looking for restaurant restau
 
 
 def clean_utterance(text):
-    """Clean the text before looking for words."""
-    text = text.lower().replace("’", "'").replace("'", "")
+    text = text.lower()
+    text = text.replace("’", "'")
+    text = text.replace("'", "")
     text = re.sub(r"[^a-z0-9 ]", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
@@ -39,7 +35,6 @@ def clean_utterance(text):
 
 @lru_cache(maxsize=1)
 def load_ontology():
-    """Read the possible foods, areas and prices."""
     path = Path(__file__).resolve().parents[1] / "data" / "restaurant_info.csv"
     with path.open(encoding="utf-8", newline="") as file:
         rows = list(csv.DictReader(file))
@@ -55,8 +50,9 @@ def load_ontology():
 
 
 def is_negative(text, start):
-    """Check for words such as "not" before this value."""
-    before = re.split(r"\b(?:but|and|instead)\b", text[:start])[-1].split()
+    before = text[:start]
+    parts = re.split(r"\b(?:but|and|instead)\b", before)
+    before = parts[-1].split()
     for word in before[-4:]:
         if word in ("not", "no", "dont", "avoid", "without"):
             return True
@@ -65,13 +61,11 @@ def is_negative(text, start):
 
 @lru_cache(maxsize=4)
 def ontology_embeddings(slot, terms):
-    """Get the vectors using our Part 1a code."""
     from part_1a.frozen_embedding_models import make_embeddings
     return make_embeddings(list(terms))
 
 
 def match_fallback(given, slot, config):
-    """Try a close match; leave it unknown if unsure."""
     terms = load_ontology()[slot]
     if len(given) < 4:
         return None
@@ -93,18 +87,26 @@ def match_fallback(given, slot, config):
     from part_1a.frozen_embedding_models import make_embeddings
     vectors = ontology_embeddings(slot, tuple(terms))
     query = make_embeddings([given])[0]
-    lengths = np.linalg.norm(vectors, axis=1) * np.linalg.norm(query)
-    scores = (vectors @ query) / np.maximum(lengths, 1e-12)
-    order = np.argsort(scores)[::-1]
-    first, second = int(order[0]), int(order[1])
-    gap = scores[first] - scores[second]
-    if scores[first] >= config["similarity_threshold"] and gap >= config["similarity_margin"]:
-        return terms[first]
-    return None
+    query_length = np.linalg.norm(query)
+    scores = []
+    for vector in vectors:
+        length = np.linalg.norm(vector) * query_length
+        if length < 1e-12:
+            length = 1e-12
+        score = np.dot(vector, query) / length
+        scores.append(float(score))
+
+    best = max(scores)
+    index = scores.index(best)
+    ordered = sorted(scores, reverse=True)
+    if best < config["similarity_threshold"]:
+        return None
+    if best - ordered[1] < config["similarity_margin"]:
+        return None
+    return terms[index]
 
 
 def extract_slot_details(utterance, config, state=None):
-    """Find preferences and keep guesses separately."""
     text = clean_utterance(utterance)
     state = state or {}
     asked = ASKED_SLOTS.get(state.get("current_state"))
@@ -113,7 +115,7 @@ def extract_slot_details(utterance, config, state=None):
     pending = []
     unrecognized = []
     excluded = {}
-    used = []
+    used = set()
 
     for alias, value in ALIASES.items():
         text = re.sub(r"\b" + re.escape(alias) + r"\b", value, text)
@@ -127,13 +129,13 @@ def extract_slot_details(utterance, config, state=None):
     for value, slot in keywords:
         for match in re.finditer(r"\b" + re.escape(value) + r"\b", text):
             overlap = False
-            for start, end in used:
-                if match.start() < end and match.end() > start:
+            for position in range(match.start(), match.end()):
+                if position in used:
                     overlap = True
                     break
             if overlap:
                 continue
-            used.append(match.span())
+            used.update(range(match.start(), match.end()))
             if is_negative(text, match.start()):
                 if slot not in excluded:
                     excluded[slot] = []
@@ -144,19 +146,36 @@ def extract_slot_details(utterance, config, state=None):
                 if old is None or text.rfind(value) > text.rfind(old):
                     slots[slot] = value
 
-    any_patterns = {
-        "food": r"\bany (?:kind of |type of )?(?:food|cuisine)\b",
-        "area": r"\bany (?:part of town|area|location)\b",
-        "pricerange": r"\bany price(?: range)?\b",
+    any_words = {
+        "food": ["any food", "any cuisine", "any kind of food", "any kind of cuisine",
+                 "any type of food", "any type of cuisine"],
+        "area": ["any part of town", "any area", "any location"],
+        "pricerange": ["any price"],
     }
-    for slot, pattern in any_patterns.items():
-        if re.search(pattern, text):
-            slots[slot] = "dontcare"
-    for slot, words in {"food": "food|cuisine", "area": "area|location|part of town",
-                        "pricerange": "price|price range"}.items():
-        if re.search(r"\b(?:dont care|no preference)(?: about| for| for the| about the)? (?:" + words + r")\b", text):
-            slots[slot] = "dontcare"
-    if asked and re.fullmatch(r"(?:i )?(?:dont care|do not care|have no preference|no preference|any|anything|whatever|it doesnt matter|doesnt matter)(?: is fine)?", text):
+    padded = " " + text + " "
+    for slot, phrases in any_words.items():
+        for phrase in phrases:
+            if " " + phrase + " " in padded:
+                slots[slot] = "dontcare"
+                break
+
+    names = {"food": ["food", "cuisine"], "area": ["area", "location", "part of town"],
+             "pricerange": ["price", "price range"]}
+    for slot, phrases in names.items():
+        for phrase in phrases:
+            for prefix in ["dont care", "no preference"]:
+                for middle in [" ", " about ", " for ", " for the ", " about the "]:
+                    if " " + prefix + middle + phrase + " " in padded:
+                        slots[slot] = "dontcare"
+
+    answer = text
+    if answer.startswith("i "):
+        answer = answer[2:]
+    if answer.endswith(" is fine"):
+        answer = answer[:-8]
+    if asked and answer in ["dont care", "do not care", "have no preference",
+                            "no preference", "any", "anything", "whatever",
+                            "it doesnt matter", "doesnt matter"]:
         slots[asked] = "dontcare"
 
     for slot, phrases in ADDITIONAL_WORDS.items():
@@ -164,7 +183,7 @@ def extract_slot_details(utterance, config, state=None):
             match = re.search(r"\b" + re.escape(phrase) + r"\b", text)
             if match:
                 slots[slot] = not is_negative(text, match.start())
-                used.append(match.span())
+                used.update(range(match.start(), match.end()))
                 break
 
     # Try the words we haven't matched yet.
@@ -172,13 +191,11 @@ def extract_slot_details(utterance, config, state=None):
     for match in re.finditer(r"\b[a-z]+\b", text):
         if match.group() in STOP_WORDS:
             continue
-        already_used = False
-        for start, end in used:
-            if start <= match.start() < end:
-                already_used = True
-                break
-        if not already_used and not is_negative(text, match.start()):
-            words.append(match.group())
+        if match.start() in used:
+            continue
+        if is_negative(text, match.start()):
+            continue
+        words.append(match.group())
     candidates = list(words)
     if 1 < len(words) <= 3:
         candidates.insert(0, " ".join(words))
@@ -191,9 +208,12 @@ def extract_slot_details(utterance, config, state=None):
             continue
         # Use the last question to help with short answers.
         relevant = asked == slot or (not asked and len(text.split()) <= 2)
-        relevant = relevant or (slot == "food" and food_mentioned)
-        relevant = relevant or (slot == "area" and area_mentioned)
-        relevant = relevant or (slot == "pricerange" and price_mentioned)
+        if slot == "food" and food_mentioned:
+            relevant = True
+        if slot == "area" and area_mentioned:
+            relevant = True
+        if slot == "pricerange" and price_mentioned:
+            relevant = True
         if not relevant:
             continue
         found = False
@@ -212,5 +232,4 @@ def extract_slot_details(utterance, config, state=None):
 
 
 def extract_slots(utterance, config, state=None):
-    """Return the values that do not need confirmation."""
     return extract_slot_details(utterance, config, state)["slots"]
