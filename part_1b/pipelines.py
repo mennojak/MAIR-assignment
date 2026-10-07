@@ -1,5 +1,3 @@
-from copy import deepcopy
-
 import pandas as pd
 from part_1a.user_interaction import predict_dialog_act
 
@@ -8,18 +6,14 @@ from part_1b.slot_extraction import extract_slots
 from part_1b.restaurant_lookup import find_restaurants
 from part_1b.reasoning import apply_reasoning
 from part_1b.response_generation import generate_response
-from part_1b.config import get_runtime_config
 from part_1b.interaction_logging import save_interaction_log
 
 
-# TODO: Implement get_runtime_config, including reasoning_transparency for show/hide variants. Belongs to the config.py tasks
 # TODO: Apply reasoning to every candidate before selection, filter by requested additional
 #       requirements, and keep the explanation available to response generation. Belongs to the reasoning.py tasks
-def run_interaction_pipeline() -> None:
+def run_interaction_pipeline(config: dict) -> None:
     """Run the complete Part 1b restaurant recommendation dialogue."""
     print("\nStarting the restaurant interaction pipeline for Part 1b...\n")
-
-    config = get_runtime_config()
 
     restaurant_info_df = pd.read_csv("data/restaurant_info_extended.csv")
 
@@ -96,19 +90,19 @@ def run_interaction_pipeline() -> None:
         if system_action == "8_give_info":
             state.last_utterance = utterance
 
-        response = generate_response(system_action, state)
+        response = generate_response(system_action, state, config)
         print(response)
 
-        interaction_log.append(state)
+        interaction_log.append(state.to_dict())
 
         # State 9. Goodbye
         if system_action == "9_goodbye":
             break
 
     datetime = pd.Timestamp.now().strftime("%Y-%m-%d_%H-%M-%S")
-    save_interaction_log(interaction_log, f"part_1b/results/interaction_log_{datetime}.json")
+    save_interaction_log(interaction_log, config, f"part_1b/results/interaction_log_{datetime}.txt")
 
-    print("Finished the restaurant interaction pipeline for Part 1b")
+    print("\n\n----Finished the restaurant interaction pipeline for Part 1b----\n\n")
 
 
 
