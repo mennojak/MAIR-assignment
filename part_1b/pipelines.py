@@ -1,7 +1,9 @@
+from copy import deepcopy
+
 import pandas as pd
 from part_1a.user_interaction import predict_dialog_act
 
-from part_1b.state import REQUIRED_SLOTS, create_initial_state, update_state_fields, transition_state
+from part_1b.state import REQUIRED_SLOTS, DialogueState
 from part_1b.slot_extraction import extract_slots
 from part_1b.restaurant_lookup import find_restaurants
 from part_1b.reasoning import apply_reasoning
@@ -26,7 +28,7 @@ def run_interaction_pipeline() -> None:
     predict_dialog_act(model_path, "hello")
 
     # State 1. Welcome
-    state = create_initial_state()
+    state = DialogueState()
 
     interaction_log = []
 
@@ -54,75 +56,50 @@ def run_interaction_pipeline() -> None:
         print("(TEMPORARY PRINT) dialog act:", dialog_act)
 
         extracted_slots = extract_slots(utterance, config)
-        state = update_state_fields(
-            state,
-            {
-                "last_utterance": utterance,
-                "dialog_act": dialog_act,
-                "slots": extracted_slots,
-            },
-        )
+        state.update_from_user_input(utterance, dialog_act, extracted_slots)
 
         # States 2-4 ask for food, area, then price when a value is still missing.
-        requirements = state.get("requirements", {})
+        requirements = state.requirements
         has_all_required_values = all(requirements.get(slot) is not None for slot in REQUIRED_SLOTS)
 
         # State 5 handles no matches. State 6 asks for additional requirements before
         # recommendation; the FSM does this even when lookup returns only one candidate.
         if dialog_act not in ("request", "reqalts", "bye", "thankyou"):
             if has_all_required_values:
-                state["matches"] = find_restaurants(
+                state.matches = find_restaurants(
                     {slot: requirements[slot] for slot in REQUIRED_SLOTS},
                     restaurant_info_df,
-                    state.get("previous_recommendations", []),
+                    state.previous_recommendations,
                 )
             else:
-                state["matches"] = []
+                state.matches = []
 
         # Transition to the next state based on the current state and dialog act
-        state = transition_state(state, dialog_act)
-        system_action = state["current_state"]
+        state.transition(dialog_act)
+        system_action = state.current_state
 
         # State 7. Suggest a restaurant.
         if system_action == "7_suggest_restaurant":
-            matches = state.get("matches", [])
+            matches = state.matches
             if matches:
                 restaurant = matches[0]
                 remaining_matches = matches[1:]
-                reasoning = apply_reasoning(restaurant, state.get("additional_requirements", {}))
+                reasoning = apply_reasoning(restaurant, state.additional_requirements)
                 restaurant_name = restaurant.get("restaurantname", restaurant)
 
-                previous_recommendations = state.get("previous_recommendations", [])
-                previous_recommendations.append(restaurant_name)
-
-                state = update_state_fields(
-                    state,
-                    {
-                        "matches": remaining_matches,
-                        "current_recommendation": restaurant,
-                        "previous_recommendations": previous_recommendations,
-                        "reasoning": reasoning,
-                    },
-                )
+                state.matches = remaining_matches
+                state.current_recommendation = restaurant
+                state.previous_recommendations.append(restaurant_name)
+                state.reasoning = reasoning
 
         # State 8. Give information about the current recommendation
         if system_action == "8_give_info":
-            state["last_utterance"] = utterance
+            state.last_utterance = utterance
 
         response = generate_response(system_action, state)
         print(response)
 
-        interaction_log.append(
-            {
-                "user_utterance": utterance,
-                "dialog_act": dialog_act,
-                "extracted_slots": extracted_slots,
-                "system_action": system_action,
-                "dialogue_state": state,
-                "response": response,
-                "configuration": config,
-            }
-        )
+        interaction_log.append(state)
 
         # State 9. Goodbye
         if system_action == "9_goodbye":
@@ -135,8 +112,7 @@ def run_interaction_pipeline() -> None:
 
 
 
-# TODO: Replay all 20 reference dialogs through the production turn logic and save a
-# readable pass/fail summary. Keep the detailed evaluation notes below with the test stub.
+# TODO: Replay all 20 reference dialogs through the run_interaction_pipeline function, we manually compare the output to the reference_dialog.txt file.
 def run_reference_dialog_tests_pipeline() -> None:
     """TODO: Evaluate the production dialog pipeline against all 20 reference dialogs."""
     print("\nStarting the reference dialog tests for Part 1b...\n")

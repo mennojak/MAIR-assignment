@@ -1,14 +1,17 @@
 # The pipeline passes current_state as system_action and the full dialogue state here.
 # TODO: Keep response wording consistent with the numbered FSM actions below.
 # TODO: Pass runtime config into this function (or store the relevant option in state).
-# TODO: Use the selected restaurant's attributes and state["reasoning"] in the recommendation.
+# TODO: Use the selected restaurant's attributes and state.reasoning in the recommendation.
 # TODO: Honor reasoning_transparency: show the inference chain when enabled and omit it
 # when disabled, without changing the selected restaurant or recommendation.
 # TODO: Implement no-match and restaurant-info responses using the current requirements,
 # requested information, remaining candidates, and applicable FSM behavior.
 # TODO: Add confirmation or contradiction responses only with matching FSM handling.
 
-def generate_response(system_action: str, state: dict) -> str:
+from part_1b.state import DialogueState
+
+
+def generate_response(system_action: str, state: DialogueState) -> str:
     """Return the response for a numbered FSM action using the current dialogue state."""
 
     if system_action == "1_welcome":
@@ -48,4 +51,3 @@ def generate_response(system_action: str, state: dict) -> str:
         return "Goodbye!"
 
     return "How can I help you?"
-
