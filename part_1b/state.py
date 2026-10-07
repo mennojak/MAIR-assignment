@@ -3,7 +3,7 @@ ADDITIONAL_REQUIREMENTS = ("touristic", "assigned_seats", "children", "romantic"
 
 
 class DialogueState:
-    def __init__(self) -> None:
+    def __init__(self):
         self.current_state = "1_welcome"
         self.requirements = {slot: None for slot in REQUIRED_SLOTS}
         self.additional_requirements = {
@@ -23,13 +23,12 @@ class DialogueState:
         utterance: str,
         dialog_act: str,
         extracted_slots: dict,
-    ) -> None:
-        if dialog_act == "restart":
-            self.__init__()
-
+    ):
         self.last_utterance = utterance
         self.dialog_act = dialog_act
 
+        if extracted_slots is None:
+            return
         for name, value in extracted_slots.items():
             if name in REQUIRED_SLOTS:
                 self.requirements[name] = value
@@ -39,11 +38,15 @@ class DialogueState:
         if self.current_state == "6_ask_additional_requirements":
             self.additional_requirements_asked = True
 
-    def transition(self, dialog_act: str) -> None:
+    def transition(self, dialog_act: str):
         dialog_act = dialog_act.lower()
 
         if dialog_act in ("bye", "thankyou"):
             self.current_state = "9_goodbye"
+            return
+
+        if dialog_act == "restart":
+            self.__init__()
             return
 
         if dialog_act == "request" and self.current_recommendation is not None:

@@ -1,6 +1,7 @@
 import pandas as pd
-from part_1a.user_interaction import predict_dialog_act
+from copy import deepcopy
 
+from part_1a.user_interaction import predict_dialog_act
 from part_1b.state import REQUIRED_SLOTS, DialogueState
 from part_1b.slot_extraction import extract_slots
 from part_1b.restaurant_lookup import find_restaurants
@@ -93,14 +94,20 @@ def run_interaction_pipeline(config: dict) -> None:
         response = generate_response(system_action, state, config)
         print(response)
 
-        interaction_log.append(state.to_dict())
+        interaction_log.append(
+            {
+                "user_utterance": utterance,
+                "state": deepcopy(state.__dict__),
+                "response": response,
+            }
+        )
 
         # State 9. Goodbye
         if system_action == "9_goodbye":
             break
 
-    datetime = pd.Timestamp.now().strftime("%Y-%m-%d_%H-%M-%S")
-    save_interaction_log(interaction_log, config, f"part_1b/results/interaction_log_{datetime}.txt")
+    datetime = pd.Timestamp.now().strftime("%m-%d_%H-%M")
+    save_interaction_log(interaction_log, config, f"interaction_log_{datetime}.txt")
 
     print("\n\n----Finished the restaurant interaction pipeline for Part 1b----\n\n")
 
