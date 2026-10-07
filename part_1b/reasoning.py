@@ -5,15 +5,15 @@
 # TODO: long stay -> children=False
 # TODO: busy -> romantic=False
 # TODO: long stay -> romantic=True
-# TODO: Return derived values, the rule IDs/natural-language explanations that fired,
-# TODO: and any conflicts. The pipeline must apply this to every lookup candidate and
-# TODO: filter candidates against requested additional_requirements before choosing one.
+# TODO: Return inferred values, the rule IDs/natural-language explanations that fired,
+# TODO: and any conflicts. Include a matches_requirements boolean after comparing the
+# TODO: inferred values with the user's requested additional_requirements.
 # TODO: Choose and document an explicit contradiction policy; never silently discard a
 # TODO: conflicting conclusion. Response generation must honor reasoning_transparency.
 
-def apply_reasoning(restaurant, additional_requirements: dict) -> dict:
-    """Return inferred properties, explanations and requirement-match information.
+def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
+    """Return inferred properties, explanations, conflicts, and whether preferences match.
 
-    The caller still needs to apply this to all candidates and select/filter them.
+    The result includes a "matches_requirements" boolean used by restaurant lookup.
     """
     pass

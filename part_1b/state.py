@@ -18,12 +18,7 @@ class DialogueState:
         self.dialog_act = None
         self.reasoning = None
 
-    def update_from_user_input(
-        self,
-        utterance: str,
-        dialog_act: str,
-        extracted_slots: dict,
-    ):
+    def update_from_user_input(self, utterance: str, dialog_act: str, extracted_slots: dict):
         self.last_utterance = utterance
         self.dialog_act = dialog_act
 
@@ -77,7 +72,7 @@ class DialogueState:
             self.current_state = "5_no_match"
             return
 
-        if not self.additional_requirements_asked:
+        if len(self.matches) > 1 and not self.additional_requirements_asked:
             self.current_state = "6_ask_additional_requirements"
             return
 

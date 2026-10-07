@@ -5,7 +5,6 @@ from part_1a.user_interaction import predict_dialog_act
 from part_1b.state import REQUIRED_SLOTS, DialogueState
 from part_1b.slot_extraction import extract_slots
 from part_1b.restaurant_lookup import find_restaurants
-from part_1b.reasoning import apply_reasoning
 from part_1b.response_generation import generate_response
 from part_1b.interaction_logging import save_interaction_log
 
@@ -15,8 +14,6 @@ from part_1b.interaction_logging import save_interaction_log
 def run_interaction_pipeline(config: dict) -> None:
     """Run the complete Part 1b restaurant recommendation dialogue."""
     print("\nStarting the restaurant interaction pipeline for Part 1b...\n")
-
-    restaurant_info_df = pd.read_csv("data/restaurant_info_extended.csv")
 
     model_path = "models/model_frozen_embeddings_grouped_SVM"
     # Run first prediction to load the model avoiding the first response load time
@@ -59,11 +56,11 @@ def run_interaction_pipeline(config: dict) -> None:
 
         # State 5 handles no matches. State 6 asks for additional requirements before
         # recommendation; the FSM does this even when lookup returns only one candidate.
-        if dialog_act not in ("request", "reqalts", "bye", "thankyou"):
+        if dialog_act not in ("restart", "request", "reqalts", "bye", "thankyou"):
             if has_all_required_values:
                 state.matches = find_restaurants(
                     {slot: requirements[slot] for slot in REQUIRED_SLOTS},
-                    restaurant_info_df,
+                    state.additional_requirements,
                     state.previous_recommendations,
                 )
             else:
@@ -79,13 +76,12 @@ def run_interaction_pipeline(config: dict) -> None:
             if matches:
                 restaurant = matches[0]
                 remaining_matches = matches[1:]
-                reasoning = apply_reasoning(restaurant, state.additional_requirements)
                 restaurant_name = restaurant.get("restaurantname", restaurant)
 
                 state.matches = remaining_matches
                 state.current_recommendation = restaurant
                 state.previous_recommendations.append(restaurant_name)
-                state.reasoning = reasoning
+                state.reasoning = restaurant.get("reasoning")
 
         # State 8. Give information about the current recommendation
         if system_action == "8_give_info":
