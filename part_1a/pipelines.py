@@ -66,7 +66,8 @@ def run_held_out_pipeline() -> None:
     print("\nStarting the held out testing pipeline for Part 1a...\n")
 
     if not os.path.exists("data/dialog_acts_test.dat"):
-        print("dialog_acts_test.dat file is not found under the data folder. Add this file to be able to run this pipeline")
+        print("dialog_acts_test.dat file is not found.")
+        return
 
     load_data_and_create_splits(held_out = True)
 

@@ -6,7 +6,7 @@ BASELINE_RULES = [
     ("deny", re.compile(r"(?:dont\s+want)")),
     ("hello", re.compile(r"\b(?:hi|hello)")),
     # "inform" is what we set as default, so we don't need a rule for it
-    ("negate", re.compile(r"^no\s+")),
+    ("negate", re.compile(r"^no\b")),
     ("null", re.compile(r"(?:sil|noise|unintelligible|cough|uh)")),
     ("repeat", re.compile(r"(?:repeat|again)")),
     ("reqalts", re.compile(r"(?:how\s+about|what\s+about|anything\s+else)")),
