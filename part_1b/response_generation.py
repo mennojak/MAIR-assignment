@@ -23,7 +23,13 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
                 preferences.append(f"{slot}={value}")
 
         if config["reasoning_transparency"]:
-            return "Sorry, I couldn't find any restaurant matching " + ", ".join(preferences) + ". Here are the additional requirements that were not met: " + ", ".join(state.reasoning.get("unmet_requirements", []))
+            response = "Sorry, I couldn't find any restaurant matching " + ", ".join(preferences)
+            if state.reasoning is not None:
+                unmet_requirements = state.reasoning.get("unmet_requirements", [])
+                if unmet_requirements:
+                    response += ". Here are the additional requirements that were not met: "
+                    response += ", ".join(unmet_requirements)
+            return response
         return "Sorry, I couldn't find any restaurant matching your preferences"
 
     if system_action == "7_ask_additional_requirements":

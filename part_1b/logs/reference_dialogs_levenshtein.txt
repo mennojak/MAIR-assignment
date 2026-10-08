@@ -1,0 +1,754 @@
+--- Dialog 1: Reference ---
+
+--- Dialog 1 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want a cheap italian restaurant in the centre
+S: Pizza hut city centre is a nice cheap italian restaurant in the centre.
+U: thanks bye
+S: Goodbye!
+
+--------------------------------------------------------------------------------
+--- Dialog 1: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want a cheap italian restaurant in the centre
+S: I recommend pizza hut city centre. This is a cheap italian restaurant in the centre. It is touristic because it is cheap and has good food. It has assigned seats because it is busy. It is not romantic because it is busy. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay. Although a long stay is usually romantic, this restaurant is busy, so it is not romantic.
+U: thanks bye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 2: Reference ---
+
+--- Dialog 2 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: Hello
+S: What kind of food would you like?
+U: indian
+S: What part of town would you prefer?
+U: north
+S: What price range are you looking for?
+U: moderate
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: Meghna is a nice moderate indian restaurant in the north.
+U: another one
+S: The nirala is a nice moderate indian restaurant in the north.
+U: another one in the west
+S: Sorry, I couldn't find any restaurant matching food=indian, area=west, pricerange=moderate
+U: okay, thank you bye
+S: Goodbye!
+
+--------------------------------------------------------------------------------
+--- Dialog 2: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: Hello
+S: What kind of food would you like?
+U: indian
+S: What part of town would you prefer?
+U: north
+S: What price range are you looking for?
+U: moderate
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: another one
+S: I recommend meghna. This is a moderate indian restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+U: another one in the west
+S: I recommend the nirala. This is a moderate indian restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+U: okay, thank you bye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 3: Reference ---
+
+--- Dialog 3 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I am looking for expensive british food in the centre
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: none
+S: Fitzbillies restaurant is a nice expensive british restaurant in the centre.
+U: what is the phone number
+S: The phone number of fitzbillies restaurant is 01223 352500.
+U: address please
+S: Fitzbillies restaurant is located at 51 trumpington street city centre.
+U: post code
+S: The postcode of fitzbillies restaurant is c.b 1.
+U: thank you goodbye
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 3: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I am looking for expensive british food in the centre
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: none
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: what is the phone number
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: address please
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: post code
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: thank you goodbye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 4: Reference ---
+
+--- Dialog 4 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: cheap chinese food
+S: What part of town would you prefer?
+U: south
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: The missing sock is a nice cheap chinese restaurant in the south.
+U: thank you goodbye
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 4: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: cheap chinese food
+S: What part of town would you prefer?
+U: south
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: thank you goodbye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 5: Reference ---
+
+--- Dialog 5 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I'm looking for an expensive restaurant in the east that serves indian food
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: nothing else
+S: Maharajah tandoori restaurant is a nice expensive indian restaurant in the east.
+U: thank you goodbye
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 5: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I'm looking for an expensive restaurant in the east that serves indian food
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: nothing else
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: thank you goodbye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 6: Reference ---
+
+--- Dialog 6 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I would like some Swedish food.
+S: Sorry, I am not familiar with this preference. Would you like something else?
+U: How about Lebanese food
+S: What part of town would you prefer?
+U: Any part of town is fine
+S: What price range are you looking for?
+U: moderate
+S: Ali baba is a nice moderate lebanese restaurant in the centre.
+U: thank you goodbye
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 6: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I would like some Swedish food.
+S: What kind of food would you like?
+U: How about Lebanese food
+S: Sorry, I couldn't find any restaurant matching food=lebanese
+U: Any part of town is fine
+S: What price range are you looking for?
+U: moderate
+S: I recommend ali baba. This is a moderate lebanese restaurant in the centre. It has assigned seats because it is busy. It is not romantic because it is busy. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay. Although a long stay is usually romantic, this restaurant is busy, so it is not romantic.
+U: thank you goodbye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 7: Reference ---
+
+--- Dialog 7 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: never mind, goodbye
+S: Goodbye!
+
+--------------------------------------------------------------------------------
+--- Dialog 7: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: never mind, goodbye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 8: Reference ---
+
+--- Dialog 8 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: Find an expensive british restaurant in the centre
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: Midsummer house restaurant is a nice expensive british restaurant in the centre.
+U: is it in the centre?
+S: Yes, that's correct.
+U: Is it a cheap restaurant?
+S: No, the pricerange is actually expensive.
+U: thank you goodbye
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 8: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: Find an expensive british restaurant in the centre
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: is it in the centre?
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: Is it a cheap restaurant?
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: thank you goodbye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 9: Reference ---
+
+--- Dialog 9 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want italian food, any area is fine, any price
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: caffe uno is a nice expensive italian restaurant in the centre.
+U: what is their phone number?
+S: The phone number of caffe uno is 01223 448620.
+U: Okay, thank you!
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 9: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want italian food, any area is fine, any price
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: no
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: what is their phone number?
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: Okay, thank you!
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 10: Reference ---
+
+--- Dialog 10 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want to go to a vietnamese restaurant in the centre
+S: What price range are you looking for?
+U: I don't care
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=centre.
+U: what about in the north?
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=north.
+U: Any area then.
+S: thanh binh is a nice cheap vietnamese restaurant in the west.
+U: more
+S: I'm afraid that's all the options I have. Would you like to change a preference?
+U: How about Chinese food?
+S: The missing sock is a nice cheap chinese restaurant in the south.
+U: Can you give me their address
+S: The missing sock is located at finders corner newmarket road.
+U: Thank you!
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 10: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want to go to a vietnamese restaurant in the centre
+S: What price range are you looking for?
+U: I don't care
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=centre, pricerange=dontcare
+U: what about in the north?
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=north, pricerange=dontcare
+U: Any area then.
+S: I recommend thanh binh. This is a cheap vietnamese restaurant in the west. It is touristic because it is cheap and has good food. It has assigned seats because it is busy. It is not romantic because it is busy. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay. Although a long stay is usually romantic, this restaurant is busy, so it is not romantic.
+U: more
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=dontcare, pricerange=dontcare
+U: How about Chinese food?
+S: Sorry, I couldn't find any restaurant matching food=chinese, area=dontcare, pricerange=dontcare
+U: Can you give me their address
+S: thanh binh is located at 17 magdalene street city centre.
+U: Thank you!
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 11: Reference ---
+
+--- Dialog 11 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I'm looking for a restaurant in any area that serves tuscan food
+S: What price range are you looking for?
+U: It doesn't matter
+S: city stop restaurant is a nice expensive tuscan restaurant in the north.
+U: Thank you!
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 11: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I'm looking for a restaurant in any area that serves tuscan food
+S: What price range are you looking for?
+U: It doesn't matter
+S: I recommend city stop restaurant. This is a expensive tuscan restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+U: Thank you!
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 12: Reference ---
+
+--- Dialog 12 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want spenish food in the centre
+S: Sorry, I don't know spenish. Did you mean spanish?
+U: yes
+S: What price range are you looking for?
+U: Expensive
+S: I couldn't find a restaurant matching those preferences.
+U: start over
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I'm looking for a restaurant in the center
+S: What kind of food would you like?
+U: Spanish food
+S: What price range?
+U: any
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: No
+S: la raza is a nice cheap spanish restaurant in the centre.
+
+--------------------------------------------------------------------------------
+--- Dialog 12: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want spenish food in the centre
+S: What kind of food would you like?
+U: yes
+S: What kind of food would you like?
+U: Expensive
+S: What kind of food would you like?
+U: start over
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I'm looking for a restaurant in the center
+S: What kind of food would you like?
+U: Spanish food
+S: What price range are you looking for?
+U: any
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: No
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 13: Reference ---
+
+--- Dialog 13 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want spenish food
+S: Sorry, I don't know spenish. Did you mean spanish?
+U: no
+S: What kind of food would you like?
+U: French food
+S: What part of town would you prefer?
+U: I don't care
+S: What price range are you looking for?
+U: expensive
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: I would like a restaurant with assigned seats.
+S: Cote is a nice expensive french restaurant in the centre. The waiter decides where you sit because, it is a busy restaurant.
+U: What is the address?
+S: Cote is located at bridge street city centre.
+
+--------------------------------------------------------------------------------
+--- Dialog 13: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want spenish food
+S: What kind of food would you like?
+U: no
+S: What kind of food would you like?
+U: French food
+S: What part of town would you prefer?
+U: I don't care
+S: What price range are you looking for?
+U: expensive
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: I would like a restaurant with assigned seats.
+S: I recommend cote. This is a expensive french restaurant in the centre. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+U: What is the address?
+S: cote is located at bridge street city centre.
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 14: Reference ---
+
+--- Dialog 14 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: 'm looking for a moderately priced restaurant in any part of town and it should serve Turkish food.
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: I would like it to be romantic
+S: I recommend sesame restaurant and bar, a moderately priced turkish restaurant. The restaurant is romantic because spending a long time in a restaurant is romantic.
+U: Thank you!
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 14: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: 'm looking for a moderately priced restaurant in any part of town and it should serve Turkish food.
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: I would like it to be romantic
+S: I recommend sesame restaurant and bar. This is a moderate turkish restaurant in the . It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay.
+U: Thank you!
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 15: Reference ---
+
+--- Dialog 15 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I'm looking to eat cheap in the centre
+S: What kind of food would you like?
+U: any
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: something touristic
+S: I recommend la raza, a cheap spanish restaurant in the centre of town. The restaurant is touristic because a cheap restaurant with good food attracts tourists.
+
+--------------------------------------------------------------------------------
+--- Dialog 15: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I'm looking to eat cheap in the centre
+S: What kind of food would you like?
+U: any
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: something touristic
+S: I recommend mahal of cambridge. This is a cheap indian restaurant in the centre. It is touristic because it is cheap and has good food. Restaurants with a short stay are assumed to be suitable for children.
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 16: Reference ---
+
+--- Dialog 16 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want a moderately priced restaurant in the west
+S: What kind of food would you like?
+U: british
+S: Saint johns chop house is a nice moderate british restaurant in the west.
+U: Okay, thanks bye
+S: Good bye!
+
+--------------------------------------------------------------------------------
+--- Dialog 16: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want a moderately priced restaurant in the west
+S: What kind of food would you like?
+U: british
+S: I recommend saint johns chop house. This is a moderate british restaurant in the west. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay.
+U: Okay, thanks bye
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 17: Reference ---
+
+--- Dialog 17 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: I want to eat expensive italian food in the south
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: I want it to be romantic
+S: I recommend frankie and bennys, an expensive italian restaurant in the south of town.
+The restaurant is romantic because spending a long time in a restaurant is romantic.
+(Note: one rule suggested otherwise - a busy restaurant is not romantic.)
+U: What is the address?
+S: frankie and bennys is located at cambridge leisure park clifton way cherry hinton.
+
+--------------------------------------------------------------------------------
+--- Dialog 17: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: I want to eat expensive italian food in the south
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: I want it to be romantic
+S: Sorry, I couldn't find any restaurant matching food=italian, area=south, pricerange=expensive
+U: What is the address?
+S: Sorry, I couldn't find any restaurant matching food=italian, area=south, pricerange=expensive
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 18: Reference ---
+
+--- Dialog 18 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: Hi
+S: What kind of food would you like?
+U: seafood
+S: What part of town would you prefer?
+U: any part of town
+S: What price range are you looking for?
+U: any price range is ok
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: It should be suitable for children
+S: None of the restaurants matching your preferences are suitable for children.
+
+--------------------------------------------------------------------------------
+--- Dialog 18: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: Hi
+S: What kind of food would you like?
+U: seafood
+S: What part of town would you prefer?
+U: any part of town
+S: What price range are you looking for?
+U: any price range is ok
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: It should be suitable for children
+S: I recommend curry king. This is a expensive seafood restaurant in the centre. Restaurants with a short stay are assumed to be suitable for children.
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 19: Reference ---
+
+--- Dialog 19 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: Can I have an expensive restaurant
+S: What kind of food would you like?
+U: I'm looking for a restaurant in any area that serves Tuscan food
+S: City stop restaurant is a nice expensive tuscan restaurant in the north.
+U: Another one
+S: I'm afraid that's all the options I have. Would you like to change a preference?
+U: Do you have a postal code?
+S: The postcode of city stop restaurant is unknown.
+U: Address then?
+S: City stop restaurant is located at cambridge city football club milton road chesterton.
+U: Thanks
+S: Goodbye!
+
+--------------------------------------------------------------------------------
+--- Dialog 19: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: Can I have an expensive restaurant
+S: What kind of food would you like?
+U: I'm looking for a restaurant in any area that serves Tuscan food
+S: I recommend city stop restaurant. This is a expensive tuscan restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+U: Another one
+S: Sorry, I couldn't find any restaurant matching food=tuscan, area=dontcare, pricerange=expensive
+U: Do you have a postal code?
+S: The postcode of city stop restaurant is .
+U: Address then?
+S: city stop restaurant is located at cambridge city football club milton road chesterton.
+U: Thanks
+S: Goodbye!
+
+
+
+
+
+================================================================================
+
+
+
+
+--- Dialog 20: Reference ---
+
+--- Dialog 20 ---
+S: Hello, welcome to the Cambridge restaurant recommendation system. How may I help you?
+U: sdfhsdjkhjdhsdf
+S: What kind of food would you like?
+U: French food
+S: What part of town would you prefer?
+U: any location would be fine
+S: What price range are you looking for?
+U: I don't care
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: No
+S: Cote is a nice expensive french restaurant in the centre.
+U: What is the address?
+S: Cote is located at bridge street city centre.
+
+--------------------------------------------------------------------------------
+--- Dialog 20: Test (levenshtein) ---
+
+S: Hello, welcome to the restaurant recommendation system. How may I help you?
+U: sdfhsdjkhjdhsdf
+S: What kind of food would you like?
+U: French food
+S: What part of town would you prefer?
+U: any location would be fine
+S: What price range are you looking for?
+U: I don't care
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: No
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+U: What is the address?
+S: I found some restaurants matching your preferences. Do you have any additional requirements?
+
+
+
+
+
+================================================================================
+
+
+
+
