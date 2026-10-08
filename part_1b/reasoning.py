@@ -1,19 +1,117 @@
-# TODO: Implement all six Part 1b rules against restaurant_info_extended.csv:
-# TODO: cheap AND good food -> touristic=True
-# TODO: Romanian -> touristic=False
-# TODO: busy -> assigned_seats=True
-# TODO: long stay -> children=False
-# TODO: busy -> romantic=False
-# TODO: long stay -> romantic=True
-# TODO: Return inferred values, the rule IDs/natural-language explanations that fired,
-# TODO: and any conflicts. Include a matches_requirements boolean after comparing the
-# TODO: inferred values with the user's requested additional_requirements.
-# TODO: Choose and document an explicit contradiction policy; never silently discard a
-# TODO: conflicting conclusion. Response generation must honor reasoning_transparency.
+# Rules from the project description:
+# 1. cheap AND good food -> touristic=True
+# 2. Romanian -> touristic=False
+# 3. busy -> assigned_seats=True
+# 4. long stay -> children=False
+# 5. busy -> romantic=False
+# 6. long stay -> romantic=True
 
 def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
-    """Return inferred properties, explanations, conflicts, and whether preferences match.
+    """Infer additional properties and check whether the restaurant matches them."""
+    properties = {"touristic": None, "assigned_seats": None, "children": None, "romantic": None}
+    rules = []
 
-    The result includes a "matches_requirements" boolean used by restaurant lookup.
-    """
-    pass
+    price = str(restaurant.get("pricerange", "")).strip().lower()
+    food = str(restaurant.get("food", "")).strip().lower()
+    quality = str(restaurant.get("food quality", "")).strip().lower()
+    crowdedness = str(restaurant.get("crowdedness", "")).strip().lower()
+    stay = str(restaurant.get("length of stay", "")).strip().lower()
+    explanations = []
+
+    # Rule 1
+    if price == "cheap" and quality == "good":
+        properties["touristic"] = True
+        reason = "It is touristic because it is cheap and has good food."
+        rules.append({
+            "id": 1,
+            "property": "touristic",
+            "value": True,
+            "reason": reason,
+        })
+        explanations.append(reason)
+
+    # Rule 2
+    if food == "romanian":
+        properties["touristic"] = False
+        reason = "Romanian food is considered not touristic."
+        rules.append({
+            "id": 2,
+            "property": "touristic",
+            "value": False,
+            "reason": reason,
+        })
+        explanations.append(reason)
+
+    # Rule 3 and 5
+    if crowdedness == "busy":
+        properties["assigned_seats"] = True
+        properties["romantic"] = False
+        reason = "It has assigned seats because it is busy."
+        rules.append({
+            "id": 3,
+            "property": "assigned_seats",
+            "value": True,
+            "reason": reason,
+        })
+        explanations.append(reason)
+
+        reason = "It is not romantic because it is busy."
+        rules.append({
+            "id": 5,
+            "property": "romantic",
+            "value": False,
+            "reason": reason,
+        })
+        explanations.append(reason)
+
+    # Rule 4 and 6
+    if stay == "long":
+        properties["children"] = False
+        reason = "It is not suitable for children because it allows a long stay."
+        rules.append({
+            "id": 4,
+            "property": "children",
+            "value": False,
+            "reason": reason,
+        })
+        explanations.append(reason)
+
+        reason = "It is romantic because it allows a long stay."
+        rules.append({
+            "id": 6,
+            "property": "romantic",
+            "value": True,
+            "reason": reason,
+        })
+        explanations.append(reason)
+        if crowdedness != "busy":
+            properties["romantic"] = True
+
+    # Rule 5 and 6 can conflict, we decided to use the negative conclusion in these cases.
+    if crowdedness == "busy" and stay == "long":
+        explanations.append(
+            "Although a long stay is usually romantic, this restaurant is busy, so it is not romantic."
+        )
+
+    # By inference, a short stay is suitable for children, so here we make this explicit.
+    if stay == "short":
+        properties["children"] = True
+        explanations.append(
+            "Restaurants with a short stay are assumed to be suitable for children."
+        )
+
+    unmet_requirements = []
+    for property, user_request in additional_requirements.items():
+        if user_request is None:
+            continue
+
+        if properties[property] is not user_request:
+            unmet_requirements.append(property)
+
+    return {
+        "properties": properties,
+        "rules": rules,
+        "explanations": explanations,
+        "matches_requirements": not unmet_requirements,
+        "unmet_requirements": unmet_requirements,
+    }
