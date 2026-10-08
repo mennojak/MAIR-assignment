@@ -11,7 +11,11 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
     if system_action == "4_ask_price":
         return "What price range are you looking for?"
 
-    if system_action == "5_no_match":
+    if system_action == "5_confirm_value":
+        confirmation = state.pending_confirmation
+        return f"Sorry, I don't know {confirmation['original']}. Did you mean {confirmation['suggestion']}?"
+
+    if system_action == "6_no_match":
         preferences = []
         for slot in REQUIRED_SLOTS:
             value = state.requirements[slot]
@@ -22,10 +26,10 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
             return "Sorry, I couldn't find any restaurant matching " + ", ".join(preferences) + ". Here are the additional requirements that were not met: " + ", ".join(state.reasoning.get("unmet_requirements", []))
         return "Sorry, I couldn't find any restaurant matching your preferences"
 
-    if system_action == "6_ask_additional_requirements":
+    if system_action == "7_ask_additional_requirements":
         return "I found some restaurants matching your preferences. Do you have any additional requirements?"
 
-    if system_action == "7_suggest_restaurant":
+    if system_action == "8_suggest_restaurant":
         restaurant = state.current_recommendation
 
         restaurant_name = restaurant["restaurantname"]
@@ -46,7 +50,7 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
 
         return response
 
-    if system_action == "8_give_info":
+    if system_action == "9_give_info":
         restaurant = state.current_recommendation
 
         utterance = state.last_utterance.lower()
@@ -66,7 +70,8 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
 
         return f"Would you like the phone number, address or postcode of {restaurant_name}?"
 
-    if system_action == "9_goodbye":
+    if system_action == "10_goodbye":
         return "Goodbye!"
-    
+
+    # State 1. Welcome is the default system action
     return "Hello, welcome to the restaurant recommendation system. How may I help you?"

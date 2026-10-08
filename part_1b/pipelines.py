@@ -9,8 +9,6 @@ from part_1b.response_generation import generate_response
 from part_1b.interaction_logging import save_interaction_log
 
 
-# TODO: Apply reasoning to every candidate before selection, filter by requested additional
-#       requirements, and keep the explanation available to response generation. Belongs to the reasoning.py tasks
 def run_interaction_pipeline(config: dict) -> None:
     """Run the complete Part 1b restaurant recommendation dialogue."""
     print("\nStarting the restaurant interaction pipeline for Part 1b...\n")
@@ -47,16 +45,22 @@ def run_interaction_pipeline(config: dict) -> None:
         dialog_act = predict_dialog_act(model_path, utterance)
         print("(TEMPORARY PRINT) dialog act:", dialog_act)
 
-        extracted_slots = extract_slots(utterance, config)
-        state.update_from_user_input(utterance, dialog_act, extracted_slots)
+        # State 5 confirms a value, so we don't want to extract slots from the user input in that case.
+        if state.pending_confirmation is not None:
+            extraction = None
+        else:
+            extraction = extract_slots(utterance, config)
+
+        state.update_from_user_input(utterance, dialog_act, extraction)
 
         # States 2-4 ask for food, area, then price when a value is still missing.
         requirements = state.requirements
         has_all_required_values = all(requirements.get(slot) is not None for slot in REQUIRED_SLOTS)
 
-        # State 5 handles no matches. State 6 asks for additional requirements before
-        # recommendation; the FSM does this even when lookup returns only one candidate.
-        if dialog_act not in ("restart", "request", "reqalts", "bye", "thankyou"):
+        # State 6 handles no matches. State 7 asks for additional requirements.
+        if (state.pending_confirmation is None 
+            and dialog_act not in ("restart", "request", "reqalts", "bye", "thankyou")
+        ):
             if has_all_required_values:
                 state.matches = find_restaurants(
                     {slot: requirements[slot] for slot in REQUIRED_SLOTS},
@@ -70,8 +74,8 @@ def run_interaction_pipeline(config: dict) -> None:
         state.transition(dialog_act)
         system_action = state.current_state
 
-        # State 7. Suggest a restaurant.
-        if system_action == "7_suggest_restaurant":
+        # State 8. Suggest a restaurant.
+        if system_action == "8_suggest_restaurant":
             matches = state.matches
             if matches:
                 restaurant = matches[0]
@@ -83,8 +87,8 @@ def run_interaction_pipeline(config: dict) -> None:
                 state.previous_recommendations.append(restaurant_name)
                 state.reasoning = restaurant.get("reasoning")
 
-        # State 8. Give information about the current recommendation
-        if system_action == "8_give_info":
+        # State 9. Give information about the current recommendation
+        if system_action == "9_give_info":
             state.last_utterance = utterance
 
         response = generate_response(system_action, state, config)
@@ -98,8 +102,8 @@ def run_interaction_pipeline(config: dict) -> None:
             }
         )
 
-        # State 9. Goodbye
-        if system_action == "9_goodbye":
+        # State 10. Goodbye
+        if system_action == "10_goodbye":
             break
 
     datetime = pd.Timestamp.now().strftime("%m-%d_%H-%M")
