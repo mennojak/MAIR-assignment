@@ -11,7 +11,7 @@ def load_data_and_create_splits(held_out = False):
             dialog_act, utterance = line.split(maxsplit=1)
             rows.append({
                 'dialog_act': dialog_act.lower(),
-                'utterance': utterance.lower(),
+                'utterance': utterance.strip().lower(),
             })
 
     df = pd.DataFrame(rows)
