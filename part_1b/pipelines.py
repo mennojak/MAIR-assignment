@@ -46,10 +46,10 @@ def run_interaction_pipeline(config: dict) -> None:
         print("(TEMPORARY PRINT) dialog act:", dialog_act)
 
         # State 5 confirms a value, so we don't want to extract slots from the user input in that case.
-        if state.pending_confirmation is not None:
+        if state.pending_confirmation is not None or dialog_act not in ("inform", "reqalts"):
             extraction = None
         else:
-            extraction = extract_slots(utterance, config)
+            extraction = extract_slots(utterance, config, state.current_state)
 
         state.update_from_user_input(utterance, dialog_act, extraction)
 
