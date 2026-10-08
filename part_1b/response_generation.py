@@ -1,4 +1,9 @@
 from part_1b.state import DialogueState, REQUIRED_SLOTS
+from part_1b.slot_extraction import (
+    clean_utterance,
+    find_slot_values,
+    get_possible_restaurant_values,
+)
 
 
 def requested_additional_requirement_explanations(state: DialogueState):
@@ -18,6 +23,11 @@ def requested_additional_requirement_explanations(state: DialogueState):
 
 def generate_response(system_action: str, state: DialogueState, config: dict):
     if system_action == "2_ask_food":
+        if state.unrecognized_preference is not None:
+            return (
+                "Sorry, I am not familiar with this preference. "
+                "Would you like something else?"
+            )
         return "What kind of food would you like?"
 
     if system_action == "3_ask_area":
@@ -84,6 +94,16 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
 
         utterance = state.last_utterance.lower()
         restaurant_name = restaurant["restaurantname"]
+
+        if state.dialog_act == "confirm":
+            mentioned_slots = find_slot_values(clean_utterance(utterance), get_possible_restaurant_values())
+            for slot in REQUIRED_SLOTS:
+                if slot in mentioned_slots:
+                    asked_value = mentioned_slots[slot]
+                    restaurant_value = restaurant.get(slot)
+                    if asked_value == restaurant_value:
+                        return "Yes, that's correct."
+                    return f"No, the {slot} is actually {restaurant_value}."
 
         if "number" in utterance:
             phone_number = restaurant.get("phone")

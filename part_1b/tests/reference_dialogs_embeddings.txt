@@ -205,7 +205,7 @@ S: Good bye!
 
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I would like some Swedish food.
-S: What kind of food would you like?
+S: Sorry, I am not familiar with this preference. Would you like something else?
 U: How about Lebanese food
 S: What part of town would you prefer?
 U: Any part of town is fine
@@ -271,9 +271,9 @@ S: I found some restaurants matching your preferences. Do you have any additiona
 U: no
 S: I recommend fitzbillies restaurant. This is a expensive british restaurant in the centre.
 U: is it in the centre?
-S: I recommend midsummer house restaurant. This is a expensive british restaurant in the centre.
+S: Yes, that's correct.
 U: Is it a cheap restaurant?
-S: Sorry, I couldn't find any restaurant matching food=british, area=centre, pricerange=expensive
+S: No, the pricerange is actually expensive.
 U: thank you goodbye
 S: Goodbye!
 
@@ -429,7 +429,7 @@ S: la raza is a nice cheap spanish restaurant in the centre.
 
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want spenish food in the centre
-S: What kind of food would you like?
+S: Sorry, I am not familiar with this preference. Would you like something else?
 U: yes
 S: What kind of food would you like?
 U: Expensive
@@ -478,7 +478,7 @@ S: Cote is located at bridge street city centre.
 
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want spenish food
-S: What kind of food would you like?
+S: Sorry, I am not familiar with this preference. Would you like something else?
 U: no
 S: What kind of food would you like?
 U: French food

@@ -142,12 +142,16 @@ def extract_slots(utterance, config, current_state=None):
 
     fallback_slot = get_fallback_slot(text, slots, asked_slot)
     if fallback_slot is None:
-        return {"slots": slots, "confirmation": None}
+        return {"slots": slots, "confirmation": None, "unrecognized": None}
 
     candidate = get_fallback_candidate(text, fallback_slot)
     suggestion = get_fallback_match(candidate, fallback_slot, config)
     if suggestion is None:
-        return {"slots": slots, "confirmation": None}
+        unknown_food = re.search(r"\b([a-z]+) food\b", text)
+        unrecognized = None
+        if fallback_slot == "food" and unknown_food:
+            unrecognized = unknown_food.group(1)
+        return {"slots": slots, "confirmation": None, "unrecognized": unrecognized}
 
     return {
         "slots": slots,
@@ -156,4 +160,5 @@ def extract_slots(utterance, config, current_state=None):
             "original": candidate,
             "suggestion": suggestion,
         },
+        "unrecognized": None,
     }

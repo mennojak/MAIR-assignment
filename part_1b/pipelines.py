@@ -28,7 +28,7 @@ def process_user_utterance(utterance: str, config: dict, state: DialogueState):
     has_all_required_values = all(requirements.get(slot) is not None for slot in REQUIRED_SLOTS)
 
     should_update_matches = (
-        dialog_act not in ("restart", "request", "bye", "thankyou")
+        dialog_act not in ("restart", "request", "confirm", "bye", "thankyou")
         and (dialog_act != "reqalts" or requirements_changed)
     )
 
@@ -63,7 +63,7 @@ def process_user_utterance(utterance: str, config: dict, state: DialogueState):
         "state": deepcopy(state.__dict__),
         "response": response,
     }
-    return dialog_act, response, turn
+    return response, turn
 
 
 def run_interaction_pipeline(config: dict) -> None:
@@ -98,8 +98,7 @@ def run_interaction_pipeline(config: dict) -> None:
             print("please type something")
             continue
 
-        dialog_act, response, turn = process_user_utterance(utterance, config, state)
-        print("(TEMPORARY PRINT) dialog act:", dialog_act)
+        response, turn = process_user_utterance(utterance, config, state)
 
         print(response)
 

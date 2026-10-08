@@ -17,6 +17,7 @@ class DialogueState:
         self.previous_recommendations = []
         self.current_recommendation = None
         self.pending_confirmation = None
+        self.unrecognized_preference = None
         self.last_utterance = ""
         self.dialog_act = None
         self.reasoning = None
@@ -43,7 +44,10 @@ class DialogueState:
             return
 
         if extraction is None:
+            self.unrecognized_preference = None
             return
+
+        self.unrecognized_preference = extraction.get("unrecognized")
 
         for name, value in extraction["slots"].items():
             if name in REQUIRED_SLOTS:
@@ -76,7 +80,7 @@ class DialogueState:
             self.current_state = "5_confirm_value"
             return
 
-        if dialog_act == "request" and self.current_recommendation is not None:
+        if dialog_act in ("request", "confirm") and self.current_recommendation is not None:
             self.current_state = "9_give_info"
             return
 
