@@ -28,7 +28,7 @@ def save_interaction_log(turns: list[dict], config: dict, filename: str):
 
 
 def save_reference_dialog_log(dialogs, filename: str, fallback: str):
-    output_path = Path(f"part_1b/logs/{filename}")
+    output_path = Path(f"part_1b/tests/{filename}")
 
     with output_path.open("w", encoding="utf-8") as file:
         for dialog_number, (reference, tested_turns) in enumerate(dialogs, start=1):

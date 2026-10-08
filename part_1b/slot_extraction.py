@@ -80,16 +80,10 @@ def get_fallback_slot(text, slots, asked_slot):
     if asked_slot and asked_slot not in slots:
         return asked_slot
 
-    # if "food" not in slots and re.search(r"\b(food|cuisine|serves?)\b", text):
-    #     return "food"
-    # if "pricerange" not in slots and re.search(
-    #     r"\b(price|priced|cheap|expensive|moderate)\b", text
-    # ):
-    #     return "pricerange"
-    # if "area" not in slots and re.search(
-    #     r"\b(in|area|location|north|south|east|west)\b", text
-    # ):
-    #     return "area"
+    # At the start of a dialogue no slot has been asked yet. 
+    # This checks if there was a typo in the food value, which otherwise could be missed.
+    if "food" not in slots and re.search(r"\b(food|cuisine|serves?)\b", text):
+        return "food"
 
     return None
 

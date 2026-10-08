@@ -30,6 +30,9 @@ class DialogueState:
         self.last_utterance = utterance
         self.dialog_act = dialog_act
 
+        if self.current_state == "7_ask_additional_requirements":
+            self.additional_requirements_asked = True
+
         if self.pending_confirmation is not None:
             if dialog_act.lower() == "affirm":
                 slot = self.pending_confirmation["slot"]
@@ -58,10 +61,7 @@ class DialogueState:
                 "suggestion": confirmation["suggestion"],
             }
 
-        if self.current_state == "7_ask_additional_requirements":
-            self.additional_requirements_asked = True
-
-    def transition(self, dialog_act: str):
+    def transition(self, dialog_act: str, requirements_changed: bool = False):
         dialog_act = dialog_act.lower()
 
         if dialog_act in ("bye", "thankyou"):
@@ -83,7 +83,7 @@ class DialogueState:
         if self.current_state == "9_give_info":
             self.current_state = "8_suggest_restaurant"
 
-        if dialog_act == "reqalts":
+        if dialog_act == "reqalts" and not requirements_changed:
             if self.matches:
                 self.current_state = "8_suggest_restaurant"
             else:
@@ -104,7 +104,11 @@ class DialogueState:
             self.current_state = "6_no_match"
             return
 
-        if len(self.matches) > 1 and not self.additional_requirements_asked:
+        if (
+            len(self.matches) > 1
+            and not self.additional_requirements_asked
+            and self.current_state != "6_no_match"
+        ):
             self.current_state = "7_ask_additional_requirements"
             return
 

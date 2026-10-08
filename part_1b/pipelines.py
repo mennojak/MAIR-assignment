@@ -14,6 +14,7 @@ from part_1b.config import get_runtime_config
 def process_user_utterance(utterance: str, config: dict, state: DialogueState):
     """Process one user turn and return the response and data to log."""
     dialog_act = predict_dialog_act(config["model_path"], utterance)
+    previous_requirements = dict(state.requirements)
 
     if state.pending_confirmation is not None or dialog_act not in ("inform", "reqalts"):
         extraction = None
@@ -21,16 +22,17 @@ def process_user_utterance(utterance: str, config: dict, state: DialogueState):
         extraction = extract_slots(utterance, config, state.current_state)
 
     state.update_from_user_input(utterance, dialog_act, extraction)
+    requirements_changed = any(state.requirements[slot] != previous_requirements[slot] for slot in REQUIRED_SLOTS)
 
     requirements = state.requirements
-    has_all_required_values = all(
-        requirements.get(slot) is not None for slot in REQUIRED_SLOTS
+    has_all_required_values = all(requirements.get(slot) is not None for slot in REQUIRED_SLOTS)
+
+    should_update_matches = (
+        dialog_act not in ("restart", "request", "bye", "thankyou")
+        and (dialog_act != "reqalts" or requirements_changed)
     )
 
-    if (
-        state.pending_confirmation is None
-        and dialog_act not in ("restart", "request", "reqalts", "bye", "thankyou")
-    ):
+    if state.pending_confirmation is None and should_update_matches:
         if has_all_required_values:
             state.matches = find_restaurants(
                 {slot: requirements[slot] for slot in REQUIRED_SLOTS},
@@ -40,7 +42,7 @@ def process_user_utterance(utterance: str, config: dict, state: DialogueState):
         else:
             state.matches = []
 
-    state.transition(dialog_act)
+    state.transition(dialog_act, requirements_changed)
     system_action = state.current_state
 
     if system_action == "8_suggest_restaurant":
@@ -138,8 +140,7 @@ def run_reference_dialog_tests_pipeline():
     if inside_dialog:
         dialogs.append(current_dialog)
 
-    # We run the tests for both fallback methods,
-    # because it was not specified in the rubric/project description (only stating: "System handles all 20 reference dialogs correctly").
+    # We run the tests for both fallback methods, although it only matters for dialogs 12 and 13.
     # The reasoning transparency feature is enabled for these tests instead of concise responses,
     # because this allows us to more easily check if the system is working correctly.
     for fallback in ("levenshtein", "embeddings"):
@@ -163,4 +164,4 @@ def run_reference_dialog_tests_pipeline():
 
         filename = f"reference_dialogs_{fallback}.txt"
         save_reference_dialog_log(tested_dialogs, filename, fallback)
-        print(f"Saved reference replay to part_1b/logs/{filename}")
+        print(f"Saved reference replay to part_1b/tests/{filename}")

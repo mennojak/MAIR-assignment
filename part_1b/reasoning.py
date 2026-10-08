@@ -16,7 +16,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
     quality = str(restaurant.get("food quality", "")).strip().lower()
     crowdedness = str(restaurant.get("crowdedness", "")).strip().lower()
     stay = str(restaurant.get("length of stay", "")).strip().lower()
-    explanations = []
 
     # Rule 1
     if price == "cheap" and quality == "good":
@@ -28,7 +27,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
             "value": True,
             "reason": reason,
         })
-        explanations.append(reason)
 
     # Rule 2
     if food == "romanian":
@@ -40,7 +38,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
             "value": False,
             "reason": reason,
         })
-        explanations.append(reason)
 
     # Rule 3 and 5
     if crowdedness == "busy":
@@ -53,7 +50,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
             "value": True,
             "reason": reason,
         })
-        explanations.append(reason)
 
         reason = "It is not romantic because it is busy."
         rules.append({
@@ -62,7 +58,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
             "value": False,
             "reason": reason,
         })
-        explanations.append(reason)
 
     # Rule 4 and 6
     if stay == "long":
@@ -74,7 +69,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
             "value": False,
             "reason": reason,
         })
-        explanations.append(reason)
 
         reason = "It is romantic because it allows a long stay."
         rules.append({
@@ -83,22 +77,21 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
             "value": True,
             "reason": reason,
         })
-        explanations.append(reason)
         if crowdedness != "busy":
             properties["romantic"] = True
 
-    # Rule 5 and 6 can conflict, we decided to use the negative conclusion in these cases.
+    # Rule 6 takes priority when both rules apply, matching the reference dialogs.
     if crowdedness == "busy" and stay == "long":
-        explanations.append(
-            "Although a long stay is usually romantic, this restaurant is busy, so it is not romantic."
-        )
-
-    # By inference, a short stay is suitable for children, so here we make this explicit.
-    if stay == "short":
-        properties["children"] = True
-        explanations.append(
-            "Restaurants with a short stay are assumed to be suitable for children."
-        )
+        properties["romantic"] = True
+        rules.append({
+            "id": 7,
+            "property": "romantic",
+            "value": True,
+            "reason": (
+                "It is also busy, which normally suggests it is not romantic, "
+                "but we prioritize the long-stay rule."
+            ),
+        })
 
     unmet_requirements = []
     for property, user_request in additional_requirements.items():
@@ -111,7 +104,6 @@ def apply_reasoning(restaurant: dict, additional_requirements: dict) -> dict:
     return {
         "properties": properties,
         "rules": rules,
-        "explanations": explanations,
         "matches_requirements": not unmet_requirements,
         "unmet_requirements": unmet_requirements,
     }

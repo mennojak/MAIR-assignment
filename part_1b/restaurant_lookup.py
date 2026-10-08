@@ -31,7 +31,7 @@ def find_restaurants(requirements: dict, additional_requirements: dict, recommen
     )
     matches = matches[~restaurant_names.isin(recommended_names)]
 
-    restaurants = matches.fillna("").to_dict("records")
+    restaurants = matches.fillna("unknown").to_dict("records")
     matching_restaurants = []
 
     for restaurant in restaurants:

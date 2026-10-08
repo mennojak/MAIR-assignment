@@ -12,7 +12,7 @@ S: Goodbye!
 
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want a cheap italian restaurant in the centre
-S: I recommend pizza hut city centre. This is a cheap italian restaurant in the centre. It is touristic because it is cheap and has good food. It has assigned seats because it is busy. It is not romantic because it is busy. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay. Although a long stay is usually romantic, this restaurant is busy, so it is not romantic.
+S: I recommend pizza hut city centre. This is a cheap italian restaurant in the centre.
 U: thanks bye
 S: Goodbye!
 
@@ -59,11 +59,11 @@ S: What price range are you looking for?
 U: moderate
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: no
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend meghna. This is a moderate indian restaurant in the north.
 U: another one
-S: I recommend meghna. This is a moderate indian restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+S: I recommend the nirala. This is a moderate indian restaurant in the north.
 U: another one in the west
-S: I recommend the nirala. This is a moderate indian restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+S: Sorry, I couldn't find any restaurant matching food=indian, area=west, pricerange=moderate
 U: okay, thank you bye
 S: Goodbye!
 
@@ -100,13 +100,13 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I am looking for expensive british food in the centre
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: none
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend fitzbillies restaurant. This is a expensive british restaurant in the centre.
 U: what is the phone number
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: The phone number of fitzbillies restaurant is 01223 352500.
 U: address please
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: fitzbillies restaurant is located at 51 trumpington street city centre.
 U: post code
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: The postcode of fitzbillies restaurant is unknown.
 U: thank you goodbye
 S: Goodbye!
 
@@ -141,7 +141,7 @@ S: What part of town would you prefer?
 U: south
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: no
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend the missing sock. This is a cheap chinese restaurant in the south.
 U: thank you goodbye
 S: Goodbye!
 
@@ -172,7 +172,7 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I'm looking for an expensive restaurant in the east that serves indian food
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: nothing else
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend maharajah tandoori restaurant. This is a expensive indian restaurant in the east.
 U: thank you goodbye
 S: Goodbye!
 
@@ -207,11 +207,11 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I would like some Swedish food.
 S: What kind of food would you like?
 U: How about Lebanese food
-S: Sorry, I couldn't find any restaurant matching food=lebanese
+S: What part of town would you prefer?
 U: Any part of town is fine
 S: What price range are you looking for?
 U: moderate
-S: I recommend ali baba. This is a moderate lebanese restaurant in the centre. It has assigned seats because it is busy. It is not romantic because it is busy. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay. Although a long stay is usually romantic, this restaurant is busy, so it is not romantic.
+S: I recommend ali baba. This is a moderate lebanese restaurant in the centre.
 U: thank you goodbye
 S: Goodbye!
 
@@ -269,11 +269,11 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: Find an expensive british restaurant in the centre
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: no
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend fitzbillies restaurant. This is a expensive british restaurant in the centre.
 U: is it in the centre?
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend midsummer house restaurant. This is a expensive british restaurant in the centre.
 U: Is it a cheap restaurant?
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: Sorry, I couldn't find any restaurant matching food=british, area=centre, pricerange=expensive
 U: thank you goodbye
 S: Goodbye!
 
@@ -306,9 +306,9 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want italian food, any area is fine, any price
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: no
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend pizza hut cherry hinton. This is a moderate italian restaurant in the south.
 U: what is their phone number?
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: The phone number of pizza hut cherry hinton is 01223 323737.
 U: Okay, thank you!
 S: Goodbye!
 
@@ -349,17 +349,17 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want to go to a vietnamese restaurant in the centre
 S: What price range are you looking for?
 U: I don't care
-S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=centre, pricerange=dontcare
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=centre
 U: what about in the north?
-S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=north, pricerange=dontcare
+S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=north
 U: Any area then.
-S: I recommend thanh binh. This is a cheap vietnamese restaurant in the west. It is touristic because it is cheap and has good food. It has assigned seats because it is busy. It is not romantic because it is busy. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay. Although a long stay is usually romantic, this restaurant is busy, so it is not romantic.
+S: I recommend thanh binh. This is a cheap vietnamese restaurant in the west.
 U: more
-S: Sorry, I couldn't find any restaurant matching food=vietnamese, area=dontcare, pricerange=dontcare
+S: I'm afraid that's all the options I have. Would you like to change a preference?
 U: How about Chinese food?
-S: Sorry, I couldn't find any restaurant matching food=chinese, area=dontcare, pricerange=dontcare
+S: I recommend yu garden. This is a expensive chinese restaurant in the east.
 U: Can you give me their address
-S: thanh binh is located at 17 magdalene street city centre.
+S: yu garden is located at 529 newmarket road fen ditton.
 U: Thank you!
 S: Goodbye!
 
@@ -390,7 +390,7 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I'm looking for a restaurant in any area that serves tuscan food
 S: What price range are you looking for?
 U: It doesn't matter
-S: I recommend city stop restaurant. This is a expensive tuscan restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+S: I recommend city stop restaurant. This is a expensive tuscan restaurant in the north.
 U: Thank you!
 S: Goodbye!
 
@@ -429,11 +429,11 @@ S: la raza is a nice cheap spanish restaurant in the centre.
 
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want spenish food in the centre
-S: What kind of food would you like?
+S: Sorry, I don't know spenish. Did you mean spanish?
 U: yes
-S: What kind of food would you like?
+S: What price range are you looking for?
 U: Expensive
-S: What kind of food would you like?
+S: Sorry, I couldn't find any restaurant matching food=spanish, area=centre, pricerange=expensive
 U: start over
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I'm looking for a restaurant in the center
@@ -443,7 +443,7 @@ S: What price range are you looking for?
 U: any
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: No
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend la tasca. This is a moderate spanish restaurant in the centre.
 
 
 
@@ -478,7 +478,7 @@ S: Cote is located at bridge street city centre.
 
 S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want spenish food
-S: What kind of food would you like?
+S: Sorry, I don't know spenish. Did you mean spanish?
 U: no
 S: What kind of food would you like?
 U: French food
@@ -488,7 +488,7 @@ S: What price range are you looking for?
 U: expensive
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: I would like a restaurant with assigned seats.
-S: I recommend cote. This is a expensive french restaurant in the centre. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+S: I recommend cote. This is a expensive french restaurant in the centre. It has assigned seats because it is busy.
 U: What is the address?
 S: cote is located at bridge street city centre.
 
@@ -519,7 +519,7 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: 'm looking for a moderately priced restaurant in any part of town and it should serve Turkish food.
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: I would like it to be romantic
-S: I recommend sesame restaurant and bar. This is a moderate turkish restaurant in the . It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay.
+S: I recommend anatolia. This is a moderate turkish restaurant in the centre. It is romantic because it allows a long stay. It is also busy, which normally suggests it is not romantic, but we prioritize the long-stay rule.
 U: Thank you!
 S: Goodbye!
 
@@ -552,7 +552,7 @@ S: What kind of food would you like?
 U: any
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: something touristic
-S: I recommend mahal of cambridge. This is a cheap indian restaurant in the centre. It is touristic because it is cheap and has good food. Restaurants with a short stay are assumed to be suitable for children.
+S: I recommend mahal of cambridge. This is a cheap indian restaurant in the centre. It is touristic because it is cheap and has good food.
 
 
 
@@ -581,7 +581,7 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want a moderately priced restaurant in the west
 S: What kind of food would you like?
 U: british
-S: I recommend saint johns chop house. This is a moderate british restaurant in the west. It is not suitable for children because it allows a long stay. It is romantic because it allows a long stay.
+S: I recommend saint johns chop house. This is a moderate british restaurant in the west.
 U: Okay, thanks bye
 S: Goodbye!
 
@@ -614,9 +614,9 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: I want to eat expensive italian food in the south
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: I want it to be romantic
-S: Sorry, I couldn't find any restaurant matching food=italian, area=south, pricerange=expensive
+S: I recommend frankie and bennys. This is a expensive italian restaurant in the south. It is romantic because it allows a long stay. It is also busy, which normally suggests it is not romantic, but we prioritize the long-stay rule.
 U: What is the address?
-S: Sorry, I couldn't find any restaurant matching food=italian, area=south, pricerange=expensive
+S: frankie and bennys is located at cambridge leisure park clifton way cherry hinton.
 
 
 
@@ -655,7 +655,7 @@ S: What price range are you looking for?
 U: any price range is ok
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: It should be suitable for children
-S: I recommend curry king. This is a expensive seafood restaurant in the centre. Restaurants with a short stay are assumed to be suitable for children.
+S: Sorry, I couldn't find any restaurant matching food=seafood, children=True
 
 
 
@@ -690,11 +690,11 @@ S: Hello, welcome to the restaurant recommendation system. How may I help you?
 U: Can I have an expensive restaurant
 S: What kind of food would you like?
 U: I'm looking for a restaurant in any area that serves Tuscan food
-S: I recommend city stop restaurant. This is a expensive tuscan restaurant in the north. It has assigned seats because it is busy. It is not romantic because it is busy. Restaurants with a short stay are assumed to be suitable for children.
+S: I recommend city stop restaurant. This is a expensive tuscan restaurant in the north.
 U: Another one
-S: Sorry, I couldn't find any restaurant matching food=tuscan, area=dontcare, pricerange=expensive
+S: Sorry, I couldn't find any restaurant matching food=tuscan, pricerange=expensive
 U: Do you have a postal code?
-S: The postcode of city stop restaurant is .
+S: The postcode of city stop restaurant is unknown.
 U: Address then?
 S: city stop restaurant is located at cambridge city football club milton road chesterton.
 U: Thanks
@@ -739,9 +739,9 @@ S: What price range are you looking for?
 U: I don't care
 S: I found some restaurants matching your preferences. Do you have any additional requirements?
 U: No
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: I recommend restaurant two two. This is a expensive french restaurant in the north.
 U: What is the address?
-S: I found some restaurants matching your preferences. Do you have any additional requirements?
+S: restaurant two two is located at 22 chesterton road chesterton.
 
 
 

@@ -1,6 +1,21 @@
 from part_1b.state import DialogueState, REQUIRED_SLOTS
 
 
+def requested_additional_requirement_explanations(state: DialogueState):
+    if not state.additional_requirements_asked or state.reasoning is None:
+        return []
+
+    requested = {name for name, value in state.additional_requirements.items() if value is not None}
+    properties = state.reasoning.get("properties", {})
+    explanations = [
+        rule["reason"] for rule in state.reasoning.get("rules", [])
+        if rule["property"] in requested
+        and rule["value"] is properties.get(rule["property"])
+    ]
+
+    return explanations
+
+
 def generate_response(system_action: str, state: DialogueState, config: dict):
     if system_action == "2_ask_food":
         return "What kind of food would you like?"
@@ -19,16 +34,18 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
         preferences = []
         for slot in REQUIRED_SLOTS:
             value = state.requirements[slot]
-            if value is not None:
+            if value is not None and value != "dontcare":
                 preferences.append(f"{slot}={value}")
+
+        for requirement, value in state.additional_requirements.items():
+            if value is not None:
+                preferences.append(f"{requirement}={value}")
+
+        if state.dialog_act == "reqmore":
+            return "I'm afraid that's all the options I have. Would you like to change a preference?"
 
         if config["reasoning_transparency"]:
             response = "Sorry, I couldn't find any restaurant matching " + ", ".join(preferences)
-            if state.reasoning is not None:
-                unmet_requirements = state.reasoning.get("unmet_requirements", [])
-                if unmet_requirements:
-                    response += ". Here are the additional requirements that were not met: "
-                    response += ", ".join(unmet_requirements)
             return response
         return "Sorry, I couldn't find any restaurant matching your preferences"
 
@@ -46,13 +63,19 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
             area = restaurant.get("area")
             price = restaurant.get("pricerange")
 
-            additional_information = f"This is a {price} {food} restaurant in the {area}."
+            # Price and cuisine are never unknown in the data, area is in some cases.
+            additional_information = f"This is a {price} {food} restaurant"
+            if area:
+                if area == "unknown":
+                    additional_information += "; its area is unknown"
+                else:
+                    additional_information += f" in the {area}"
+            additional_information += "."
             response += " " + additional_information
 
-            if state.reasoning is not None:
-                explanations = state.reasoning.get("explanations", [])
-                if explanations:
-                    response += " " + " ".join(explanations)
+            explanations = requested_additional_requirement_explanations(state)
+            if explanations:
+                response += " " + " ".join(explanations)
 
         return response
 
