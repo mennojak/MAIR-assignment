@@ -12,66 +12,45 @@ frozen_embeddings_LR: ack (0.5000), deny (0.5000), repeat (0.6000), bye (0.8125)
 frozen_embeddings_SVM: ack (0.5000), deny (0.5000), repeat (0.8000), bye (0.8750), confirm (0.9565), null (0.9619), reqalts (0.9673), affirm (0.9706), inform (0.9878), request (0.9957), hello (1.0000), negate (1.0000), reqmore (1.0000), restart (1.0000), thankyou (1.0000)
 
 Utterances misclassified by all systems (21):
-- "what about a moderately priced re
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about a moderately priced re" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about turkish
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about turkish" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about asian food
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about asian food" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "the expensive price range
-" (true=inform; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
+- "the expensive price range" (true=inform; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
 
-- "what about modern european food
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about modern european food" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about other areas
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about other areas" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about mediterranean food
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about mediterranean food" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about mediterranean food
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about mediterranean food" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about other parts of town
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about other parts of town" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "any price rage
-" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "any price rage" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "how about one that serves
-" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "how about one that serves" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "thank you good bye thank you good bye
-" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "thank you good bye thank you good bye" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "thank you good bye crosstalk
-" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "thank you good bye crosstalk" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "how bout any price range
-" (true=reqalts; baseline=request, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "how bout any price range" (true=reqalts; baseline=request, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "anything house
-" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "anything house" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay how bout thai food
-" (true=reqalts; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "okay how bout thai food" (true=reqalts; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "how bout asian
-" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "how bout asian" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "is there a thai restaurant in the west part of town
-" (true=confirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "is there a thai restaurant in the west part of town" (true=confirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "kay what is the addre
-" (true=ack; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=null, frozen_embeddings_SVM=request)
+- "kay what is the addre" (true=ack; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=null, frozen_embeddings_SVM=request)
 
-- "no not indian scandinavian food
-" (true=deny; baseline=negate, BoW_LR=negate, BoW_SVM=negate, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
+- "no not indian scandinavian food" (true=deny; baseline=negate, BoW_LR=negate, BoW_SVM=negate, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
 
-- "not any more
-" (true=deny; baseline=reqmore, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
+- "not any more" (true=deny; baseline=reqmore, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=negate, frozen_embeddings_SVM=negate)
 

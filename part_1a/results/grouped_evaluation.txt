@@ -12,381 +12,255 @@ frozen_embeddings_LR: ack (0.2500), deny (0.2500), bye (0.4375), null (0.5254), 
 frozen_embeddings_SVM: ack (0.2500), deny (0.2500), affirm (0.5588), null (0.5593), bye (0.6250), confirm (0.8261), thankyou (0.8419), negate (0.9206), reqalts (0.9714), inform (0.9936), request (0.9936), hello (1.0000), repeat (1.0000), restart (1.0000)
 
 Utterances misclassified by all systems (126):
-- "how about gastro pub type of food
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "how about gastro pub type of food" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "what about irish food
-" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what about irish food" (true=inform; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "perfect
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=ack)
+- "perfect" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=ack)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "ye
-" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
+- "ye" (true=affirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=null, frozen_embeddings_SVM=null)
 
-- "im looking for a restaurant in the north part of town serving french type of food
-" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "im looking for a restaurant in the north part of town serving french type of food" (true=request; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "ok thanks goodbye
-" (true=thankyou; baseline=ack, BoW_LR=bye, BoW_SVM=bye, frozen_embeddings_LR=bye, frozen_embeddings_SVM=bye)
+- "ok thanks goodbye" (true=thankyou; baseline=ack, BoW_LR=bye, BoW_SVM=bye, frozen_embeddings_LR=bye, frozen_embeddings_SVM=bye)
 
-- "thank you is there anything else
-" (true=thankyou; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "thank you is there anything else" (true=thankyou; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay how about
-" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "okay how about" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "viet
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "viet" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "incorrect
-" (true=null; baseline=affirm, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=affirm, frozen_embeddings_SVM=affirm)
+- "incorrect" (true=null; baseline=affirm, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=affirm, frozen_embeddings_SVM=affirm)
 
-- "viet
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "viet" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay and um
-" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay and um" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "croatia
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "croatia" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "town
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "town" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "of the venue
-" (true=null; baseline=inform, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=inform)
+- "of the venue" (true=null; baseline=inform, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "what do you recommend
-" (true=null; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "what do you recommend" (true=null; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay um can i have the other
-" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay um can i have the other" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "cannabis
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "cannabis" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "cannabis
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "cannabis" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay can i
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay can i" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "of the venue
-" (true=null; baseline=inform, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=inform)
+- "of the venue" (true=null; baseline=inform, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "whats the code
-" (true=null; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
+- "whats the code" (true=null; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
 
-- "whats the code
-" (true=null; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
+- "whats the code" (true=null; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "i dont
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "i dont" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay and um
-" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay and um" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "looking for a
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "looking for a" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "town
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "town" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "dress
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "dress" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "dress
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "dress" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "dress
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "dress" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "dress
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "dress" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "incorrect
-" (true=null; baseline=affirm, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=affirm, frozen_embeddings_SVM=affirm)
+- "incorrect" (true=null; baseline=affirm, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=affirm, frozen_embeddings_SVM=affirm)
 
-- "incorrect
-" (true=null; baseline=affirm, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=affirm, frozen_embeddings_SVM=affirm)
+- "incorrect" (true=null; baseline=affirm, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=affirm, frozen_embeddings_SVM=affirm)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "pizza
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "pizza" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "chikkis
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "chikkis" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "how about the
-" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "how about the" (true=null; baseline=reqalts, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "i changed my mind
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "i changed my mind" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "type of foo
-" (true=null; baseline=inform, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "type of foo" (true=null; baseline=inform, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "ring
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=hello)
+- "ring" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=hello)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "pizza
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "pizza" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "i dont
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "i dont" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay and um
-" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay and um" (true=null; baseline=ack, BoW_LR=ack, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "taiwanese
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "taiwanese" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay just regular ecuadorean food
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "okay just regular ecuadorean food" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "town
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "town" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "viet
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "viet" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "dont
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "dont" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "arts town
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "arts town" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "i dont want pizza
-" (true=null; baseline=deny, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=deny, frozen_embeddings_SVM=deny)
+- "i dont want pizza" (true=null; baseline=deny, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=deny, frozen_embeddings_SVM=deny)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "pizza
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "pizza" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "okay
-" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
+- "okay" (true=null; baseline=ack, BoW_LR=inform, BoW_SVM=ack, frozen_embeddings_LR=ack, frozen_embeddings_SVM=ack)
 
-- "carrier
-" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "carrier" (true=null; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "great thank you goodbye
-" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "great thank you goodbye" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "yawning thank you and good bye
-" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "yawning thank you and good bye" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "uh thank you and good bye
-" (true=bye; baseline=null, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "uh thank you and good bye" (true=bye; baseline=null, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "uh thank you and good bye
-" (true=bye; baseline=null, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "uh thank you and good bye" (true=bye; baseline=null, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "very good thank you good bye
-" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "very good thank you good bye" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "very good thank you good bye
-" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
+- "very good thank you good bye" (true=bye; baseline=thankyou, BoW_LR=thankyou, BoW_SVM=thankyou, frozen_embeddings_LR=thankyou, frozen_embeddings_SVM=thankyou)
 
-- "is there anything that serves north american
-" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "is there anything that serves north american" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "how european food
-" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "how european food" (true=reqalts; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "is there a chinese restaurant
-" (true=confirm; baseline=inform, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "is there a chinese restaurant" (true=confirm; baseline=inform, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "is there a greek restaurant
-" (true=confirm; baseline=inform, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "is there a greek restaurant" (true=confirm; baseline=inform, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "is there a cheap restaurant that serves vietnamese food
-" (true=confirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
+- "is there a cheap restaurant that serves vietnamese food" (true=confirm; baseline=inform, BoW_LR=inform, BoW_SVM=inform, frozen_embeddings_LR=reqalts, frozen_embeddings_SVM=reqalts)
 
-- "have a good
-" (true=ack; baseline=inform, BoW_LR=inform, BoW_SVM=null, frozen_embeddings_LR=null, frozen_embeddings_SVM=inform)
+- "have a good" (true=ack; baseline=inform, BoW_LR=inform, BoW_SVM=null, frozen_embeddings_LR=null, frozen_embeddings_SVM=inform)
 
-- "thatll do dear whats the address of that venue
-" (true=ack; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
+- "thatll do dear whats the address of that venue" (true=ack; baseline=request, BoW_LR=request, BoW_SVM=request, frozen_embeddings_LR=request, frozen_embeddings_SVM=request)
 
-- "can you change romanian food to something else
-" (true=deny; baseline=inform, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "can you change romanian food to something else" (true=deny; baseline=inform, BoW_LR=reqalts, BoW_SVM=reqalts, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
-- "that information is not important
-" (true=deny; baseline=inform, BoW_LR=confirm, BoW_SVM=confirm, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
+- "that information is not important" (true=deny; baseline=inform, BoW_LR=confirm, BoW_SVM=confirm, frozen_embeddings_LR=inform, frozen_embeddings_SVM=inform)
 
