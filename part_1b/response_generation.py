@@ -7,7 +7,7 @@ from part_1b.slot_extraction import (
 
 
 def requested_additional_requirement_explanations(state: DialogueState):
-    if not state.additional_requirements_asked or state.reasoning is None:
+    if state.reasoning is None:
         return []
 
     requested = {name for name, value in state.additional_requirements.items() if value is not None}
@@ -56,6 +56,9 @@ def generate_response(system_action: str, state: DialogueState, config: dict):
 
         if config["reasoning_transparency"]:
             response = "Sorry, I couldn't find any restaurant matching " + ", ".join(preferences)
+            explanations = requested_additional_requirement_explanations(state)
+            if explanations:
+                response += ". " + " ".join(explanations)
             return response
         return "Sorry, I couldn't find any restaurant matching your preferences"
 

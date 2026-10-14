@@ -33,12 +33,23 @@ def process_user_utterance(utterance: str, config: dict, state: DialogueState):
     )
 
     if state.pending_confirmation is None and should_update_matches:
+        state.reasoning = None
         if has_all_required_values:
             state.matches = find_restaurants(
                 {slot: requirements[slot] for slot in REQUIRED_SLOTS},
                 state.additional_requirements,
                 state.previous_recommendations,
             )
+            if not state.matches and any(
+                value is not None for value in state.additional_requirements.values()
+            ):
+                possible_matches = find_restaurants(
+                    {slot: requirements[slot] for slot in REQUIRED_SLOTS},
+                    {},
+                    state.previous_recommendations,
+                )
+                if possible_matches:
+                    state.reasoning = possible_matches[0].get("reasoning")
         else:
             state.matches = []
 
@@ -79,7 +90,7 @@ def run_interaction_pipeline(config: dict) -> None:
     interaction_log = []
 
     print("Tell the system goodbye or thank you to quit (or alternatively type 'exit').\n")
-    print("----------------------------------------\n")
+    print("----------------------------------------\n\n\n\n\n\n\n\n\n\n")
     print("Hello, welcome to the restaurant recommendation system. How may I help you?")
 
 
